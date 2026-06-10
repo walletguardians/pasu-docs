@@ -24,7 +24,7 @@ PASU 사용자
 ```solidity
 @id("unknown-blind-sign-warn")
 @severity("warn")
-@reason("이 트랜잭션은 PASU의 해석 범위 밖에 있습니다. 서명 전 안전한 프로토콜인지 검토하세요.")
+@reason("이 트랜잭션은 PASU의 해석 범위 밖에 있습니다. 안전한 프로토콜인지 서명 전 검토하세요.")
 forbid(principal, action == Core::Action::"Unknown", resource);
 ```
 {% endcode %}
