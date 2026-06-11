@@ -22,7 +22,7 @@ NFT 구매는 대금은 내가 치르고 물건은 남에게 가도록 바꿔치
 
 ***
 
-**Package Name**\
+**\[NFT] Safe Purchase & Transfer**\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

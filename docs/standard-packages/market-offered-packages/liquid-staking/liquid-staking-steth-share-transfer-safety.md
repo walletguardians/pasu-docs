@@ -18,7 +18,7 @@ stETH 지분 전송도 일반 토큰 전송과 유사하게 수령처를 잘못 
 
 ***
 
-**Package Name**\
+**\[Liquid Staking] stETH Share Transfer Safety**\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

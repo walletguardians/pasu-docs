@@ -20,7 +20,7 @@ Aave 안전모듈처럼 인출에 쿨다운과 기간 제약이 있는 스테이
 
 ***
 
-**Package Name**\
+**\[Aave] Aave Safety Module Exit**\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_
