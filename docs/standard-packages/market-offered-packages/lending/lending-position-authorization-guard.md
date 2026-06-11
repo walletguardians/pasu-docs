@@ -1,3 +1,7 @@
+---
+description: 대출 프로토콜에서 안전하게 권한을 위임하고 싶은 분들을 위한 패키지
+---
+
 # \[Lending] Position Authorization Guard
 
 ### 이 패키지로 막을 수 있는 것
