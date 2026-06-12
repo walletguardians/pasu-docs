@@ -23,7 +23,7 @@
       * [\[Perp\] 청산 및 마진 관리](standard-packages/market-offered-packages/perp/perp-1.md)
       * [\[Perp\] 슬리피지 & 잡코인 방어 패키지](standard-packages/market-offered-packages/perp/perp-and.md)
     * [Staking](standard-packages/market-offered-packages/staking/README.md)
-      * [\[Staking\] Stake & Reward Recipient Guard](standard-packages/market-offered-packages/staking/staking-stake-and-reward-recipient-guard.md)
+      * [\[Staking\] 스테이킹 보상 수령 주소 관리](standard-packages/market-offered-packages/staking/staking.md)
       * [\[Aave\] Aave Safety Module Exit](standard-packages/market-offered-packages/staking/aave-aave-safety-module-exit.md)
       * [\[Curve\] Curve Gauge & Lock Guard](standard-packages/market-offered-packages/staking/curve-curve-gauge-and-lock-guard.md)
     * [Restaking](standard-packages/market-offered-packages/restaking/README.md)
