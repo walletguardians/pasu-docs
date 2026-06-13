@@ -105,7 +105,7 @@
     * [Staking](standard-policies/market-offered-policies/staking/README.md)
       * [STAKE-001: Aave 스테이킹 지분을 본인이 아닌 주소로 받을 시 차단](standard-policies/market-offered-policies/staking/stake-001.md)
       * [STAKE-002: Aave Safety Module에 원금 슬래싱을 감수하고 스테이킹할 시 경고](standard-policies/market-offered-policies/staking/stake-002.md)
-      * [STAKE-003: Aave 스테이킹 인출 쿨다운을 시작할 시 경고](standard-policies/market-offered-policies/staking/stake-003.md)
+      * [STAKE-003: Aave 스테이킹 인출 쿨다운을 시 인출 기간을 확인하도록 경고](standard-policies/market-offered-policies/staking/stake-003.md)
       * [STAKE-004: Aave 스테이킹 자산을 본인이 아닌 주소로 인출할 시 차단](standard-policies/market-offered-policies/staking/stake-004.md)
       * [STAKE-005: Aave Safety Module 스테이킹을 인출 창 밖에서 해제할 시 경고](standard-policies/market-offered-policies/staking/stake-005.md)
       * [STAKE-006: Aave Safety Module 스테이킹 잔액 전부를 인출할 시 경고](standard-policies/market-offered-policies/staking/stake-006.md)
