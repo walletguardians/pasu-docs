@@ -8,7 +8,7 @@ description: Removing Isolated Margin From a Hyperliquid Position (WARN)
 
 > Hyperliquid에서 **격리 마진(isolated margin)** 포지션의 마진을 빼내는 주문이면, 레버리지가 올라가고 청산가가 가까워진다는 점을 다시 확인하도록 경고합니다.
 
-격리 마진은 한 포지션에만 묶어둔 증거금입니다. 이 마진을 줄이면 같은 포지션을 더 적은 증거금으로 끌고 가는 셈이라 실효 레버리지가 올라가고, 청산가가 지금 가격 쪽으로 바짝 다가옵니다. 그만큼 시세가 조금만 불리하게 움직여도 청산으로 넘어가기 쉬워집니다. 그래서 마진을 더 넣는 게 아니라 빼내는 주문이면, 어느 마켓에서 얼마를 빼는지 서명 전에 한 번 더 확인하도록 경고합니다.
+격리 마진은 한 포지션에만 묶어둔 증거금입니다. 이 마진을 줄이면 실효 레버리지가 올라가고, 청산가가 지금 가격 쪽으로 다가옵니다. 그만큼 시세가 조금만 불리하게 움직여도 청산으로 넘어가기 쉬워집니다. 그래서 마진을 빼내는 주문이면, 서명 전에 한 번 더 확인하도록 경고합니다.
 
 #### Scope (적용 범위)
 
@@ -20,7 +20,7 @@ Hyperliquid에서 격리 마진으로 포지션을 굴리며 증거금을 직접
 
 #### Used Data (판정에 사용될 데이터)
 
-주문이 향하는 거래소가 Hyperliquid인지(`context.venue.name`)와, 마진 변화량의 부호(`context.delta` — 값이 `-`로 시작하면 마진을 빼내는 주문)
+* 마진 변화량의 부호
 
 #### Policy in Code
 
@@ -57,4 +57,4 @@ when
 **PERP-006: 격리 마진을 빼낼 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+\&#xNAN;_Supported Chain: HyperLiquid_
