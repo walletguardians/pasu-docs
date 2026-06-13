@@ -1,8 +1,4 @@
----
-description: Restaking Deposit into a Non-Allowlisted Strategy (WARN)
----
-
-# RESTAKE-003: 허용 목록에 없는 스트래티지로 리스테이크를 예치할 시 경고
+# 허용 목록되지 않은 스트래티지로 리스테이크를 예치할 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -56,4 +52,4 @@ when
 **RESTAKE-003: 허용 목록에 없는 스트래티지로 리스테이크를 예치할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_

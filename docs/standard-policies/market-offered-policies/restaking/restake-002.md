@@ -10,7 +10,7 @@ EigenLayer에서의 예치는 토큰을 스트래티지(strategy)에 넣으면, 
 
 #### Scope (적용 범위)
 
-EigenLayer 리스테이킹 예치에 적용됩니다. 지분을 받을 주소(staker)가 이 트랜잭션을 보내는 본인 지갑과 다른 경우에만 발동합니다. (Deposit)
+EigenLayer 리스테이킹 예치에 적용됩니다.
 
 #### Audience (대상 사용자)
 
@@ -27,7 +27,7 @@ EigenLayer에 자산을 예치해 리스테이킹하는 사용자
 ```solidity
 @id("deposit-on-behalf-other-staker-warn")
 @severity("deny")
-@reason("서명하는 예치(Deposit)의 스테이커가 본인 지갑이 아닙니다 — 서명 전에 내용을 확인하세요")
+@reason("서명하는 예치(Deposit) 지분이 본인 지갑이 아닙니다")
 forbid (
     principal,
     action == Restaking::Action::"Deposit",

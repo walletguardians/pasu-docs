@@ -119,7 +119,7 @@
     * [Restaking](standard-policies/market-offered-policies/restaking/README.md)
       * [리스테이킹 수량이 설정한 한도를 넘을 시 경고](standard-policies/market-offered-policies/restaking/restake-001.md)
       * [내 예치분이 내 지갑이 아닌 주소로 잡힐 시 차단](standard-policies/market-offered-policies/restaking/restake-002.md)
-      * [RESTAKE-003: 허용 목록에 없는 스트래티지로 리스테이크를 예치할 시 경고](standard-policies/market-offered-policies/restaking/restake-003.md)
+      * [허용 목록되지 않은 스트래티지로 리스테이크를 예치할 시 경고](standard-policies/market-offered-policies/restaking/restake-003.md)
       * [RESTAKE-004: EigenLayer에서 허용 목록에 없는 스트래티지에 예치할 시 차단](standard-policies/market-offered-policies/restaking/restake-004.md)
       * [RESTAKE-005: 리스테이크 예치 금액이 $50,000을 초과할 시 경고](standard-policies/market-offered-policies/restaking/restake-005.md)
       * [RESTAKE-006: 리스테이크 예치 금액이 $250,000을 초과할 시 경고](standard-policies/market-offered-policies/restaking/restake-006.md)
