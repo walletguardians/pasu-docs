@@ -1,7 +1,3 @@
----
-description: Starting the Aave Unstake Cooldown (WARN)
----
-
 # STAKE-003: Aave 스테이킹 인출 쿨다운을 시 인출 기간을 확인하도록 경고
 
 ### Policy Definition (정책 정의)
