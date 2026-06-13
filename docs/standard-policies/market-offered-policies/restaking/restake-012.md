@@ -2,7 +2,17 @@
 description: Completing a Restaking Withdrawal to Another Address (WARN)
 ---
 
-# RESTAKE-012: 출금 완료의 수령자가 본인이 아닐 시 경고
+# \~\~RESTAKE-012: 출금 완료의 수령자가 본인이 아닐 시 경고\~\~ 필요없음
+
+`RESTAKE-012` 출금 완료 수령자가 본인이 아닐 시 경고\
+`completeQueuedWithdrawal(s)` 자체는 있지만 내부에서 `msg.sender == withdrawal.withdrawer`를 요구합니다. 즉 유효하게 성공하는 calldata에서는 `context.withdrawer != context.meta.submitter` 상황이 성립하지 않습니다. 이 정책은 revert 날 트랜잭션을 미리 경고하는 정도입니다. EigenLayer source: [DelegationManager.sol](https://github.com/Layr-Labs/eigenlayer-contracts/blob/master/src/contracts/core/DelegationManager.sol#L535-L542).\
+반대로 `RESTAKE-013(receiveAsTokens=false)`는 실제 bool 파라미터가 있고 의미 있습니다: \[complete withdrawal schema (line 17)]\(/Users/woojin/Desktop/upside\_academy/project/policy-engine/schema/policy-schema/actions/restaking/complete\_withdrawal.cedarschema:17).
+
+###
+
+###
+
+###
 
 ### Policy Definition (정책 정의)
 
@@ -53,4 +63,4 @@ when { context.withdrawer != context.meta.submitter };
 **RESTAKE-012: 출금 완료의 수령자가 본인이 아닐 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_

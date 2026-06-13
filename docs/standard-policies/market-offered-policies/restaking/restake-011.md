@@ -2,7 +2,17 @@
 description: Queuing a Restaking Withdrawal to Someone Other Than Yourself (WARN)
 ---
 
-# RESTAKE-011: 출금 예약의 수령자가 본인이 아닐 시 경고
+# \~\~RESTAKE-011: 출금 예약의 수령자가 본인이 아닐 시 경고\~\~
+
+`RESTAKE-011` 출금 예약 수령자 경고\
+EigenLayer `queueWithdrawals`에는 `__deprecated_withdrawer` 필드가 ABI에 남아 있지만, 현재 구현은 이 값을 쓰지 않고 `withdrawer: staker`로 큐를 만듭니다. 우리 manifest는 아직 그 deprecated input을 `context.withdrawer`로 emit합니다: \[queueWithdrawals manifest (line 31)]\(/Users/woojin/Desktop/upside\_academy/project/policy-engine/registryV2/manifests/eigenlayer/delegation-manager/queueWithdrawals@1.0.0.json:31).\
+그래서 “다른 수령자로 출금 예약”은 실제 자금 흐름상 존재하지 않습니다. 버그 프론트엔드 탐지용 경고로는 가능하지만, 보안 정책으로는 약합니다. EigenLayer source: [DelegationManager.sol](https://github.com/Layr-Labs/eigenlayer-contracts/blob/master/src/contracts/core/DelegationManager.sol#L176-L200), [withdrawer set to staker](https://github.com/Layr-Labs/eigenlayer-contracts/blob/master/src/contracts/core/DelegationManager.sol#L430-L525).
+
+
+
+
+
+
 
 ### Policy Definition (정책 정의)
 
@@ -53,4 +63,4 @@ when { context.withdrawer != context.meta.submitter };
 **RESTAKE-011: 출금 예약의 수령자가 본인이 아닐 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_
