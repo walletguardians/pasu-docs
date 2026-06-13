@@ -111,7 +111,7 @@
       * [STAKE-006: Aave Safety Module 스테이킹 자산을 전부 인출할 시 경고](standard-policies/market-offered-policies/staking/stake-006.md)
       * [STAKE-007: Aave 스테이킹 보상을 본인이 아닌 주소로 클레임할 시 차단](standard-policies/market-offered-policies/staking/stake-007.md)
       * [\~\~STAKE-008: Aave 보상을 본인이 아닌 다른 계정 명의로 클레임할 시 경고\~\~ TODO: 007이랑 합쳐버릴까?](standard-policies/market-offered-policies/staking/stake-008.md)
-      * [STAKE-009: CRV를 본인이 아닌 주소의 veCRV 락에 추가할 시 차단](standard-policies/market-offered-policies/staking/stake-009.md)
+      * [Curve 이따 하게씀 STAKE-009: CRV를 본인이 아닌 주소의 veCRV 락에 추가할 시 차단](standard-policies/market-offered-policies/staking/stake-009.md)
       * [STAKE-010: Curve 게이지에 LP를 본인이 아닌 주소 앞으로 예치할 시 차단](standard-policies/market-offered-policies/staking/stake-010.md)
       * [STAKE-011: Curve 게이지 가중치 투표를 제출할 시 경고](standard-policies/market-offered-policies/staking/stake-011.md)
       * [STAKE-012: Curve 게이지 보상을 본인이 아닌 주소로 클레임할 시 차단](standard-policies/market-offered-policies/staking/stake-012.md)
