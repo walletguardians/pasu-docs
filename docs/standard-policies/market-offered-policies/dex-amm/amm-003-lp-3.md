@@ -12,7 +12,7 @@ description: Third-Party Transfer of Withdrawn Tokens (WARN)
 
 #### Scope (적용 범위)
 
-유동성 풀에 토큰을 회수하는 경우에 적용됩니다. (Remove Liquidity)
+유동성 풀에 토큰을 회수하는 경우에 적용됩니다.
 
 #### Audience (대상 사용자)
 
@@ -20,7 +20,8 @@ DEX를 사용하는 모든 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-서명에 사용할 지갑의 주소(`principal.address`)와 유동성 회수를 통해 토큰을 받을 주소
+* 서명에 사용할 지갑의 주소
+* 토큰을 받을 주소
 
 #### Policy in Code
 

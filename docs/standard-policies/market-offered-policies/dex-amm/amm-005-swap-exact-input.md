@@ -18,9 +18,9 @@ Exact-Input 타입의 Swap을 수행할 때 적용됩니다.
 
 DEX를 사용하는 모든 사용자
 
-#### Used Data (판정에 사용될 데이터)
+#### Used Data (판정에 사용될 데이터) &#x20;
 
-어떤 종류의 Swap인지(`direction.kind`), 수령할 토큰의 최소 수량(`minAmountOut`)이 얼마인지
+수령  할  토큰의 최소 수량(`minAmountOut`)이 얼마인지
 
 #### Policy in Code
 
