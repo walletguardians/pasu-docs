@@ -1,14 +1,14 @@
 ---
-description: Large Single Stake of ETH to Lido (DENY)
+description: 단Large Single Stake of ETH to Lido (DENY)
 ---
 
-# LIDO-001: Lido에 100 ETH 이상을 한 번에 스테이킹할 시 차단
+# LIDO-001: Lido에 100 ETH 이상을 한 번에 스테이킹할 시 경고
 
 ### Policy Definition (정책 정의)
 
-> 한 번에 **약 100 ETH 이상**을 Lido에 스테이킹하는 대량 거래를 **차단**합니다.
+> 한 번에 **약 100 ETH 이상**을 Lido에 스테이킹하는 대량 거래를 경고합니다.
 
-Lido 스테이킹은 ETH를 맡기고 그만큼 stETH를 받는 거래입니다. 금액이 클수록 입력 실수나 피싱 사이트가 유도한 거래일 때 한 번에 잃는 액수가 커집니다. 그래서 한 거래에서 맡기는 ETH가 약 100개 이상이면 차단합니다.
+Lido 스테이킹은 ETH를 맡기고 그만큼 stETH를 받는 거래입니다. 금액이 클수록 입력 실수나 피싱 사이트가 유도한 거래일 때 한 번에 잃는 액수가 커집니다. 그래서 한 거래에서 맡기는 ETH가 약 100개 이상이면 경고합니다.
 
 #### Scope (적용 범위)
 
@@ -20,15 +20,15 @@ Lido로 ETH를 스테이킹하는 사용자, 특히 한 번에 큰 금액을 맡
 
 #### Used Data (판정에 사용될 데이터)
 
-거래가 향하는 venue가 Lido인지(`context.venue.name`), 그리고 이번에 맡기는 ETH 수량(`context.amountNano`, 1 ETH = 10억 단위). 수량이 100,000,000,000(=약 100 ETH) 이상이면 차단합니다.
+거래가 향하는 venue가 Lido인지(`context.venue.name`), 그리고 이번에 맡기는 ETH 수량(`context.amountNano`, 1 ETH = 10억 단위). 수량이 100,000,000,000(=약 100 ETH) 이상이면 경고합니다.
 
 #### Policy in Code
 
 {% code title="policy.cedar" %}
 ```solidity
 @id("stake-amount-guard-deny")
-@severity("deny")
-@reason("약 100 ETH 이상을 Lido에 한 번에 스테이킹하는 대량 거래입니다 — 차단했습니다")
+@severity("warn")
+@reason("약 100 ETH 이상을 Lido에 한 번에 스테이킹하는 대량 거래입니다")
 forbid (
     principal,
     action == LiquidStaking::Action::"Stake",
@@ -63,7 +63,7 @@ when
 
 ***
 
-**LIDO-001: Lido에 100 ETH 이상을 한 번에 스테이킹할 시 차단**\
+**LIDO-001: Lido에 100 ETH 이상을 한 번에 스테이킹할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_

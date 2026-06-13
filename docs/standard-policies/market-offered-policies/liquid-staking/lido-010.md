@@ -2,13 +2,13 @@
 description: Lido Withdrawal Claim Sending ETH to a Non-Self Address (WARN)
 ---
 
-# LIDO-010: Lido 출금 ETH를 본인이 아닌 주소로 청구할 시 경고
+# LIDO-010: Lido 출금 ETH를 본인이 아닌 주소로 청구할 시 차단
 
 ### Policy Definition (정책 정의)
 
-> Lido 출금 청구로 받는 ETH가 **본인 지갑이 아닌 주소**로 가는 경우 경고합니다.
+> Lido 출금 청구로 받는 ETH가 **본인 지갑이 아닌 주소**로 가는 경우 차단합니다.
 
-Lido에서 stETH를 출금 신청하면 unstETH라는 NFT가 발행되고, 나중에 그 NFT를 가진 사람이 출금 청구(Claim)를 해서 ETH를 받습니다. 이때 받는 주소를 본인이 아닌 다른 주소로 지정하면, 출금한 ETH가 그대로 그 주소로 빠져나갑니다. 청구 한 번으로 끝나는 일이라 잘못 보낸 ETH는 되돌릴 수 없습니다. 그래서 받는 주소가 청구하는 본인 지갑과 다르면 보내기 전에 경고합니다.
+Lido에서 stETH를 출금 신청하면 unstETH라는 NFT가 발행되고, 나중에 그 NFT를 가진 사람이 출금 청구(Claim)를 해서 ETH를 받습니다. 이때 받는 주소를 본인이 아닌 다른 주소로 지정하면, 출금한 ETH가 그대로 그 주소로 빠져나갑니다. 청구 한 번으로 끝나는 일이라 잘못 보낸 ETH는 되돌릴 수 없습니다. 그래서 받는 주소가 청구하는 본인 지갑과 다르면 차단합니다.
 
 #### Scope (적용 범위)
 
@@ -27,7 +27,7 @@ Lido에 ETH를 스테이킹하고 출금을 청구하는 사용자
 {% code title="policy.cedar" %}
 ```solidity
 @id("claim-recipient-not-self-warn")
-@severity("warn")
+@severity("deny")
 @reason("이 출금 청구가 ETH를 본인 지갑이 아닌 주소로 보냅니다 — 받는 주소를 확인하세요")
 forbid (
     principal,
@@ -63,4 +63,4 @@ when
 **LIDO-010: Lido 출금 ETH를 본인이 아닌 주소로 청구할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_

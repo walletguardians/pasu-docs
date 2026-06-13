@@ -2,13 +2,13 @@
 description: Bulk Unwrap of wstETH into stETH (DENY)
 ---
 
-# LIDO-004: 대량의 wstETH를 stETH로 언래핑할 시 차단
+# LIDO-004: 대량의 wstETH를 stETH로 언래핑할 시 경고
 
 ### Policy Definition (정책 정의)
 
-> 한 번에 **대량의 wstETH**를 stETH로 언래핑(Unwrap)하려는 경우 차단합니다.
+> 한 번에 **대량의 wstETH**를 stETH로 언래핑(Unwrap)하려는 경우 경고합니다.
 
-언래핑(Unwrap)은 가격이 고정된 wstETH를 리베이스되는 stETH로 되돌리는 작업입니다. 평소 쓰는 양을 훌쩍 넘는 wstETH를 한 번에 stETH로 푸는 거래는 본인이 직접 큰 포지션을 정리하는 경우도 있지만, 지갑이 털려 보유 물량을 한꺼번에 빼내려는 신호일 때도 있습니다. 그래서 한 번의 언래핑 양이 정해 둔 한도를 넘으면 거래를 차단합니다.
+언래핑(Unwrap)은 가격이 고정된 wstETH를 리베이스되는 stETH로 되돌리는 작업입니다. 평소 쓰는 양을 훌쩍 넘는 wstETH를 한 번에 stETH로 푸는 거래는 본인이 직접 큰 포지션을 정리하는 경우도 있지만, 지갑이 털려 보유 물량을 한꺼번에 빼내려는 신호일 때도 있습니다. 그래서 한 번의 언래핑 양이 정해 둔 한도를 넘으면 거래를 경고합니다.
 
 #### Scope (적용 범위)
 
@@ -28,7 +28,7 @@ wstETH를 보유하며 큰 단위로 거래하는 Lido 스테이커
 ```solidity
 @id("unwrap-amount-guard-deny")
 @severity("deny")
-@reason("한 번에 많은 양의 wstETH를 stETH로 언래핑(unwrap)하는 대량 거래입니다 — 차단했습니다")
+@reason("한 번에 많은 양의 wstETH를 stETH로 언래핑(unwrap)하는 대량 거래입니다")
 forbid (
     principal,
     action == LiquidStaking::Action::"Unwrap",
@@ -63,7 +63,8 @@ when
 
 ***
 
-**LIDO-004: 대량의 wstETH를 stETH로 언래핑할 시 차단**\
+**LIDO-004: 대량의 wstETH를 stETH로 언래핑할 시 경고**
+
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_
