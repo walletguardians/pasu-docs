@@ -2,7 +2,7 @@
 description: Borrow That Pushes Health Factor Below 1.5 (WARN)
 ---
 
-# LEND-011: 대출 후 Health Factor가 1.5 미만으로 떨어질 시 경고
+# LEND-011: 대출 후 Health Factor가 1.5 미만이 될 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -16,7 +16,7 @@ description: Borrow That Pushes Health Factor Below 1.5 (WARN)
 
 #### Audience (대상 사용자)
 
-담보를 맡기고 자산을 빌려 레버리지를 운용하는 사용자
+대출 프로토콜에서 담보를 맡기고 돈을 빌려 쓰는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
