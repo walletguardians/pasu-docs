@@ -2,7 +2,7 @@
 description: Borrow Taken Out on Behalf of Another Account (WARN)
 ---
 
-# LEND-004: 대출이 본인이 아닌 다른 계정 앞으로 잡힐 시 경고
+# LEND-004: 대출시에 빚이 본인이 아닌 다른 계정 앞으로 잡힐 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -20,7 +20,7 @@ Aave 같은 대출 프로토콜의 borrow는 빚을 누구 앞으로 잡을지 `
 
 #### Used Data (판정에 사용될 데이터)
 
-빚을 잡을 대상 계정(`context.onBehalfOf`)과 트랜잭션을 보내는 주소(`context.meta.submitter`). 두 값을 비교해 서로 다른지만 봅니다.
+빚을 잡을 대상 계정과 트랜잭션을 보내는 주소를 비교
 
 #### Policy in Code
 
@@ -52,4 +52,4 @@ when {
 **LEND-004: 대출이 본인이 아닌 다른 계정 앞으로 잡힐 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_

@@ -91,7 +91,7 @@
       * [LEND-001: Morpho 포지션 관리 권한을 위임할 시 경고 (002와 겹쳐서 삭제 예정)](standard-policies/market-offered-policies/lending/lend-001.md)
       * [LEND-002: Morpho에서 악성으로 분류된 주소에 포지션 관리 권한을 위임할 시 차단](standard-policies/market-offered-policies/lending/lend-002.md)
       * [LEND-003: 예치 담보 청구권(aToken)을 본인이 아닌 다른 주소로 받을 시 경고](standard-policies/market-offered-policies/lending/lend-003.md)
-      * [LEND-004: 대출이 본인이 아닌 다른 계정 앞으로 잡힐 시 경고](standard-policies/market-offered-policies/lending/lend-004.md)
+      * [LEND-004: 대출시에 빚이 본인이 아닌 다른 계정 앞으로 잡힐 시 경고](standard-policies/market-offered-policies/lending/lend-004.md)
       * [LEND-005: 내가 아닌 다른 주소의 빚을 상환할 시 경고](standard-policies/market-offered-policies/lending/lend-005.md)
       * [LEND-006: 동결·일시정지된 자산 풀에 예치할 시 경고](standard-policies/market-offered-policies/lending/lend-006.md)
       * [LEND-007: 예치 금액이 $50,000을 초과할 시 경고](standard-policies/market-offered-policies/lending/lend-007.md)
