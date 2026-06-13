@@ -108,7 +108,7 @@
       * [STAKE-003: Aave 스테이킹 인출 쿨다운을 시 인출 기간을 확인하도록 경고](standard-policies/market-offered-policies/staking/stake-003.md)
       * [STAKE-004: Aave 스테이킹 자산을 회수할 때 본인 지갑이 아닌 주소로 인출할 시 차단](standard-policies/market-offered-policies/staking/stake-004.md)
       * [\~\~STAKE-005: Aave Safety Module 스테이킹을 인출 창 밖에서 해제할 시 경고\~\~ 이건 경고하는 의미가 없는거 같아서 뺄래](standard-policies/market-offered-policies/staking/stake-005.md)
-      * [STAKE-006: Aave Safety Module 스테이킹 잔액 전부를 인출할 시 경고](standard-policies/market-offered-policies/staking/stake-006.md)
+      * [STAKE-006: Aave Safety Module 스테이킹 자산을 전부 인출할 시 경고](standard-policies/market-offered-policies/staking/stake-006.md)
       * [STAKE-007: Aave 스테이킹 보상을 본인이 아닌 주소로 클레임할 시 차단](standard-policies/market-offered-policies/staking/stake-007.md)
       * [STAKE-008: Aave 보상을 본인이 아닌 다른 계정 명의로 클레임할 시 경고](standard-policies/market-offered-policies/staking/stake-008.md)
       * [STAKE-009: CRV를 본인이 아닌 주소의 veCRV 락에 추가할 시 차단](standard-policies/market-offered-policies/staking/stake-009.md)
