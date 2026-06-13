@@ -2,7 +2,7 @@
 description: Bridge to a Non-Allowlisted Destination Chain (DENY)
 ---
 
-# BRIDGE-004: 허용되지 않은 도착 체인으로 브리지할 시 차단
+# BRIDGE-004: 허용되지 않은 체인으로 브리지할 시 차단
 
 ### Policy Definition (정책 정의)
 
@@ -12,11 +12,11 @@ description: Bridge to a Non-Allowlisted Destination Chain (DENY)
 
 #### Scope (적용 범위)
 
-브리지로 자산을 보내는 요청에 적용됩니다. 도착 체인이 허용 목록에 없을 때 적용됩니다.
+도착 체인이 허용 목록에 없을 때 적용됩니다.
 
 #### Audience (대상 사용자)
 
-브리지하는 체인이 정해져 있어, 그 밖으로는 절대 보내지 않으려는 사용자
+자산을 보유하는 체인이 정해져 있어, 그 밖으로는 절대 보내지 않으려는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
@@ -28,7 +28,7 @@ description: Bridge to a Non-Allowlisted Destination Chain (DENY)
 ```solidity
 @id("bridge-dst-chain-not-allowlisted-deny")
 @severity("deny")
-@reason("허용한 도착 체인 목록에 없는 체인으로 보내려 합니다 — 정책(화이트 리스트)에 따라 차단했습니다")
+@reason("허용한 도착 체인 목록에 없는 체인으로 보내려 합니다 — 도착 체인을 확인하세요.")
 forbid (
     principal,
     action == Bridge::Action::"Send",

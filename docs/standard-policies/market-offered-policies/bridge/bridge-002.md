@@ -12,11 +12,11 @@ description: Bridge Recipient is a Burn Address (DENY)
 
 #### Scope (적용 범위)
 
-브리지로 자산을 보내는 요청에 적용됩니다. 도착 체인의 받는 주소가 EVM 주소이면서 그 주소가 설정 블랙리스트 주소인 경우 적용됩니다.
+도착 체인의 받는 주소가 EVM 주소이면서 그 주소가 설정 블랙리스트 주소인 경우 적용됩니다.
 
 #### Audience (대상 사용자)
 
-여러 체인에 자산을 나눠 두고 브리지로 자주 옮기는 사용자
+여러 체인에 자산을 나눠 두고 브리지로 자산을 자주 옮기는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
@@ -28,7 +28,7 @@ description: Bridge Recipient is a Burn Address (DENY)
 ```solidity
 @id("bridge-recipient-burn-deny")
 @severity("deny")
-@reason("도착 체인의 블랙리스트 주소로 자산이 전달됩니다 — 정책(블랙리스트)에 따라 차단했습니다")
+@reason("도착 체인의 블랙리스트 주소로 자산이 전달됩니다 — 수령 주소를 확인하세요.")
 forbid (
     principal,
     action == Bridge::Action::"Send",

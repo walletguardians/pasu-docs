@@ -12,7 +12,7 @@ description: Bridge via a Protocols Not on the Allowlist (WARN)
 
 #### Scope (적용 범위)
 
-브리지로 자산을 보내는 요청에 적용됩니다. 사용되는 프로토콜이 허용 목록에 없을 때 적용됩니다.
+브리지에 사용되는 프로토콜이 허용 목록에 없을 때 적용됩니다.
 
 #### Audience (대상 사용자)
 

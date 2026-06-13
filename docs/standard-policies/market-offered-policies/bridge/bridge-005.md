@@ -12,7 +12,7 @@ description: Bridge with an Attached Execution Message (WARN)
 
 #### Scope (적용 범위)
 
-브리지로 자산을 보내는 요청에 적용됩니다. 도착 체인에서 실행될 메시지가 함께 담겨 있을 때 적용됩니다.
+도착 체인에서 실행될 메시지가 함께 담겨 있을 때 적용됩니다.
 
 #### Audience (대상 사용자)
 

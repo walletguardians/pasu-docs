@@ -12,11 +12,11 @@ description: Bridge to a Non-EVM Raw Address (WARN)
 
 #### Scope (적용 범위)
 
-브리지로 자산을 보내는 요청에 적용됩니다. 도착 수령처가 EVM 주소가 아니라면 적용됩니다.
+도착 체인이 EVM 체인이 아니라면 적용됩니다.
 
 #### Audience (대상 사용자)
 
-EVM 체인에만 자산을 나눠 두고 브리지로 자주 옮기는 사용자
+EVM 체인에만 자산을 보유하며 브리지로 자산을 자주 옮기는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 

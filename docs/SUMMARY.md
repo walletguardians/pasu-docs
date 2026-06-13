@@ -193,7 +193,7 @@
       * [BRIDGE-001: 브리지 수령처가 본인 지갑이 아닐 시 경고](standard-policies/market-offered-policies/bridge/bridge-001.md)
       * [BRIDGE-002: 브리지 수령처가 블랙리스트 주소일 시 차단](standard-policies/market-offered-policies/bridge/bridge-002.md)
       * [BRIDGE-003: EVM이 아닌 체인으로 브리지할 시 경고](standard-policies/market-offered-policies/bridge/bridge-003.md)
-      * [BRIDGE-004: 허용되지 않은 도착 체인으로 브리지할 시 차단](standard-policies/market-offered-policies/bridge/bridge-004.md)
+      * [BRIDGE-004: 허용되지 않은 체인으로 브리지할 시 차단](standard-policies/market-offered-policies/bridge/bridge-004.md)
       * [BRIDGE-005: Callback이 포함된 브리지일 시 경고](standard-policies/market-offered-policies/bridge/bridge-005.md)
       * [BRIDGE-006: 브리지 금액이 USD 한도를 초과할 시 경고](standard-policies/market-offered-policies/bridge/bridge-006.md)
       * [BRIDGE-007: 브리지 손실이 한도를 초과할 시 경고](standard-policies/market-offered-policies/bridge/bridge-007.md)
