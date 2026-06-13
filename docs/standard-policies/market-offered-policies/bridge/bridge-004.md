@@ -8,11 +8,11 @@ description: Bridge to a Non-Allowlisted Destination Chain (DENY)
 
 > **도착 체인**이 미리 정해 둔 허용 목록에 없으면, 브리지가 나가지 않도록 **차단**합니다.
 
-브리지는 출발 체인에서 자산을 잠그고, 지정한 도착 체인에서 받는 주소로 같은 가치를 풀어 줍니다. 그래서 어느 체인으로 보내는지(`context.dstChainId`)가 자산이 도착할 곳을 결정합니다. 잘못된 체인을 고르면 그쪽에서 내 주소를 쓸 수 없거나 회수 경로가 막혀 자산이 그대로 묶입니다. 출발 체인에서 이미 자산이 빠져나간 뒤라 되돌릴 수도 없습니다. 따라서 도착 체인이 허용 목록에 없으면 경고에 그치지 않고 브리지 자체를 막습니다.
+브리지는 출발 체인에서 자산을 잠그고 도착 체인의 받는 주소로 같은 자산을 다시 풀어주는 식으로 동작합니다. 허용되지 않은 체인을 고르면 전송 자체를 차단합니다.&#x20;
 
 #### Scope (적용 범위)
 
-Across·Li.Fi 등으로 보내는 브리지(Send)에 적용됩니다. 도착 체인(`context.dstChainId`)이 허용 목록에 없을 때 발동하며, 기본 목록은 Across·Li.Fi의 실제 EVM 트래픽 대부분을 차지하는 10개 체인(Ethereum, Optimism, BNB, Unichain, Polygon, Base, Arbitrum, Linea, HyperEVM, Avalanche)을 CAIP-2 형식으로 담고 있습니다.
+브리지로 자산을 보내는 요청에 적용됩니다. 도착 체인이 허용 목록에 없을 때 적용됩니다.
 
 #### Audience (대상 사용자)
 
@@ -20,7 +20,7 @@ Across·Li.Fi 등으로 보내는 브리지(Send)에 적용됩니다. 도착 체
 
 #### Used Data (판정에 사용될 데이터)
 
-도착 체인 식별자 (`context.dstChainId` — CAIP-2 형식, 예: `eip155:1`)와 허용 목록(`allowedDstChains`)의 포함 여부
+도착 체인 식별자(`context.dstChainId`)가 허용 목록(`allowedDstChains`)의 포함되어 있는지 확인합니다.
 
 #### Policy in Code
 
@@ -28,7 +28,7 @@ Across·Li.Fi 등으로 보내는 브리지(Send)에 적용됩니다. 도착 체
 ```solidity
 @id("bridge-dst-chain-not-allowlisted-deny")
 @severity("deny")
-@reason("허용한 도착 체인 목록에 없는 체인으로 보내려 합니다 — 정책(허용 목록 잠금)에 따라 차단했습니다")
+@reason("허용한 도착 체인 목록에 없는 체인으로 보내려 합니다 — 정책(화이트 리스트)에 따라 차단했습니다")
 forbid (
     principal,
     action == Bridge::Action::"Send",
