@@ -2,25 +2,25 @@
 description: Maximum Token Approval Requested by Unauthorized Contract (WARN)
 ---
 
-# TOKEN-001: 선별되지 않은 컨트랙트의 토큰 최대치 승인 요청 시 경고
+# TOKEN-001: 승인되지 않은 컨트랙트의 토큰 무제한 승인 요청 시 경고
 
 ### Policy Definition (정책 정의)
 
-> **선별되지 않은 컨트랙트**가 ERC-20 승인(Approve)을 요청하는 경우, 사용자가 승인 상대를 확인할 수 있도록 **경고**합니다.
+> &#x20;**승인되지 않은 컨트랙트**가 ERC-20 승인(Approve)을 요청하는 경우 **경고**합니다.
 
-토큰(ERC-20) 사용을 승인하는 것은 Spender(토큰 사용자)에게 허용 금액만큼 내 토큰 사용 권한을 주는 것과 같습니다. 따라서 허가를 받지 않은 컨트랙트나, 광범위하게 쓰이지 않는 컨트랙트가 토큰을 무제한 승인 요청하는 경우 경고를 표시합니다.
+토큰(ERC-20) 사용을 승인하는 것은 Spender(토큰 사용자)에게 허용 금액만큼 내 토큰 사용 권한을 주는 것과 같습니다. 따라서 허가를 받지 않은 컨트랙트가 토큰을 무제한 승인 요청하는 경우 서명 전에 한 번 더 확인하도록 경고합니다.
 
 #### Scope (적용 범위)
 
-Permit2, Uniswap V2 Router02, Uniswap V3 SwapRouter, Uniwap V3 SwapRouter02, Uniswap Universal Router, 1inch Aggregation Router V5, 1inch Aggregation Router V6, Aave V3 Pool, Cow Protocol GPv2VaultRelayer
+승인되지 않은 컨트랙트가 ERC-20 무제한 승인 요청 시 적용됩니다.
 
 #### Audience (대상 사용자)
 
-DEX를 사용하는 모든 사용자
+ERC-20 토큰을 보유중인 모든 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-ERC-20 Approve일 때, 승인할 토큰의 양(Amount)과 토큰 사용자(Spender)의 주소
+승인하는 토큰의 양(`context.amount`)이 최대값인 경우 토큰 사용자(`context.spender`)가 승인 목록에 포함되었는지 확인합니다.
 
 #### Policy in Code
 
@@ -28,7 +28,7 @@ ERC-20 Approve일 때, 승인할 토큰의 양(Amount)과 토큰 사용자(Spend
 ```solidity
 @id("unlimited-approval-warn")
 @severity("warn")
-@reason("이 트랜잭션에 서명하면 상대방이 내 토큰을 무제한 사용할 수 있습니다. 신뢰 가능한 상대인지 확인하세요.")
+@reason("허용되지 않은 컨트랙트에 무제한 승인을 합니다 - 신뢰 가능한 토큰 사용자인지 확인하세요")
 forbid(principal, action == Token::Action::"Erc20Approve", resource)
 when {
   context.amount == "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
@@ -65,7 +65,7 @@ when {
 
 ***
 
-**BASIC-001: 선별되지 않은 컨트랙트의 토큰 최대치 승인 요청 시 경고**\
+**BASIC-001:** 승인되지 않은 컨트랙트의 토무제한 승인 요청 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/09\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

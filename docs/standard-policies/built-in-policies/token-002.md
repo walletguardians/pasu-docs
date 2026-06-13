@@ -2,13 +2,13 @@
 description: Swap Output Destined for a Third-Party Address (DENY)
 ---
 
-# TOKEN-002: 자산이 소각되는 주소로 토큰을 전송할 시 차단
+# TOKEN-002: 토큰이 소각 주소로 전송되는 경우 차단
 
 ### Policy Definition (정책 정의)
 
-> 자산이 소각될 수 있는 주소로 토큰을 전송하는 경우 차단합니다.
+> 토큰이 소각될 수 있는 주소로 전송되는 경우 차단합니다.
 
-블록체인에서 소각(Burning)은 토큰을 영구히 파괴하여 유통된 전체 토큰에서 특정 토큰의 수량 일부를 제거하는 행위입니다. 사용자가 소각 주소로 토큰을 전송하려고 하면 서명 자체를 차단합니다.&#x20;
+ERC-20 토큰 소각(Burning)은 토큰을 영구히 파괴하여 유통된 전체 토큰에서 특정 토큰의 수량 일부를 제거하는 행위입니다. 사용자가 소각 주소로 토큰을 전송하려고 하면 서명 자체를 차단합니다.&#x20;
 
 #### Scope (적용 범위)
 
@@ -16,11 +16,11 @@ description: Swap Output Destined for a Third-Party Address (DENY)
 
 #### Audience (대상 사용자)
 
-모든 Wallet 사용자
+ERC-20 토큰을 보유중인 모든 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-자산을 송금할 때, 토큰을 받을 주소
+토큰을 받을 주소(`context.recipient`)가 토큰을 소각 시키는 지정된 주소인지 확인합니다.
 
 #### Policy in Code
 
@@ -56,7 +56,7 @@ when {
 
 ***
 
-**TOKEN-002: 자산이 소각되는 주소로 토큰을 전송할 시 차단**\
+**TOKEN-002:** 토큰이 소각 주소로 전송되는 경우 차단\
 Wallet Guardians | v.1.0.0 | 26/06/09\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_
