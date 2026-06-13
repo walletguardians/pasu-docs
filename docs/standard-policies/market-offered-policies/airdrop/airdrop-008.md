@@ -2,7 +2,7 @@
 description: Pay-to-Claim Donation Above the Cap (WARN)
 ---
 
-# AIRDROP-003: 클레임 시  결제 금액이 한도를 넘을 경우 경고
+# AIRDROP-002: 클레임 시  결제 금액이 한도를 넘을 경우 경고
 
 ### Policy Definition (정책 정의)
 
@@ -20,7 +20,7 @@ description: Pay-to-Claim Donation Above the Cap (WARN)
 
 #### Used Data (판정에 사용될 데이터)
 
-클레임에 결제가 필요한지 여부와 그 결제 금액(`context.donation.amountNano` )이 한도(`donationCapNano`) 이하인지 확인합니다.
+클레임에 결제가 필요한지 여부와 그 결제 금액(`context.donation.amountNano` )이 한도 이하인지 확인합니다.
 
 #### Policy in Code
 
@@ -67,7 +67,7 @@ when
 
 ***
 
-**AIRDROP-003:** 클레임 시 결제 금액이 한도를 넘을 경우 경고\
+**AIRDROP-002:** 클레임 시 결제 금액이 한도를 넘을 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

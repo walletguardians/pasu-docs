@@ -2,17 +2,17 @@
 description: Launchpad Allocation Sent to a Third Party (WARN)
 ---
 
-# LAUNCH-001: 세일 배정 권리 수령처가 본인 지갑이 아닐 시 경고
+# LAUNCH-001: 세일 배정 권리를 받을 주소가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고
 
 ### Policy Definition (정책 정의)
 
-> 세일에 돈을 넣으면서 배정 권리를 받을 **수령처**를 본인 지갑이 아닌 다른 주소로 지정한 경우 경고합니다.
+> 세일에 돈을 넣으면서  클레임 권리를 받을 **수령처**를 본인 지갑도 아니고 허용된 주소도 아닌 다른 주소로 지정한 경우 경고합니다.
 
-토큰 세일에 참여(commit)할 때는 돈을 내는 지갑과 그 대가로 배정을 받을 주소를 따로 지정할 수 있습니다. 보통 둘은 같은 본인 지갑이지만, 받는 주소 칸에 다른 주소가 들어가면 내 돈으로 산 배정이 그 주소로 잡힙니다. 세일에 한 번 넣은 돈은 되돌리기 어렵고, 잘못 지정한 수령처가 피싱 사이트가 끼워 넣은 주소거나 오타로 친 주소라면 배정 전체를 그대로 잃게 됩니다. 따라서 받는 주소가 서명하는 본인 지갑과 다르면, 넣기 전에 한 번 더 확인하도록 경고합니다.
+토큰 세일에 참여(commit)할 때는 돈을 내는 지갑과 보상을 클레임할 주소를 따로 지정할 수 있습니다. 잘못된 클레임 주소를 등록한다면 배정 전체를 그대로 잃게 되므로 클레임 권리를 받을 주소가 서명하는 본인 지갑과 다르고 승인 목록에도 없는 경우, 서명 전에 한 번 더 확인하도록 경고합니다.
 
 #### Scope (적용 범위)
 
-토큰 세일 참여(commit)에 적용됩니다. 배정을 받을 수령처가 서명하는 본인 지갑 주소와 다른 경우에 발동합니다. (Commit)
+세일 배정을 받을 주소가 승인 목록에 없는 경우 적용됩니다.
 
 #### Audience (대상 사용자)
 
@@ -20,7 +20,7 @@ description: Launchpad Allocation Sent to a Third Party (WARN)
 
 #### Used Data (판정에 사용될 데이터)
 
-배정을 받을 수령처 주소(`context.recipient`)와 세일에 참여하며 서명하는 본인 지갑 주소(`principal.address`)
+배정을 받을 수령처 주소(`context.recipient`)가 서명하는 지갑 주소(`principal.address`)와 같거나 미리 등록해 둔 승인 목록에 포함되는지 확인합니다.
 
 #### Policy in Code
 
@@ -28,10 +28,14 @@ description: Launchpad Allocation Sent to a Third Party (WARN)
 ```solidity
 @id("commit-recipient-not-self-warn")
 @severity("warn")
-@reason("세일 배정 권리 수령처가 본인 지갑이 아닙니다 — 넣은 돈에 대한 배정이 다른 주소로 잡힙니다")
+@reason("세일 배정 권리 수령처가 승인 목록에 없는 주소입니다 — 수령 주소를 확인하세요")
 forbid(principal, action == Launchpad::Action::"Commit", resource)
 when {
-  context.recipient != principal.address
+    context.recipient != principal.address &&
+    !["0x1111111111111111111111111111111111111111"].contains
+        (
+            context.recipient
+        )
 };
 ```
 {% endcode %}
@@ -48,7 +52,7 @@ when {
 
 ***
 
-**LAUNCH-001: 세일 배정 권리 수령처가 본인 지갑이 아닐 시 경고**\
+**LAUNCH-001:** 세일 배정 권리를 받을 주소가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

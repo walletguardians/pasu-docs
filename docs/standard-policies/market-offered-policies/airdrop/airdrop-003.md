@@ -2,13 +2,13 @@
 description: Airdrop Claim to a Non-Allowlisted Recipient (WARN)
 ---
 
-# AIRDROP-002: 클레임 시 수령 주소가 승인 목록에 없을 경우 경고
+# AIRDROP-001: 클레임 시 수령 주소가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고
 
 ### Policy Definition (정책 정의)
 
 > 에어드롭 보상 받을 주소가 **미리 승인해 둔 수령 주소 목록에 포함되지 않**는 경우 경고합니다.
 
-에어드롭이나 리워드 클레임은 받을 주소를 따로 지정할 수 있는 경우가 많습니다. 보통은 클레임하는 본인 지갑이 그대로 받지만, 컨트랙트에 따라 받을 주소를 지정할 수 있습니다. 보상을 받을 주소가 미리 등록한 주소 목록에 없으면, 의도한 곳으로 가는 게 맞는지 서명 전에 한 번 더 확인하도록 경고합니다.
+에어드롭이나 리워드 클레임은 받을 주소를 따로 지정할 수 있는 경우가 있습니다. 보상을 받을 주소가 내가 서명한 지갑 주소와 다르면서 미리 등록한 허용 목록에도 없으면, 의도한 곳으로 가는 게 맞는지 서명 전에 한 번 더 확인하도록 경고합니다.
 
 #### Scope (적용 범위)
 
@@ -20,7 +20,7 @@ description: Airdrop Claim to a Non-Allowlisted Recipient (WARN)
 
 #### Used Data (판정에 사용될 데이터)
 
-보상을 받을 주소(`context.recipient`)가 미리 등록해 둔 수령 주소 목록(`recipientAllowlist`)에 포함되는지 확인합니다.
+보상을 받을 주소(`context.recipient`)가 서명하는 지갑 주소(`principal.address`)와 같거나 미리 등록해 둔 수령 주소 목록(`recipientAllowlist`)에 포함되는지 확인합니다.
 
 #### Policy in Code
 
@@ -36,10 +36,7 @@ forbid (
 )
 when
 {
-    !["0x1111111111111111111111111111111111111111"].contains
-        (
-            context.recipient
-        )
+    ㄴ
 };
 ```
 {% endcode %}
@@ -68,7 +65,7 @@ when
 
 ***
 
-**AIRDROP-002:** 클레임 시 수령 주소가 승인 목록에 없을 경우 경고\
+**AIRDROP-001:** 클레임 시 수령 주소가 서명한 주소와 다르거나 승인 목록에 없을 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_
