@@ -1,7 +1,3 @@
----
-description: Aave Staking Rewards Claimed to an Address Other Than Yourself (DENY)
----
-
 # STAKE-007: Aave 스테이킹 보상을 본인이 아닌 주소로 클레임할 시 차단
 
 ### Policy Definition (정책 정의)
