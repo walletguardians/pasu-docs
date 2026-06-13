@@ -80,7 +80,7 @@
       * [NFT-003: NFT를 소각 주소로 보낼 시 차단](standard-policies/market-offered-policies/nft/nft-003.md)
       * [NFT-004: 블랙리스트에 오른 주소로 NFT를 전송할 시 차단](standard-policies/market-offered-policies/nft/nft-004.md)
       * [NFT-005: 구매한 NFT가 본인이 아닌 다른 주소로 갈 시 경고](standard-policies/market-offered-policies/nft/nft-005.md)
-      * [NFT-006: Seaport 구매에서 바닥가의 50배가 넘는 금액을 지불할 시 경고](standard-policies/market-offered-policies/nft/nft-006.md)
+      * [NFT-006: Seaport 구매에서 최저가의 50배가 넘는 금액을 지불할 시 경고](standard-policies/market-offered-policies/nft/nft-006.md)
       * [NFT-007: 낯선 운영자(Conduit)를 통해 자산을 옮기는 마켓플레이스 주문에 서명할 시 경고](standard-policies/market-offered-policies/nft/nft-007.md)
       * [NFT-008: 받을 대금이 바닥가보다 크게 낮은 NFT 리스팅 시 경고](standard-policies/market-offered-policies/nft/nft-008.md)
       * [NFT-009: 마켓 주문 대금이 본인에게 들어오지 않을 시 경고](standard-policies/market-offered-policies/nft/nft-009.md)
