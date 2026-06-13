@@ -88,7 +88,7 @@
       * [NFT-011: 비정상 타입의 마켓플레이스 주문에 서명할 시 차단](standard-policies/market-offered-policies/nft/nft-011.md)
       * [NFT-012: Seaport 주문의 만료가 지나치게 멀 시 경고](standard-policies/market-offered-policies/nft/nft-012.md)
     * [Lending](standard-policies/market-offered-policies/lending/README.md)
-      * [LEND-001: Morpho 포지션 관리 권한을 위임할 시 경고](standard-policies/market-offered-policies/lending/lend-001.md)
+      * [LEND-001: Morpho 포지션 관리 권한을 위임할 시 경고 (002와 겹쳐서 삭제 예정)](standard-policies/market-offered-policies/lending/lend-001.md)
       * [LEND-002: Morpho에서 악성으로 분류된 주소에 포지션 관리 권한을 위임할 시 차단](standard-policies/market-offered-policies/lending/lend-002.md)
       * [LEND-003: 예치 담보 청구권(aToken)을 본인이 아닌 다른 주소로 받을 시 경고](standard-policies/market-offered-policies/lending/lend-003.md)
       * [LEND-004: 대출이 본인이 아닌 다른 계정 앞으로 잡힐 시 경고](standard-policies/market-offered-policies/lending/lend-004.md)
