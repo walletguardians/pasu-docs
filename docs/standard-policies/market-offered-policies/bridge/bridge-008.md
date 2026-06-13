@@ -1,5 +1,5 @@
 ---
-description: Bridge via a Venue Not on the Allowlist (WARN)
+description: Bridge via a Protocols Not on the Allowlist (WARN)
 ---
 
 # BRIDGE-008: 허용되지 않은 프로토콜을 사용해 브리지할 시 경고
@@ -26,7 +26,7 @@ description: Bridge via a Venue Not on the Allowlist (WARN)
 
 {% code title="policy.cedar" %}
 ```solidity
-@id("bridge-venue-not-allowlisted-warn")
+@id("bridge-protocol-not-allowlisted-warn")
 @severity("warn")
 @reason("허용한 브리지 목록에 없는 프로토콜을 사용합니다 — 해당 프로토콜을 선택한게 맞는지 확인하세요")
 forbid (
@@ -44,7 +44,7 @@ when
 {% code title="manifest.json" %}
 ```json
 {
-  "id": "bridge-venue-not-allowlisted-warn",
+  "id": "bridge-protocol-not-allowlisted-warn",
   "schema_version": 2,
   "trigger": {
     "where": {
@@ -53,10 +53,10 @@ when
     }
   },
   "_template": {
-    "allowedVenues": {
+    "allowedProtocols": {
       "cedar_set": "[\"across_spoke_pool\", \"lifi_diamond\"]",
-      "default": "across_spoke_pool + lifi_diamond (both supported venues → dormant by default)",
-      "meaning": "bridge venues the user trusts. With both allowed this never fires. Narrow to e.g. [\"across_spoke_pool\"] to warn on the Li.Fi aggregator route."
+      "default": "across_spoke_pool + lifi_diamond (both supported protocols → dormant by default)",
+      "meaning": "bridge protocols the user trusts. With both allowed this never fires. Narrow to e.g. [\"across_spoke_pool\"] to warn on the Li.Fi aggregator route."
     }
   }
 }

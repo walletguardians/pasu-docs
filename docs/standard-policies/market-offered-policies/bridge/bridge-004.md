@@ -68,7 +68,7 @@ when
     "allowedDstChains": {
       "cedar_set": "[\"eip155:1\", \"eip155:10\", \"eip155:56\", \"eip155:130\", \"eip155:137\", \"eip155:8453\", \"eip155:42161\", \"eip155:59144\", \"eip155:999\", \"eip155:43114\"]",
       "default": "Ethereum, Optimism, BNB, Unichain, Polygon, Base, Arbitrum, Linea, HyperEVM, Avalanche — the usage-calibrated set covering ~97-99% of real Across + Li.Fi EVM destinations (Dune q7686050 / q7686070)",
-      "meaning": "CAIP-2 destination chains the user expects to bridge to; bridging to any chain NOT in this set warns. NOTE: Li.Fi non-EVM destinations (Solana, ~23% of Li.Fi traffic) arrive as Raw{bytes32} and WARN by default here — intended (also caught by bridge-recipient-raw-nonevm-warn). Across also supports zkSync(324)/Scroll(534352)/Blast(81457) — add them if you use those routes. Narrow to lock down (e.g. only Base + Arbitrum)."
+      "meaning": "CAIP-2 destination chains the user expects to bridge to; bridging to any chain NOT in this set denys. NOTE: Li.Fi non-EVM destinations (Solana, ~23% of Li.Fi traffic) arrive as Raw{bytes32} and DENY by default here — intended (also caught by bridge-recipient-raw-nonevm-deny). Across also supports zkSync(324)/Scroll(534352)/Blast(81457) — add them if you use those routes. Narrow to lock down (e.g. only Base + Arbitrum)."
     }
   }
 }
