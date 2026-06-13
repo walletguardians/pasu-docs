@@ -151,7 +151,7 @@
       * [LIDO-015: 신뢰 목록 밖 승인 대상에게 stETH·wstETH 무제한 permit을 서명할 시 차단](standard-policies/market-offered-policies/liquid-staking/lido-015.md)
     * [Airdrop](standard-policies/market-offered-policies/airdrop/README.md)
       * [AIRDROP-001: 에어드롭 클레임을 본인 지갑이 아닌 주소로 받을 시 경고](standard-policies/market-offered-policies/airdrop/airdrop-001.md)
-      * [AIRDROP-002: 에어드롭 클레임이 토큰을 소각 주소로 보낼 시 차단](standard-policies/market-offered-policies/airdrop/airdrop-002.md)
+      * [AIRDROP-002: 에어드롭 클레임이 보상을 블랙리스트 주소로 보낼 시 차단](standard-policies/market-offered-policies/airdrop/airdrop-002.md)
       * [AIRDROP-003: 클레임 수령 주소가 본인 지갑도 승인 목록에도 없을 시 경고](standard-policies/market-offered-policies/airdrop/airdrop-003.md)
       * [AIRDROP-004: 에어드롭 보상을 제재 목록에 오른 주소로 받을 시 차단](standard-policies/market-offered-policies/airdrop/airdrop-004.md)
       * [AIRDROP-005: 악성으로 분류된 배포 컨트랙트에서 토큰을 클레임할 시 차단](standard-policies/market-offered-policies/airdrop/airdrop-005.md)
