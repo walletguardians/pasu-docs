@@ -1,7 +1,3 @@
----
-description: Adding CRV to Another Address's veCRV Lock (DENY)
----
-
 # STAKE-009: CRV를 본인이 아닌 주소의 veCRV 락에 추가할 시 차단
 
 ### Policy Definition (정책 정의)
@@ -67,4 +63,4 @@ when
 **STAKE-009: CRV를 본인이 아닌 주소의 veCRV 락에 추가할 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+\&#xNAN;_Supported Chain: Ethereum_
