@@ -8,7 +8,7 @@ description: Reduce-Only Lockdown Blocking Position-Increasing Orders (DENY)
 
 > 리듀스온리(reduce-only) 잠금을 켜둔 상태에서 HyperLiquid에 **포지션을 줄이지 않는 주문**을 내면 차단합니다.
 
-HyperLiquid 주문에는 리듀스온리(reduce-only) 플래그가 있어, 이 플래그가 붙은 주문은 지금 들고 있는 포지션을 줄이거나 닫기만 할 수 있습니다. 리듀스온리 잠금은 이 플래그가 없는 주문, 즉 새 포지션을 열거나 기존 포지션을 키울 수 있는 주문을 전부 막아두는 모드입니다. 손실을 키우지 않고 정리만 하려고 잠가뒀는데 키가 탈취당하거나 실수로 매수·매도 주문이 나가면, 줄이려던 포지션이 도리어 불어날 수 있습니다. 따라서 이 잠금이 켜져 있는 동안 리듀스온리가 아닌 주문이 나가면 서명 전에 차단합니다.
+HyperLiquid 주문에는 리듀스온리(reduce-only) 플래그가 있어, 이 플래그가 붙은 주문은 지금 들고 있는 포지션을 줄이거나 닫기만 할 수 있습니다. 손실을 키우지 않고 정리만 하려고 잠가뒀는데 키가 탈취당하거나 실수로 매수·매도 주문이 나가면, 줄이려던 포지션이 도리어 불어날 수 있습니다. 리듀스온리가 아닌 주문이 나가면 서명 전에 차단합니다.
 
 #### Scope (적용 범위)
 
@@ -20,7 +20,7 @@ HyperLiquid 주문 제출(PlaceOrder)에 적용됩니다. 주문에 리듀스온
 
 #### Used Data (판정에 사용될 데이터)
 
-주문이 나가는 거래소(`context.venue.name` — HyperLiquid인지)와 주문에 리듀스온리 플래그가 붙어 있는지 여부(`context.reduceOnly`)
+* 주문에 리듀스온리 플래그가 붙어 있는지 여부
 
 #### Policy in Code
 
@@ -57,4 +57,4 @@ when
 **PERP-022: 리듀스온리(reduce-only) 잠금 중 포지션을 늘리는 주문을 낼 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+\&#xNAN;_Supported Chain: HyperLiquid_

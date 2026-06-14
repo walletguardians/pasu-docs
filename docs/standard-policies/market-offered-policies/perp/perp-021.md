@@ -8,11 +8,11 @@ description: HyperLiquid Order on a Denylisted Market (DENY)
 
 > HyperLiquid에서 **차단 목록에 올린 마켓**으로 포지션을 새로 잡거나 키우는 주문이면, 서명 전에 막습니다.
 
-HyperLiquid는 마켓마다 심볼이 따로 있습니다(예: `DOGE`, `kPEPE`). 변동성이 너무 크거나 손대지 않기로 정한 마켓은 차단 목록에 올려두고, 그 마켓으로 들어가는 주문을 아예 막을 수 있습니다. 포지션을 줄이는 reduce-only 주문은 손실을 정리하는 쪽이라 건드리지 않고, 차단한 마켓에 새로 진입하거나 물량을 늘리는 주문만 막습니다. 그래서 주문의 마켓 심볼이 차단 목록에 들어 있고 reduce-only가 아니면, 주문이 나가기 전에 차단합니다.
+HyperLiquid는 마켓마다 심볼이 따로 있습니다(예: `DOGE`, `kPEPE`). 변동성이 너무 크거나 손대지 않기로 정한 마켓은 차단 목록에 올려두고, 그 마켓으로 들어가는 주문을 아예 막을 수 있습니다. 포지션을 줄이는 reduce-only 주문은 손실을 정리하는 쪽이라 건드리지 않고, 차단한 마켓에 새로 진입하거나 물량을 늘리는 주문만 막습니다. 주문의 마켓 심볼이 차단 목록에 들어 있다면, 주문이 나가기 전에 차단합니다.
 
 #### Scope (적용 범위)
 
-HyperLiquid 주문(PlaceOrder). 주문의 마켓 심볼이 차단 목록(`DOGE`, `kPEPE`, `kSHIB`)에 있고, 포지션을 줄이는 reduce-only 주문이 아닐 때 적용됩니다. (Place Order)
+HyperLiquid 주문(PlaceOrder). 주문의 마켓 심볼이 블랙리스트(`DOGE`, `kPEPE`, `kSHIB`)에 있고, 포지션을 줄이는 reduce-only 주문이 아닐 때 적용됩니다. (Place Order)
 
 #### Audience (대상 사용자)
 
@@ -20,7 +20,9 @@ HyperLiquid 주문(PlaceOrder). 주문의 마켓 심볼이 차단 목록(`DOGE`,
 
 #### Used Data (판정에 사용될 데이터)
 
-거래소 이름(`context.venue.name`), 주문의 마켓 심볼(`context.market.symbol`), 포지션을 줄이는 주문인지 여부(`context.reduceOnly`) — 모두 주문 자체에서 읽습니다. 차단할 심볼 목록은 정책에 직접 적어 둔 값입니다. HyperLiquid는 1,000배 단위 밈코인 perp을 `k` 접두사로 표기하므로(`kPEPE`, `kSHIB`), 심볼은 거래소 표기 그대로 대소문자까지 정확히 맞춰야 합니다.
+주문의 마켓 심볼 (블랙리스트)
+
+포지션을 줄이는 주문인지 여부
 
 #### Policy in Code
 
@@ -65,4 +67,4 @@ when
 **PERP-021: 차단 목록에 있는 마켓에 주문을 넣을 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+\&#xNAN;_Supported Chain: HyperLiquid_

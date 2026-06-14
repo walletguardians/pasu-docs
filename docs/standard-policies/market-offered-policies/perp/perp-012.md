@@ -12,7 +12,7 @@ description: Adding to a Losing HyperLiquid Position (WARN)
 
 #### Scope (적용 범위)
 
-HyperLiquid에서 새 주문을 내는 경우에 적용됩니다. 같은 심볼에 이미 열린 포지션이 있고, 그 포지션이 20%가 넘게 손실 중이며, 이번 주문이 포지션을 줄이는 reduce-only가 아닐 때만 발동합니다. (Place Order)
+HyperLiquid에서 새 주문을 내는 경우에 적용됩니다. 같은 심볼에 이미 열린 포지션이 있고, 그 포지션이 20%가 넘게 손실 중이며, 이번 주문이 포지션을 줄이는 reduce-only가 아닐 때만 발동합니다.&#x20;
 
 #### Audience (대상 사용자)
 
@@ -20,11 +20,9 @@ HyperLiquid에서 perp를 거래하며, 손실 구간에서 물타기로 평균 
 
 #### Used Data (판정에 사용될 데이터)
 
-이번 주문이 포지션을 줄이는 reduce-only인지(`context.reduceOnly`),&#x20;
-
-같은 심볼에 이미 열린 포지션이 있는지 여부
-
-포지션의 손익률 %
+* 이번 주문이 포지션을 줄이는 reduce-only인지
+* 같은 심볼에 이미 열린 포지션이 있는지 여부
+* 포지션의 손익률 %
 
 #### Policy in Code
 
