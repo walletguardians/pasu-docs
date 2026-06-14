@@ -60,7 +60,6 @@
       * [TOKEN-009: 거래 이력이 있는 주소와 닮은 위장 주소로 전송할 시 경고](standard-policies/market-offered-policies/token-erc-20/token-009.md)
       * [TOKEN-010: 보유량의 절반을 초과하는 토큰을 한 번에 전송할 시 경고](standard-policies/market-offered-policies/token-erc-20/token-010.md)
       * [TOKEN-011: 토큰의 컨트랙트 주소로 해당 토큰을 전송할 시 경고](standard-policies/market-offered-policies/token-erc-20/token-012.md)
-      * [Page 1](readme-1/market-offered-policies/token-erc-20/page-1.md)
     * [DEX (AMM)](standard-policies/market-offered-policies/dex-amm/README.md)
       * [AMM-002: 유동성 풀(LP)에 유동성을 공급할 때, LP Token 또는 포지션 NFT가 제3자에게 갈 시 경고](standard-policies/market-offered-policies/dex-amm/amm-002-lp-lp-token-nft-3.md)
       * [AMM-003: 유동성 풀(LP)에서 유동성을 회수할 때, 회수한 토큰이 제3자에게 갈 시 경고](standard-policies/market-offered-policies/dex-amm/amm-003-lp-3.md)
