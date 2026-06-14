@@ -2,13 +2,13 @@
 description: Adding to a Losing HyperLiquid Position (WARN)
 ---
 
-# PERP-012: 손실 중인 HyperLiquid 포지션에 물타기를 할 시 경고
+# PERP-012: 손실 중인 HyperLiquid 포지션에 물타기할 시 경고
 
 ### Policy Definition (정책 정의)
 
 > 이미 20%가 넘게 손실 중인 HyperLiquid 포지션에 **물타기**(추가 진입)를 하는 주문이면, 정말 의도한 것인지 다시 확인하도록 경고합니다.
 
-물타기는 손실 중인 포지션에 같은 방향으로 더 들어가 평균 단가를 낮추는 매매입니다. 단가는 내려가지만 포지션 크기가 커져 청산가가 현재 시세에 더 가까워지고, 방향이 끝내 틀렸다면 손실은 그만큼 불어납니다. 그래서 지금 손실이 20%를 넘은 포지션에 같은 방향으로 더 얹는 주문이면, 추격 매수가 아니라 의도한 진입인지 서명 전에 한 번 더 확인하도록 경고합니다.
+물타기는 손실 중인 포지션에 같은 방향으로 더 들어가 평균 단가를 낮추는 매매입니다. 평균 단가는 내려가지만 포지션 크기가 커져 방향이 틀렸다면 손실은 그만큼 불어납니다. 손실이 20%를 넘은 포지션에 같은 방향으로 더 얹는 주문이면, 의도한 진입인지 서명 전에 한 번 더 확인하도록 경고합니다.
 
 #### Scope (적용 범위)
 
@@ -20,7 +20,11 @@ HyperLiquid에서 perp를 거래하며, 손실 구간에서 물타기로 평균 
 
 #### Used Data (판정에 사용될 데이터)
 
-거래소가 HyperLiquid인지(`context.venue.name`), 이번 주문이 포지션을 줄이는 reduce-only인지(`context.reduceOnly`), 같은 심볼에 이미 열린 포지션이 있는지(`context.hasOpenPosition`), 그 포지션의 손익률을 bp로 나타낸 값(`context.positionRoeBps` — HyperLiquid 서버 조회로 채워진 현재 포지션 손익)
+이번 주문이 포지션을 줄이는 reduce-only인지(`context.reduceOnly`),&#x20;
+
+같은 심볼에 이미 열린 포지션이 있는지 여부
+
+포지션의 손익률 %
 
 #### Policy in Code
 
@@ -68,4 +72,4 @@ when
 **PERP-012: 손실 중인 HyperLiquid 포지션에 물타기를 할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+\&#xNAN;_Supported Chain: HyperLiquid_
