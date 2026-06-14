@@ -123,7 +123,6 @@
       * [\~\~RESTAKE-008: 제재 목록에 오른 오퍼레이터에게 리스테이킹 지분을 위임할 시 차단\~\~ 이건 토큰 전송 카테고리에 넣는게 좋을듯](standard-policies/market-offered-policies/restaking/restake-008.md)
       * [허용 목록에 없는 오퍼레이터에게 재위임할 시 차단](standard-policies/market-offered-policies/restaking/restake-009.md)
       * [출금을 토큰이 아닌 지분으로 받을 시 경고](standard-policies/market-offered-policies/restaking/restake-013.md)
-      * [RESTAKE-014: 본인이 아닌 다른 스테이커의 위임을 해제할 시 경고](standard-policies/market-offered-policies/restaking/restake-014.md)
       * [EigenLayer 오퍼레이터로 등록할 시 경고](standard-policies/market-offered-policies/restaking/restake-015.md)
     * [Liquid Staking](standard-policies/market-offered-policies/liquid-staking/README.md)
       * [LIDO-001: Lido에 100 ETH 이상을 한 번에 스테이킹할 시 경고](standard-policies/market-offered-policies/liquid-staking/lido-001.md)
