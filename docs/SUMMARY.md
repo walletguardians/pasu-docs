@@ -132,7 +132,7 @@
       * [Lido에서 permit 요청이 무제한 출금 요청일 때 경고](standard-policies/market-offered-policies/liquid-staking/lido-009.md)
       * [Lido에서 출금 청구 시 ETH를 받는 주소가 본인이 아닌 경우 차단](standard-policies/market-offered-policies/liquid-staking/lido-010.md)
       * [Lido에서 출금 청구 시 ETH를 받는 주소가 소각 주소인 경우 차단](standard-policies/market-offered-policies/liquid-staking/lido-011.md)
-      * [LIDO-012: 신뢰 목록 밖 주소에 stETH/wstETH 승인 시 경고](standard-policies/market-offered-policies/liquid-staking/lido-012.md)
+      * [신뢰 목록 외의 주소에서 stETH/wstETH 승인 요청 시 경고](standard-policies/market-offered-policies/liquid-staking/lido-012.md)
       * [LIDO-013: stETH·wstETH를 신뢰 목록 밖 상대에게 무제한 승인할 시 차단](standard-policies/market-offered-policies/liquid-staking/lido-013.md)
       * [LIDO-014: 신뢰 목록에 없는 대상에게 stETH·wstETH permit을 서명할 시 경고](standard-policies/market-offered-policies/liquid-staking/lido-014.md)
       * [LIDO-015: 신뢰 목록 밖 승인 대상에게 stETH·wstETH 무제한 permit을 서명할 시 차단](standard-policies/market-offered-policies/liquid-staking/lido-015.md)
