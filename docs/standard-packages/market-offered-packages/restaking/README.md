@@ -8,7 +8,7 @@
 [restaking-safe-withdrawal-and-undelegation.md](restaking-safe-withdrawal-and-undelegation.md)
 {% endcontent-ref %}
 
-{% content-ref url="eigenlayer-deposit-cap-and-strategy-guard.md" %}
-[eigenlayer-deposit-cap-and-strategy-guard.md](eigenlayer-deposit-cap-and-strategy-guard.md)
+{% content-ref url="/broken/pages/7ppVSqug6JYKBEnGEcY1" %}
+[Broken link](/broken/pages/7ppVSqug6JYKBEnGEcY1)
 {% endcontent-ref %}
 

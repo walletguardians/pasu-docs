@@ -27,7 +27,6 @@
     * [Restaking](standard-packages/market-offered-packages/restaking/README.md)
       * [\[Restaking\] 스트레티지 예치/오퍼레이터 위임 가드](standard-packages/market-offered-packages/restaking/restaking-operator-delegation-guard.md)
       * [\[Restaking\] 안전하게 예치/출금하기](standard-packages/market-offered-packages/restaking/restaking-safe-withdrawal-and-undelegation.md)
-      * [\[EigenLayer\] Deposit Cap & Strategy Guard](standard-packages/market-offered-packages/restaking/eigenlayer-deposit-cap-and-strategy-guard.md)
     * [Liquid Staking](standard-packages/market-offered-packages/liquid-staking/README.md)
       * [\[Liquid Staking\] Stake & Wrap Amount Guard](standard-packages/market-offered-packages/liquid-staking/liquid-staking-stake-and-wrap-amount-guard.md)
       * [\[Liquid Staking\] Safe Withdrawal Request & Claim](standard-packages/market-offered-packages/liquid-staking/liquid-staking-safe-withdrawal-request-and-claim.md)
