@@ -2,9 +2,9 @@
 
 ### Policy Definition (정책 정의)
 
-> Aave Safety Module이나 Umbrella에서 스테이킹 보상을 클레임하는데 받는 주소가 **본인 지갑이 아닌** 경우, 보상이 빠져나가지 않도록 **차단**합니다.
+> Aave Safety Module이나 Umbrella에서 스테이킹 보상을 클레임하는데 받는 주소가 **본인 지갑이 아닌** 경우 **차단**합니다.
 
-Aave Safety Module(stkAAVE)이나 Umbrella에 토큰을 스테이킹하면 그 대가로 보상이 쌓이고, 클레임(claim)을 통해 보상을 받아갑니다. 그런데 보상을 받을 주소에 내 지갑이 아닌 주소가 입력되면 그동안 쌓인 보상이 엉뚱한 주소로 넘어갑니다.
+Aave Safety Module(stkAAVE)이나 Umbrella에 토큰을 스테이킹하면 보상이 쌓이고, 클레임(claim)을 통해 보상을 받아갑니다. 그런데 보상을 받을 주소에 내 지갑이 아닌 주소가 입력되면 그동안 쌓인 보상이 엉뚱한 주소로 넘어갑니다.
 
 이 정책은 피싱에 당하지 않도록 스테이킹 보상 수령 주소가 본인 지갑이 아닌 경우 차단합니다.
 
@@ -36,13 +36,19 @@ forbid (
 )
 when
 {
-    ["aave_safety_module",
+    (["aave_safety_module",
      "aave_umbrella_rewards_controller"].contains
         (
             context.protocol.name
         ) &&
     context has recipient &&
-    context.recipient != principal.address
+    context.recipient != principal.address)
+    ||
+    (
+      context.protocol.name == "aave_umbrella_rewards_controller"
+      && context has onBehalfOf
+      && context.onBehalfOf != principal.address
+    )
 };
 ```
 {% endcode %}

@@ -1,16 +1,18 @@
-# STAKE-013: Ethena USDe 지분(sUSDe) 수령자가 본인이 아닌 경우 차단
+# Ethena USDe 지분(sUSDe) 수령자가 본인이 아닌 경우 차단
 
 ### Policy Definition (정책 정의)
 
 > Ethena에 USDe를 예치하면서 그 대가로 받는 sUSDe 지분(shares)이 **본인 지갑이 아닌** 주소로 가는 경우, 예치를 차단합니다.
 
-Ethena 스테이킹은 USDe를 맡기고 그 대가로 sUSDe 지분을 받는 동작입니다. 이 sUSDe는 예치한 자산에 대한 소유권 증서로, 나중에 원금과 이자를 되찾을 권리 포함됩니다.
+Ethena 스테이킹은 USDe를 맡기고 sUSDe 지분을 받는 동작입니다. 이 sUSDe는 나중에 원금과 이자를 되찾을 권리가 포함된 예치한 자산에 대한 소유권 증서입니다.
 
-그런데 예치 함수는 지분을 받을 주소를 따로 지정할 수 있어, 이 칸이 본인이 아닌 주소로 채워지면 내 돈으로 예치했는데 권리는 남에게 넘어갑니다. 지분을 받을 주소가 예치를 요청한 본인 지갑과 다르면, 서명되기 전에 차단합니다.
+지분을 받을 주소가 본인이 아닌 주소인 경우 예치한 자산과 이자를 받을 권리가 남에게 넘어갑니다.
+
+이 정책은 지분을 받을 주소가 예치를 요청한 본인 지갑과 다르면, 서명되기 전에 차단합니다.
 
 #### Scope (적용 범위)
 
-Ethena sUSDe 예치에 적용됩니다. 받을 지분(sUSDe)의 수령 주소가 예치를 요청한 본인 지갑 주소와 다른 경우 발동합니다. (Stake)
+Ethena sUSDe 예치에 적용됩니다.
 
 #### Audience (대상 사용자)
 
@@ -28,7 +30,7 @@ USDe를 Ethena에 예치해 sUSDe로 굴리는 사용자
 ```solidity
 @id("ethena-stake-recipient-self")
 @severity("deny")
-@reason("USDe 스테이킹 지분 수령자가 내 지갑이 아닙니다")
+@reason("USDe 스테이킹 지분(sUSDe) 수령자가 내 지갑이 아닙니다")
 forbid (
     principal,
     action == Staking::Action::"Stake",
