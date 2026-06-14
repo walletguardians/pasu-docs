@@ -1,4 +1,4 @@
-# 허용 목록에 없는 스트래티지로 리스테이크를 예치할 시 경고
+# 허용 목록에 없는 스트래티지로 리스테이크를 예치할 시 차단
 
 ### Policy Definition (정책 정의)
 
@@ -18,15 +18,15 @@ EigenLayer에 직접 리스테이크를 예치하는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-예치 대상 스트래티지 주소(`context.strategy`)가 정책에 적어둔 허용 목록에 들어 있는지 여부입니다. 외부 조회 없이 정책 안에 박힌 목록과 대조해 판정합니다.
+* 예치 대상 스트래티지 주소(`context.strategy`)
 
 #### Policy in Code
 
 {% code title="policy.cedar" %}
 ```solidity
 @id("deposit-strategy-not-allowlisted-warn")
-@severity("warn")
-@reason("허용 목록에 없는 스트래티지로 리스테이크 예치합니다 — 대상 스트래티지를 확인하세요")
+@severity("deny")
+@reason("허용 목록에 없는 스트래티지로 예치합니다")
 forbid (
     principal,
     action == Restaking::Action::"Deposit",
