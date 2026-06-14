@@ -20,7 +20,7 @@ Hyperliquid에서 청산가 근처까지 포지션을 끌고 가는 트레이더
 
 #### Used Data (판정에 사용될 데이터)
 
-* 이 주문이 포지션을 줄이는 리듀스온리 주문인지(`context.reduceOnly`),&#x20;
+* 프로토콜&#x20;
 * 기존 포지션의 청산가까지 남은 거리
 
 #### Policy in Code

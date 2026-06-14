@@ -20,9 +20,9 @@ Hyperliquid에서 포지션을 새로 열거나 늘리는 주문에 적용됩니
 
 #### Used Data (판정에 사용될 데이터)
 
+* 프로토콜&#x20;
 * 마켓 심볼의 허용 목록(`BTC`, `ETH`, `SOL`, `HYPE`)
 * 주문이 들어가는 마켓
-* 기존 포지션을 줄이는 reduce-only인지 여부
 
 #### Policy in Code
 

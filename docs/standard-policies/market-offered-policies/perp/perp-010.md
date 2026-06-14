@@ -20,8 +20,8 @@ Hyperliquid 무기한 선물(perp) 주문 중, 기존 포지션을 줄이는 게
 
 #### Used Data (판정에 사용될 데이터)
 
+* 프로토콜&#x20;
 * 주문 방향
-* 기존 포지션을 줄이는 reduce-only 주문인지
 
 #### Policy in Code
 

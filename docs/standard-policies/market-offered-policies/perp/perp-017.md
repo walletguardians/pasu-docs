@@ -20,8 +20,8 @@ Hyperliquid에서 단타로 자주 들어갔다 나오며, 손실 뒤 충동 매
 
 #### Used Data (판정에 사용될 데이터)
 
+* 프로토콜&#x20;
 * 오늘 체결한 거래 수
-* 이번 주문이 reduce-only 청산인지 여부
 
 #### Policy in Code
 
