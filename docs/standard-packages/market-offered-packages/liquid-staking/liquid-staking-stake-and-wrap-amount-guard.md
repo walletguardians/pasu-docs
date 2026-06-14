@@ -1,22 +1,33 @@
 # \[Liquid Staking] Stake & Wrap Amount Guard
 
-유동성 스테이킹(Liquid Staking)에서는 큰 금액을 예치하고 랩핑하는 과정이 한 번의 서명으로 이루어져 있어, 한 번의 실수가 곧 큰 손실을 일으킬 수 있습니다. 스테이킹, wrap, unwrap의 금액과 stETH 할인 시점을 검사하는 패키지입니다.
+유동성 스테이킹(Liquid Staking)에서는 출금을 하는 경우, 출금 청구권을 받고 나중에 출금을 청구합니다. 이때, 출금 청구권을 받는 주소나 출금되는 주소가 올바른지 확인해야 합니다.
 
 ### 이 패키지로 막을 수 있는 것
 
-ETH를 스테이킹하고 stETH를 wstETH로 감싸거나 푸는 사용자가, 한 번에 큰 금액을 잘못 다루지 않도록 미리 이상 징후를 파악해 경고합니다.
+유동성 스테이킹에서 출금을 하는 경우, 출금 청구권과 출금 주소가 안전한지 검사합니다.
 
-* 한 번에 큰 금액을 스테이킹하지 않도록 차단합니다.
-* 한 번에 큰 금액을 wstETH로 wrap하지 않도록 차단합니다.
-* 한 번에 큰 금액을 unwrap하지 않도록 차단합니다.
-* stETH가 ETH 대비 할인 중일 때 직접 스테이킹하지 않도록 경고합니다.
+* Lido에서 출금 청구권이 본인이 아닌 주소로 발행될 시 차단합니다.
+* Lido에서 출금 청구권이 소각 주소로 발행될 시 차단합니다.
+* Lido에서 출금 청구 시 ETH를 받는 주소가 본인 주소가 아닌 경우 차단합니다.
+* Lido에서 출금 청구 시 ETH를 받는 주소가 소각 주소인 경우 차단합니다.
 
 ### 정책 목록
 
-* 한 번에 큰 금액(기본 100 ETH 이상)을 스테이킹할 시 차단
-* 한 번에 큰 금액(100 stETH 이상)을 wstETH로 wrap할 시 차단
-* 한 번에 큰 금액(100 wstETH 이상)을 unwrap할 시 차단
-* stETH가 ETH 대비 할인 중일 때 직접 스테이킹할 시 경고
+{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-007.md" %}
+[lido-007.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-007.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-008.md" %}
+[lido-008.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-008.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-010.md" %}
+[lido-010.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-010.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-011.md" %}
+[lido-011.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-011.md)
+{% endcontent-ref %}
 
 ***
 
