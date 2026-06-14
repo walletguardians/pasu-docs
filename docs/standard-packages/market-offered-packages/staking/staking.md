@@ -32,12 +32,6 @@
 [stake-014.md](../../../standard-policies/market-offered-policies/staking/stake-014.md)
 {% endcontent-ref %}
 
-* Ethena(sUSDe) 스테이킹 지분이 본인이 아닌 주소로 갈 시 차단
-* Aave 보상 수령처가 본인이 아닐 시 차단
-* Curve 게이지 보상 수령처가 본인이 아닐 시 차단
-* Ethena 언스테이킹(USDe) 수령처가 본인이 아닐 시 차단
-* 슬래싱 위험이 있는 풀에 스테이킹할 시 경고
-
 ***
 
 **\[Staking] Stake & Reward Recipient Guard**\

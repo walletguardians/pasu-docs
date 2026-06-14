@@ -1,24 +1,38 @@
-# \[Restaking] Operator Delegation Guard
+# \[Restaking] 스트레티지 예치/오퍼레이터 위임 가드
 
-오퍼레이터 위임은 한 번의 서명으로 리스테이킹 지분 전체에 대한 슬래싱 권한을 넘기는 동작입니다. 위임과 재위임의 대상이 신뢰할 수 있는지, 제재 목록에 없는지 검사하는 패키지입니다.
+스트레티지 예치나 오퍼레이터 위임은 리스테이킹 지분 전체에 대한 슬래싱 권한을 넘기는 동작입니다. 즉, 잘못하면 내 자산이 슬래싱될 수 있습니다.&#x20;
+
+이 패키지는 위임/재위임하는 오퍼레이터나 예치하는 스트레티지가 신뢰할 수 있는지 검사하고, 의도치 않게 오퍼레이터로 등록되는 것을 막는 패키지입니다.
+
+**이 패키지를 사용하기 위해서는 허용 목록을 편집해서 사용해야 합니다.**
+
+
 
 ### 이 패키지로 막을 수 있는 것
 
-리스테이킹 지분을 오퍼레이터에게 위임하는 사용자가, 슬래싱 권한을 엉뚱한 오퍼레이터에게 넘기지 않도록 미리 이상 징후를 파악해 경고합니다.
+리스테이킹 지분을 오퍼레이터에게 위임하는 사용자가, 슬래싱 권한을 엉뚱한 오퍼레이터에게 넘기지 않도록 하고, 의도치 않게 오퍼레이터로 등록되는 것을 막습니다.
 
-* 선별 목록에 없는 오퍼레이터에게 위임하지 않도록 차단합니다.
-* 제재 목록에 오른 오퍼레이터에게 위임하지 않도록 차단합니다.
-* 오퍼레이터에게 지분 전체를 위임하기 전에 한 번 더 확인하도록 경고합니다.
-* 제재 목록에 오른 새 오퍼레이터로 재위임하지 않도록 차단합니다.
-* 한 번의 거래로 슬래싱 권한이 새 오퍼레이터에게 넘어가는 재위임을 확인하도록 경고합니다.
+* 허용 목록에 없는 스트래티지로 예치할 시 경고합니다.
+* 허용 목록에 없는 오퍼레이터에게 위임/재위임하지 않도록 차단합니다.
+* 의도치 않게 오퍼레이터로 등록되는 것을 막습니다.
 
 ### 정책 목록
 
-* 선별 목록에 없는 오퍼레이터에게 위임할 시 차단
-* 제재 목록에 오른 오퍼레이터에게 위임할 시 차단
-* 오퍼레이터에게 리스테이킹 지분 전체를 위임할 시 경고
-* 제재 목록에 오른 새 오퍼레이터로 재위임할 시 차단
-* 새 오퍼레이터로 재위임할 시 경고
+{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-003.md" %}
+[restake-003.md](../../../standard-policies/market-offered-policies/restaking/restake-003.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-007.md" %}
+[restake-007.md](../../../standard-policies/market-offered-policies/restaking/restake-007.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-009.md" %}
+[restake-009.md](../../../standard-policies/market-offered-policies/restaking/restake-009.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-015.md" %}
+[restake-015.md](../../../standard-policies/market-offered-policies/restaking/restake-015.md)
+{% endcontent-ref %}
 
 ***
 

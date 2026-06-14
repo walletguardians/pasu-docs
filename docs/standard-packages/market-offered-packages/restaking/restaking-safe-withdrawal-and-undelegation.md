@@ -1,22 +1,28 @@
-# \[Restaking] Safe Withdrawal & Undelegation
+# \[Restaking] 안전하게 예치/출금하기
 
-리스테이킹 출금은 여러 단계를 거치며, 수령자나 수령 방식이 바뀌면 자산이 새거나 다시 묶입니다. 출금 큐와 완료의 수령자, 수령 방식, 타인 위임 해제라는 신호를 검사하는 패키지입니다.
+리스테이킹 프로토콜에 예치할 때에는 정확하게 내 주소로 리스테이킹 지분이 설정되는지, 내가 예치하고자 했던 금액이 맞는지 확인해야 합니다. 또, 리스테이킹 지분을 출금할 때에도 내 지갑으로 토큰이 들어오는 출금이 맞는지도 확인해야 합니다.
 
 ### 이 패키지로 막을 수 있는 것
 
-리스테이킹 지분을 출금하거나 위임을 해제하는 사용자가, 자산이 남에게 가거나 의도와 다르게 다시 묶이지 않도록 미리 이상 징후를 파악해 경고합니다.
+리스테이킹 프로토콜에 예치하거나 지분을 출금할 때 설정값이 일반적이지 않은 경우 경고/차단합니다.
 
-* 출금 큐의 수령자가 본인이 아닐 때 확인하도록 경고합니다.
-* 출금 완료의 수령자가 본인이 아닐 때 확인하도록 경고합니다.
-* 출금을 토큰이 아닌 지분으로 받아 다시 위임되는 것을 모르고 하지 않도록 경고합니다.
-* 본인이 아닌 다른 스테이커의 위임을 해제하지 않도록 경고합니다.
+* 리스테이킹 예치 지분이 내 지갑으로 잡히지 않는 경우 차단합니다.
+* 리스테이크 예치 금액이 5만불을 넘는 경우 경고합니다.
+* 토큰이 아닌 지분으로 출금하여 재위임되는 경우 경고합니다.
 
 ### 정책 목록
 
-* 출금 큐의 수령자가 본인이 아닐 시 경고
-* 출금 완료의 수령자가 본인이 아닐 시 경고
-* 출금을 토큰이 아닌 지분으로 받아 현재 오퍼레이터에게 다시 위임될 시 경고
-* 본인이 아닌 다른 스테이커의 위임을 해제할 시 경고
+{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-002.md" %}
+[restake-002.md](../../../standard-policies/market-offered-policies/restaking/restake-002.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-005.md" %}
+[restake-005.md](../../../standard-policies/market-offered-policies/restaking/restake-005.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-013.md" %}
+[restake-013.md](../../../standard-policies/market-offered-policies/restaking/restake-013.md)
+{% endcontent-ref %}
 
 ***
 
