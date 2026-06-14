@@ -119,7 +119,7 @@
       * [리스테이킹 예치 지분이 내 지갑이 아닌 주소로 잡힐 시 차단](standard-policies/market-offered-policies/restaking/restake-002.md)
       * [허용 목록에 없는 스트래티지로 리스테이크를 예치할 시 경고](standard-policies/market-offered-policies/restaking/restake-003.md)
       * [리스테이크 예치 금액이 $50,000을 초과할 시 경고](standard-policies/market-offered-policies/restaking/restake-005.md)
-      * [RESTAKE-007: 허용 목록에 없는 오퍼레이터에게 위임할 시 차단](standard-policies/market-offered-policies/restaking/restake-007.md)
+      * [허용 목록에 없는 오퍼레이터에게 위임할 시 차단](standard-policies/market-offered-policies/restaking/restake-007.md)
       * [RESTAKE-008: 제재 목록에 오른 오퍼레이터에게 리스테이킹 지분을 위임할 시 차단](standard-policies/market-offered-policies/restaking/restake-008.md)
       * [RESTAKE-009: EigenLayer에서 허용 목록에 없는 오퍼레이터로 재위임할 시 차단](standard-policies/market-offered-policies/restaking/restake-009.md)
       * [RESTAKE-010: 제재 목록에 오른 오퍼레이터에게 재위임할 시 차단](standard-policies/market-offered-policies/restaking/restake-010.md)
