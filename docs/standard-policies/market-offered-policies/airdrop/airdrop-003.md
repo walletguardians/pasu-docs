@@ -36,7 +36,10 @@ forbid (
 )
 when
 {
-    ㄴ
+    context.recipient != principal.address &&
+      !([
+          "0x1111111111111111111111111111111111111111"
+      ].contains(context.recipient))
 };
 ```
 {% endcode %}

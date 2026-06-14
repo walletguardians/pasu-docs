@@ -26,7 +26,7 @@ description: Bridge Recipient is a Burn Address (DENY)
 
 {% code title="policy.cedar" %}
 ```solidity
-@id("bridge-recipient-burn-deny")
+@id("bridge-recipient-denylist-deny")
 @severity("deny")
 @reason("도착 체인의 블랙리스트 주소로 자산이 전달됩니다 — 수령 주소를 확인하세요.")
 forbid (
@@ -50,7 +50,7 @@ when
 {% code title="manifest.json" %}
 ```json
 {
-  "id": "bridge-recipient-burn-deny",
+  "id": "bridge-recipient-denylist-deny",
   "schema_version": 2,
   "trigger": {
     "where": {

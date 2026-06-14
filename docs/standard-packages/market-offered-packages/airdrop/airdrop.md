@@ -1,30 +1,46 @@
 ---
-description: 피싱이 많이 일어나는 에어드롭 안전하게 받기
+description: 안전한 에어드롭 클레임을 위한 패키지
 ---
 
-# \[Airdrop] 클레임 피싱 차단 - 좀 더 봐야할듯
+# \[Airdrop] 클레임 피싱 차단
 
-에어드랍 피싱의 주요 수법인 수령처 바꿔치기와 가짜 클레임 서명을 잡는 패키지입니다.
+가짜 에어드롭 클레임 사이트의 승인, 서명 피싱과 수령처 변조를 서명 직전에 차단하는 패키지입니다.
 
 ### 이 패키지로 막을 수 있는 것
 
-에어드롭의 클레임으로 위장한 피싱을 서명 전에 탐지하는 패키지입니다. 토큰을 받는 주소를 조작하거나, 상호작용하는 컨트랙트 자체의 평판이 좋지 않은 경우 경고를 표시합니다.
-
-* 클레임한 토큰이 제3자에게 전달되는 경우 경고합니다.
-* 만료되었거나 이미 수령한 것과 같이 받을 수 있는 물량이 없는 가짜 클레임에 서명하지 않도록 경고합니다.
-* 오프체인 서명을 사용하고 있는 클레임에 서명하기 전 한 번 더 서명 내역을 확인할 수 있도록 경고합니다.
-* 평판이 좋지 않거나, 악성으로 분류된 컨트랙트에 클레임하지 않도록 차단합니다.
+* 허용되지 않은 클레임 사이트가 요구하는 토큰 무제한 승인을 서명 전에 경고합니다.
+* 무제한 Permit2 허용량 서명을 경고합니다.
+* 악성으로 알려진 주소에 토큰 사용 권한을 승인하려 하면 차단합니다.
+* 클레임 보상이 허용되지 않은 주소로  가는 경우 경고합니다.
+* 클레임에 따라붙는 결제(donate) 금액이 부풀려진 경우 경고합니다.
 
 ### 정책 목록
 
-* 클레임(claim)으로 받을 자산이 제3자에게 갈 시 경고
-* 받을 수 있는 물량이 없는 클레임 요청 시 경고
-* 오프체인 서명 방식의 클레임 요청 시 경고
-* 악성으로 알려진 배포 컨트랙트의 클레임 요청 시 차단
+{% content-ref url="../../../standard-policies/built-in-policies/token-001.md" %}
+[token-001.md](../../../standard-policies/built-in-policies/token-001.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/token-erc-20/token-003.md" %}
+[token-003.md](../../../standard-policies/market-offered-policies/token-erc-20/token-003.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/token-erc-20/token-006.md" %}
+[token-006.md](../../../standard-policies/market-offered-policies/token-erc-20/token-006.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/airdrop/airdrop-003.md" %}
+[airdrop-003.md](../../../standard-policies/market-offered-policies/airdrop/airdrop-003.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/airdrop/airdrop-008.md" %}
+[airdrop-008.md](../../../standard-policies/market-offered-policies/airdrop/airdrop-008.md)
+{% endcontent-ref %}
+
+
 
 ***
 
 **\[Airdrop] Claim Phishing Shield**\
-Wallet Guardians | v.1.0.0 | 26/06/11\
+Wallet Guardians | v.1.0.0 | 26/06/14\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

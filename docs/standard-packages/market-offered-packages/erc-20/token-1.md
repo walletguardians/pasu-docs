@@ -1,31 +1,44 @@
 ---
-description: 토큰을 안전하게 송금하고 싶은 분들을 위한 패키지
+description: ERC-20 토큰을 안전하게 송금하고 싶은 사용자를 위한 패키지
 ---
 
-# \[Token] 안전하게 송금하기
+# \[Token] 안전 ERC-20 송금
 
-토큰을 송금할 때 '받는 사람'이 '얼마나' 받게 될지 검사합니다. 처음 보는 주소이거나, 소각 주소, 제재 대상 주소인 경우와 송금하는 액수가 과다할 때에 경고를 표시합니다.
+토큰을 송금할 때 '받는 사람'이 누구이지 '얼마나' 받게 될지 검사하는 패키지입니다.
 
 ### 이 패키지로 막을 수 있는 것
 
-토큰을 자주 송금(Transfer)하는 사용자가 거래소 입출금, 지갑 간 이동을 할 때 엉뚱한 주소로 토큰을 보내지 않도록 이상 징후를 발견할 시 경고합니다.
-
-* 거래 이력이 없는, 처음 보는 주소로 송금할 때 경고합니다.
-* 소각 주소로 토큰을 송금할 때 경고합니다.
-* 보유한 토큰의 절반 이상을 송금할 때 경고합니다.
-* 제재 대상 주소로 송금할 때 경고합니다.
+* 소각 주소로 토큰을 전송하면 차단합니다.
+* 제재 목록(OFAC·EU·UN)에 오른 주소로 전송하면 차단합니다.
+* 기존에 거래한 주소와 한두 글자만 닮은 위장(주소 포이즈닝) 주소로 전송하면 경고합니다.
+* 보유한 토큰의 절반 이상을 한 번에 전송하면 경고합니다.
+* 토큰 자체 컨트랙트로 전송하면 경고합니다.
 
 ### 정책 목록
 
-* 거래 이력이 없는 새로운 주소로 토큰을 전송할 시 경고
-* 기존 거래 주소와 유사한 위장 주소로 토큰을 전송할 시 경고
-* 자산이 소각되는 주소로 토큰을 전송할 시 경고
-* 보유량의 절반을 초과하는 토큰을 한 번에 전송할 시 경고
-* 제재 목록에 오른 주소로 토큰을 전송할 시 차단
+{% content-ref url="../../../standard-policies/built-in-policies/token-002.md" %}
+[token-002.md](../../../standard-policies/built-in-policies/token-002.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/token-erc-20/token-008.md" %}
+[token-008.md](../../../standard-policies/market-offered-policies/token-erc-20/token-008.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/token-erc-20/token-009.md" %}
+[token-009.md](../../../standard-policies/market-offered-policies/token-erc-20/token-009.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/token-erc-20/token-010.md" %}
+[token-010.md](../../../standard-policies/market-offered-policies/token-erc-20/token-010.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/token-erc-20/token-012.md" %}
+[token-012.md](../../../standard-policies/market-offered-policies/token-erc-20/token-012.md)
+{% endcontent-ref %}
 
 ***
 
 **\[Token] Safe Transfer**\
-Wallet Guardians | v.1.0.0 | 26/06/10\
+Wallet Guardians | v.1.0.0 | 26/06/14\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_
