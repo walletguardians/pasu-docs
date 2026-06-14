@@ -111,7 +111,7 @@
       * [Aave 스테이킹 자산을 전액 인출할 시 경고](standard-policies/market-offered-policies/staking/stake-006.md)
       * [Aave 스테이킹 보상 수령자가 본인이 아닐 시 차단](standard-policies/market-offered-policies/staking/stake-007.md)
       * [Ethena USDe 지분(sUSDe) 수령자가 본인이 아닌 경우 차단](standard-policies/market-offered-policies/staking/stake-013.md)
-      * [sUSDe 인출 자금 수령자가 본인이 아닌 경우 차단](standard-policies/market-offered-policies/staking/stake-014.md)
+      * [Ethena sUSDe 인출 자금 수령자가 본인이 아닌 경우 차단](standard-policies/market-offered-policies/staking/stake-014.md)
     * [Restaking](standard-policies/market-offered-policies/restaking/README.md)
       * [리스테이킹 예치 지분이 내 지갑이 아닌 주소로 잡힐 시 차단](standard-policies/market-offered-policies/restaking/restake-002.md)
       * [허용 목록에 없는 스트래티지로 리스테이크를 예치할 시 경고](standard-policies/market-offered-policies/restaking/restake-003.md)
