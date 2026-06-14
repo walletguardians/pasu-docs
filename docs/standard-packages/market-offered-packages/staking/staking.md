@@ -1,6 +1,6 @@
 # \[Staking] 스테이킹 보상 수령 주소 관리
 
-스테이킹 서명 시 해커가 원금과 이자를 가로채지 못하도록 수령처가 내 지갑이 맞는지 검사합니다. 또, 원금 손실(슬래싱) 위험이 높은 불량 스테이킹 풀을 사전에 경고합니다.
+스테이킹 입출금 서명 시 수령처가 내 지갑이 맞는지 검사합니다.
 
 ### 이 패키지로 막을 수 있는 것
 
@@ -9,11 +9,29 @@
 * 스테이킹 지분이 본인이 아닌 주소로 발행되지 않도록 차단합니다.
 * 스테이킹 보상이 본인이 아닌 주소로 가지 않도록 차단합니다.
 * 언스테이킹으로 받을 자산이 본인이 아닌 주소로 가지 않도록 차단합니다.
-* 슬래싱을 당할 위험이 있는 풀에 스테이킹할 때 위험을 미리 알 수 있도록 경고합니다.
 
 ### 정책 목록
 
-* Aave 스테이킹 지분이 본인이 아닌 주소로 발행될 시 차단
+{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-001.md" %}
+[stake-001.md](../../../standard-policies/market-offered-policies/staking/stake-001.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-004.md" %}
+[stake-004.md](../../../standard-policies/market-offered-policies/staking/stake-004.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-007.md" %}
+[stake-007.md](../../../standard-policies/market-offered-policies/staking/stake-007.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-013.md" %}
+[stake-013.md](../../../standard-policies/market-offered-policies/staking/stake-013.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-014.md" %}
+[stake-014.md](../../../standard-policies/market-offered-policies/staking/stake-014.md)
+{% endcontent-ref %}
+
 * Ethena(sUSDe) 스테이킹 지분이 본인이 아닌 주소로 갈 시 차단
 * Aave 보상 수령처가 본인이 아닐 시 차단
 * Curve 게이지 보상 수령처가 본인이 아닐 시 차단
