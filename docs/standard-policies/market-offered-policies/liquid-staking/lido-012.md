@@ -1,8 +1,4 @@
----
-description: stETH/wstETH Approval to a Non-Allowlisted Spender (WARN)
----
-
-# 신뢰 목록 외의 주소에서 stETH/wstETH 승인 요청 시 경고
+# stETH/wstETH 승인을 요청하는 주소가 Lido에서 자주 사용하는 주소가 아닐 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -22,7 +18,7 @@ description: stETH/wstETH Approval to a Non-Allowlisted Spender (WARN)
 
 #### Scope (적용 범위)
 
-stETH(`0xae7a…fe84`) 또는 wstETH(`0x7f39…2ca0`) 승인에 적용됩니다.
+stETH(`0xae7a…fe84`) 또는 wstETH(`0x7f39…2ca0`)에 대한 ERC-20 승인(Approve)에 적용됩니다.
 
 한도를 0으로 되돌리는 취소 승인은 제외하고, 승인 대상이 Permit2·Withdrawal Queue·wstETH가 아닐 때 발동합니다.
 
@@ -32,7 +28,9 @@ stETH·wstETH를 보유하거나 Lido로 스테이킹하는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-ERC-20 Approve일 때, 승인하는 토큰 주소(`context.token.key.address`), 승인 한도(`context.amount`), 승인 대상의 주소(`context.spender`)
+* 승인하는 토큰 주소(`context.token.key.address`)
+* 승인 한도(`context.amount`)
+* 승인 대상의 주소(`context.spender`)
 
 #### Policy in Code
 
@@ -40,7 +38,7 @@ ERC-20 Approve일 때, 승인하는 토큰 주소(`context.token.key.address`), 
 ```solidity
 @id("steth-wsteth-approve-non-allowlisted-warn")
 @severity("warn")
-@reason("신뢰 목록 외의 주소에서 stETH/wstETH 사용 승인을 요청합니다")
+@reason("stETH/wstETH 사용 승인을 요청하는 주소를 한번 더 확인해 주세요")
 forbid (
     principal,
     action == Token::Action::"Erc20Approve",
