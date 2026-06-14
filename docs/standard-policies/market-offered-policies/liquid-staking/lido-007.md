@@ -1,8 +1,4 @@
----
-description: Lido Withdrawal Request with a Non-Self unstETH Owner (WARN)
----
-
-# 출금 요청의 unstETH NFT를 본인이 아닌 주소로 발행할 시 차단
+# 출금 청구권이 본인이 아닌 주소로 발행될 시 차단
 
 ### Policy Definition (정책 정의)
 
