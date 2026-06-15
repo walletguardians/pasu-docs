@@ -33,7 +33,7 @@
       * [\[Liquid Staking\] Lido 스테이킹 가드](standard-packages/market-offered-packages/liquid-staking/liquid-staking-lido.md)
     * [NFT](standard-packages/market-offered-packages/nft/README.md)
       * [\[NFT\] NFT 컬렉션 권한 위임 보호](standard-packages/market-offered-packages/nft/nft-nft.md)
-      * [\[NFT\] Safe Listing & Sale](standard-packages/market-offered-packages/nft/nft-safe-listing-and-sale.md)
+      * [\[NFT\] NFT 판매 관리](standard-packages/market-offered-packages/nft/nft-safe-listing-and-sale.md)
       * [\[NFT\] NFT 구매 및 전송 관리](standard-packages/market-offered-packages/nft/nft-nft-1.md)
     * [Bridge](standard-packages/market-offered-packages/bridge/README.md)
       * [\[Bridge\] 도착 체인 안전 가드](standard-packages/market-offered-packages/bridge/bridge-destination-and-execution-safety.md)
