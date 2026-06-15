@@ -98,7 +98,7 @@
       * [LEND-010: 동결·일시정지된 자산 풀에서 대출할 시 경고](standard-policies/market-offered-policies/lending/lend-010.md)
       * [LEND-011: 대출 후 Health Factor가 1.5 미만이 될 시 경고](standard-policies/market-offered-policies/lending/lend-011.md)
       * [LEND-012: 담보 인출 후 Health Factor가 1.5 미만이 될 시 경고](standard-policies/market-offered-policies/lending/lend-012.md)
-      * [LEND-013: 담보 수량을 줄인 후 Health Factor가 1.1 미만일 시 경고](standard-policies/market-offered-policies/lending/lend-013.md)
+      * [LEND-013: 담보 해제 후 Health Factor가 1.1 미만일 시 경고](standard-policies/market-offered-policies/lending/lend-013.md)
       * [LEND-014: e-mode를 대출이 남은 상태에서 변경할 시 경고](standard-policies/market-offered-policies/lending/lend-014.md)
     * [Staking](standard-policies/market-offered-policies/staking/README.md)
       * [Aave 스테이킹 지분을 본인이 아닌 주소로 받을 시 차단](standard-policies/market-offered-policies/staking/stake-001.md)

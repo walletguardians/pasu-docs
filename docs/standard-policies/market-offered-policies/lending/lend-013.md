@@ -2,7 +2,7 @@
 description: Disabling Collateral Pushes Health Factor Near Liquidation (WARN)
 ---
 
-# LEND-013: 담보 수량을 줄인 후 Health Factor가 1.1 미만일 시 경고
+# LEND-013: 담보 해제 후 Health Factor가 1.1 미만일 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -22,7 +22,7 @@ Aave·Morpho 등 대출 프로토콜에서 담보 수량을 줄이는 동작에 
 
 #### Used Data (판정에 사용될 데이터)
 
-* 담보 수량을 줄인 후의 HF(감소될 담보와 금액을 반영해 계산한 결과)
+* 담보 해제 후의 HF(감소될 담보와 금액을 반영해 계산한 결과)
 
 #### Policy in Code
 
