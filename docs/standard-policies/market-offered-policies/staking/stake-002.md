@@ -2,7 +2,7 @@
 description: Staking into Aave's Slashing-Backed Safety Module (WARN)
 ---
 
-# STAKE-002: Aave Safety Module에 원금 슬래싱을 감수하고 스테이킹할 시 경고
+# Aave Safety Module에 스테이킹 시 원금 슬래싱 경고
 
 ### Policy Definition (정책 정의)
 
@@ -20,7 +20,7 @@ stkAAVE 등 Aave Safety Module·Umbrella에 자산을 맡기고 스테이킹 보
 
 #### Used Data (판정에 사용될 데이터)
 
-* 프로토콜 이름(`context.protocol.name`)
+* 프로토콜 이름(`context.`venue`.name`)
 
 #### Policy in Code
 
@@ -39,7 +39,7 @@ when
     ["aave_safety_module",
      "aave_umbrella_stake_token"].contains
         (
-            context.protocol.name
+            context.venue.name
         )
 };
 ```

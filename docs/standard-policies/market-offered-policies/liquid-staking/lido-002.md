@@ -18,7 +18,7 @@ Lido에 ETH를 새로 스테이킹하려는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-* 스테이킹하려는 프로토콜(`context.protocol.name`)
+* 스테이킹하려는 프로토콜(`context.venue.name`)
 * 서버에서 조회한 stETH의 현재 시세 괴리율(`context.custom.stethDiscountBps`)
 
 #### Policy in Code
@@ -35,7 +35,7 @@ forbid (
 )
 when
 {
-    context.protocol.name == "lido" &&
+    context.venue.name == "lido" &&
     context has custom &&
     context.custom has stethDiscountBps &&
     context.custom.stethDiscountBps.greaterThan(decimal("100.0000"))
@@ -78,4 +78,4 @@ when
 **LIDO-002: stETH가 ETH보다 싸게 거래될 때 스테이킹할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

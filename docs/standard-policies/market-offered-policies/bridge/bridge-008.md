@@ -20,7 +20,7 @@ description: Bridge via a Protocols Not on the Allowlist (WARN)
 
 #### Used Data (판정에 사용될 데이터)
 
-이번 전송이 거치는 프로토콜(`context.protocol.name)` 이 허용 목록에 포함되어 있는지 확인합니다.
+이번 전송이 거치는 프로토콜(`context.venue.name)` 이 허용 목록에 포함되어 있는지 확인합니다.
 
 #### Policy in Code
 
@@ -36,7 +36,7 @@ forbid (
 )
 when
 {
-    !(["across_spoke_pool", "lifi_diamond"].contains(context.protocol.name))
+    !(["across_spoke_pool", "lifi_diamond"].contains(context.venue.name))
 };
 ```
 {% endcode %}

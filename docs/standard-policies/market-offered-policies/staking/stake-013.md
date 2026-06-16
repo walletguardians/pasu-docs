@@ -20,7 +20,7 @@ USDe를 Ethena에 예치해 sUSDe로 굴리는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-* Ethena에 sUSDe를 예치하는가? (`context.protocol.name`)
+* Ethena에 sUSDe를 예치하는가? (`context.venue.name`)
 * 지분을 받을 주소(`context.recipient`)
 * 예치를 요청한 본인 지갑 주소(`principal.address`)
 
@@ -38,7 +38,7 @@ forbid (
 )
 when
 {
-    context.protcool.name == "ethena_staked_usde" &&
+    context.venue.name == "ethena_staked_usde" &&
     context has recipient &&
     context.recipient != principal.address
 };

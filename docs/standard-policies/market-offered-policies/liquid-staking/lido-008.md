@@ -1,4 +1,4 @@
-# 출금 청구권이 소각 주소로 발행될 시 차단
+# Lido에서 출금 청구권이 소각 주소로 발행될 시 차단
 
 ### Policy Definition (정책 정의)
 
@@ -17,7 +17,7 @@ Lido에 스테이킹한 ETH를 출금하려는 사용자
 #### Used Data (판정에 사용될 데이터)
 
 * 출금 요청에 지정된 unstETH NFT 소유자 주소(`context.owner`)
-* 대상 프로토콜(`context.protocol.name`)
+* 대상 프로토콜(`context.venue.name`)
 
 #### Policy in Code
 
@@ -62,4 +62,4 @@ when
 **LIDO-008: 출금 청구권(unstETH NFT) 소유자를 소각 주소로 지정할 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

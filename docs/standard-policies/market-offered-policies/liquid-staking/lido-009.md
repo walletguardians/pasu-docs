@@ -18,7 +18,7 @@ Lido에서 stETH/wstETH를 ETH로 출금하는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-* 출금 요청 대상이 Lido인지(`context.protocol.name`)
+* 출금 요청 대상이 Lido인지(`context.venue.name`)
 * 요청에 permit이 함께 담겼는지(`context.embedded_permit`)
 * 그 permit의 한도(`context.embedded_permit.value`)
 
@@ -36,7 +36,7 @@ forbid (
 )
 when
 {
-    context.protocol.name == "lido" &&
+    context.venue.name == "lido" &&
     context has embedded_permit &&
     context.embedded_permit
         .value == "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"

@@ -22,7 +22,7 @@ Lido에서 스테이킹을 풀어 ETH를 찾는 사용자
 
 #### Used Data (판정에 사용될 데이터)
 
-* 출금 청구를 하는 프로토콜(`context.protocol.name`)
+* 출금 청구를 하는 프로토콜(`context.venue.name`)
 * ETH를 받을 주소(`context.recipient`)
 
 #### Policy in Code
@@ -39,7 +39,7 @@ forbid (
 )
 when
 {
-    context.protocol.name == "lido" &&
+    context.venue.name == "lido" &&
     context has recipient &&
     ["0x0000000000000000000000000000000000000000",
      "0x000000000000000000000000000000000000dead"].contains
@@ -73,4 +73,4 @@ when
 **LIDO-011: 출금 청구한 ETH를 소각 주소로 받을 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_
