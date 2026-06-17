@@ -169,7 +169,7 @@
       * [PERP-021: 차단 목록에 있는 마켓에 주문을 넣을 시 차단](standard-policies/market-offered-policies/perp/perp-021.md)
       * [PERP-022: 리듀스온리(reduce-only) 잠금 중 포지션을 늘리는 주문을 낼 시 차단](standard-policies/market-offered-policies/perp/perp-022.md)
     * [Launchpad](standard-policies/market-offered-policies/launchpad/README.md)
-      * [LAUNCH-001: 세일 배정 권리를 받을 주소가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고](standard-policies/market-offered-policies/launchpad/launch-001.md)
+      * [LAUNCH-001: 세일 배정 권리를 받을 주소가 허용 목록에 없을 경우 경고](standard-policies/market-offered-policies/launchpad/launch-001.md)
       * [LAUNCH-002: 세일 참여(commit) 금액이 한도를 초과할 시 경고](standard-policies/market-offered-policies/launchpad/launch-002.md)
       * [LAUNCH-003: 배정 토큰 클레임 수령처가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고](standard-policies/market-offered-policies/launchpad/launch-003.md)
       * [LAUNCH-004: 환불 수령처가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고](standard-policies/market-offered-policies/launchpad/launch-005.md)

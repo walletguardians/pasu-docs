@@ -32,6 +32,10 @@ description: Uniswap에서 안전한 swap을 위한 정책 패키지
 [amm-010.md](../../../standard-policies/market-offered-policies/dex-amm/amm-010.md)
 {% endcontent-ref %}
 
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-011.md" %}
+[amm-011.md](../../../standard-policies/market-offered-policies/dex-amm/amm-011.md)
+{% endcontent-ref %}
+
 {% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-012.md" %}
 [amm-012.md](../../../standard-policies/market-offered-policies/dex-amm/amm-012.md)
 {% endcontent-ref %}
