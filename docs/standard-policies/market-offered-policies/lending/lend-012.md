@@ -52,7 +52,8 @@ when {
       "owner": "$.root.from",
       "venue": "$.action.venue",
       "asset": "$.action.asset",
-      "amount": "$.action.amount"
+      "amount": "$.action.amount",
+      "action_kind": "withdraw"
     },
     "outputs": [{ "kind": "context", "field": "postActionHf", "type": "Decimal", "from": "$.result.postActionHf", "required": false }],
     "optional": true

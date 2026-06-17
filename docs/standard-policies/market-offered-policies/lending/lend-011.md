@@ -52,7 +52,8 @@ when {
       "owner": "$.root.from",
       "venue": "$.action.venue",
       "asset": "$.action.asset",
-      "amount": "$.action.amount"
+      "amount": "$.action.amount",
+      "action_kind": "borrow"
     },
     "outputs": [{ "kind": "context", "field": "postActionHf", "type": "Decimal", "from": "$.result.postActionHf", "required": false }],
     "optional": true
@@ -67,4 +68,4 @@ when {
 **LEND-011: 대출 후 건강도(health factor)가 1.5 미만으로 떨어질 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_
