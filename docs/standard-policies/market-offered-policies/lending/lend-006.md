@@ -29,7 +29,7 @@ Aave·Morpho 등 대출 프로토콜에 자산을 예치하는 사용자
 ```solidity
 @id("supply-into-frozen-reserve-warn")
 @severity("warn")
-@reason("이 자산 풀이 동결(frozen)·일시정지(paused) 상태입니다 — 예치하면 자금이 묶일 수 있으니 확인하세요")
+@reason("이 자산 풀이 동결(frozen)·일시정지(paused) 상태입니다 — 이 거래는 프로토콜에서 거부(revert)될 가능성이 높습니다")
 forbid(principal, action == Lending::Action::"Supply", resource)
 when {
   context.reserveState.isFrozen || context.reserveState.isPaused
@@ -52,4 +52,4 @@ when {
 **LEND-006: 동결·일시정지된 자산 풀에 예치할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

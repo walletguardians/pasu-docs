@@ -20,21 +20,21 @@
 [stake-004.md](../../../standard-policies/market-offered-policies/staking/stake-004.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-007.md" %}
-[stake-007.md](../../../standard-policies/market-offered-policies/staking/stake-007.md)
+{% content-ref url="../../../readme-1/market-offered-policies/staking/stake-006.md" %}
+[stake-006.md](../../../readme-1/market-offered-policies/staking/stake-006.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-013.md" %}
-[stake-013.md](../../../standard-policies/market-offered-policies/staking/stake-013.md)
+{% content-ref url="../../../readme-1/market-offered-policies/staking/stake-07.md" %}
+[stake-07.md](../../../readme-1/market-offered-policies/staking/stake-07.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-014.md" %}
-[stake-014.md](../../../standard-policies/market-offered-policies/staking/stake-014.md)
+{% content-ref url="../../../readme-1/market-offered-policies/staking/stake-008.md" %}
+[stake-008.md](../../../readme-1/market-offered-policies/staking/stake-008.md)
 {% endcontent-ref %}
 
 ***
 
-**\[Staking] Stake & Reward Recipient Guard**\
+\[Staking] 스테이킹 보상 수령 주소 관리\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

@@ -58,7 +58,7 @@ when {
 
 ***
 
-**TOKEN-003:** 악성으로 알려진 주소에 토큰 사용을 승인할 시 차단\
+TOKEN-003: 악성으로 알려진 주소에 토큰 사용을 승인할 시 차단\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

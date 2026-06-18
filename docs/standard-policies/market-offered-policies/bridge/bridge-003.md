@@ -2,7 +2,7 @@
 description: Bridge to a Non-EVM Raw Address (WARN)
 ---
 
-# BRIDGE-003: EVM이 아닌 체인으로 브리지할 시 경고
+# BRIDGE-003: EVM 형식이 아닌 raw 수령 주소로 브리지할 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -12,7 +12,7 @@ description: Bridge to a Non-EVM Raw Address (WARN)
 
 #### Scope (적용 범위)
 
-도착 체인이 EVM 체인이 아니라면 적용됩니다.
+EVM 형식이 아닌 raw 수령 주소라면 적용됩니다.
 
 #### Audience (대상 사용자)
 

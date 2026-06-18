@@ -40,7 +40,7 @@ description: 안전한 에어드롭 클레임을 위한 패키지
 
 ***
 
-**\[Airdrop] Claim Phishing Shield**\
+\[Airdrop] 클레임 피싱 차단\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

@@ -28,7 +28,7 @@ description: 자산이 의도치 않은 체인으로 가거나 도착 후 위험
 
 ***
 
-**\[Bridge] Destination & Execution Safety**\
+\[Bridge] 도착 체인 안전 가드\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

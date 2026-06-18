@@ -87,9 +87,8 @@ when
     "maxValueLossPct": {
       "cedar_decimal": "5.0000",
       "default": "5.0000 (%)",
-      "meaning": "warn when a bridge's implied value loss ((inputUsd - outputUsd) / inputUsd * 100, computed by bridge.value_loss_pct) exceeds this %. Normal bridge fees ~0.1-1% (cross-token swap ~1-3%) pass; an abnormal skim (a frontend that sets outputAmount absurdly low) is flagged. CONSERVATIVE default — NOT yet Dune-calibrated (TODO: measure the same-stablecoin Across (inputAmount-outputAmount)/inputAmount p99). Dynamic: the method bridge.value_loss_pct IS served server-side (handler.rs); requires login + BOTH token prices synced + dstToken/outputAmount statically known, otherwise dormant (fail-open)."
-    },
-    "_note_selectors": "params `$.action.*` resolve against the LOWERED Cedar context (camelCase): srcToken.key.address / inputAmount / dstChainId / dstToken.key.address / outputAmount — NOT the snake_case ActionBody. dstToken/outputAmount are OPTIONAL (absent on some routes that do not statically expose the output) → selector miss → call skipped → dormant."
+      "meaning": "warn when a bridge's implied value loss ((inputUsd - outputUsd) / inputUsd * 100, computed by bridge.value_loss_pct) exceeds this %. Normal bridge fees ~0.1-1% (cross-token swap ~1-3%) pass; an abnormal skim (a frontend that sets outputAmount absurdly low) is flagged."
+    }
   }
 }
 ```

@@ -38,7 +38,7 @@ description: 큰 금액을 스왑하는 일이 잦은 트레이더를 위한
 
 ***
 
-**\[DEX] Anti-MEV Shield**\
+\[DEX] 예상보다 큰 거래 비용 보호\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

@@ -62,7 +62,7 @@ when {
 
 ***
 
-**BASIC-002: Swap으로 받을 자산이 제3자에게 갈 시 경고**\
+AMM-001: Swap으로 받을 자산이 제3자에게 갈 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/09\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

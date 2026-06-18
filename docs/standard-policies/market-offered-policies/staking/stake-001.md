@@ -1,4 +1,4 @@
-# Aave 스테이킹 지분을 본인이 아닌 주소로 받을 시 차단
+# STAKE-001: Aave 스테이킹 지분을 본인이 아닌 주소로 받을 시 차단
 
 ### Policy Definition (정책 정의)
 
@@ -67,7 +67,7 @@ when
 
 ***
 
-**STAKE-001: Aave 스테이킹 지분을 본인이 아닌 주소로 받을 시 차단**\
+STAKE-001: Aave 스테이킹 지분을 본인이 아닌 주소로 받을 시 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

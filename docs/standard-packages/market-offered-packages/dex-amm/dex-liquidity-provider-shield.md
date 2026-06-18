@@ -33,7 +33,7 @@ LP는 유동성을 넣고(add), 빼고(remove), 수수료를 수취하는(collec
 
 ***
 
-**\[DEX] Liquidity Provider Shield**\
+\[DEX] 유동성 공급(LP) 기본 보호\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

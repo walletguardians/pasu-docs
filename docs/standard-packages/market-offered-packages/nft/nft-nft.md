@@ -24,7 +24,7 @@
 
 ***
 
-**\[NFT] Safe Collection Approval**\
+\[NFT] NFT 컬렉션 권한 위임 보호\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

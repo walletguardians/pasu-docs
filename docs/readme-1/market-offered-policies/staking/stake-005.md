@@ -1,4 +1,4 @@
-# Aave 스테이킹 자산을 전액 인출할 시 경고
+# STAKE-005: Aave 스테이킹 자산을 전액 인출할 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -57,7 +57,7 @@ when {
 
 ***
 
-**STAKE-006: Aave Safety Module 스테이킹 잔액 전부를 인출할 시 경고**\
+STAKE-005: Aave 스테이킹 자산을 전액 인출할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

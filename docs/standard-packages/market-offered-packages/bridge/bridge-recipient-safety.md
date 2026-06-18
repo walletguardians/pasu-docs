@@ -28,7 +28,7 @@ description: 자금이 잘못된 도착 주소로 가는 사고를 막는 패키
 
 ***
 
-**\[Bridge] Recipient Safety**\
+\[Bridge] 도착 주소 관리\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

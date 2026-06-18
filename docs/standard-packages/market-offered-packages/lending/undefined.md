@@ -40,7 +40,7 @@ description: 대출 자산을 건전하게 유지하고 싶은 분들을 위한 
 
 ***
 
-**\[Lending] Liquidation Guard (청산 방어)**\
+\[대출] 청산 위험 보호\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

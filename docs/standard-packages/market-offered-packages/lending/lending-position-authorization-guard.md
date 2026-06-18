@@ -38,7 +38,7 @@ description: 대출 프로토콜에서 안전하게 권한을 위임하고 싶�
 
 ***
 
-**\[Lending] Position Authorization Guard**\
+\[대출] 권한 위임 기본 보호\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

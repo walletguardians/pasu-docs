@@ -2,7 +2,7 @@
 description: Staking into Aave's Slashing-Backed Safety Module (WARN)
 ---
 
-# Aave Safety Module에 스테이킹 시 원금 슬래싱 경고
+# STAKE-002: Aave Safety Module에 스테이킹 시 원금 슬래싱 경고
 
 ### Policy Definition (정책 정의)
 
@@ -62,7 +62,7 @@ when
 
 ***
 
-**STAKE-002: Aave Safety Module에 원금 슬래싱을 감수하고 스테이킹할 시 경고**\
+STAKE-002: Aave Safety Module에 스테이킹 시 원금 슬래싱 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

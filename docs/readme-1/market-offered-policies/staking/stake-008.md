@@ -1,4 +1,4 @@
-# Ethena sUSDe 인출 자금 수령자가 본인이 아닌 경우 차단
+# STAKE-008: Ethena sUSDe 인출 자금 수령자가 본인이 아닌 경우 차단
 
 ### Policy Definition (정책 정의)
 
@@ -60,7 +60,7 @@ when
 
 ***
 
-**STAKE-014: sUSDe 인출 자금을 본인이 아닌 주소로 보낼 시 차단**\
+STAKE-008: Ethena sUSDe 인출 자금 수령자가 본인이 아닌 경우 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

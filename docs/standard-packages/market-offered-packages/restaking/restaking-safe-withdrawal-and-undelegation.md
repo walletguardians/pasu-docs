@@ -26,7 +26,7 @@
 
 ***
 
-**\[Restaking] Safe Withdrawal & Undelegation**\
+\[Restaking] 안전하게 예치/출금하기\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

@@ -47,7 +47,7 @@ forbid(principal, action == Core::Action::"Unknown", resource);
 
 ***
 
-**OTHER-001: 지원하지 않는 프로토콜의 서명 요청일 시 경고**\
+OTHER-001: 지원하지 않는 프로토콜의 서명 요청일 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/09\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

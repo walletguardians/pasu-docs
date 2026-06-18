@@ -1,4 +1,4 @@
-# Aave 언스테이킹 쿨다운 시 인출 기간을 확인하도록 경고
+# STAKE-003: Aave 언스테이킹 쿨다운 시 인출 기간을 확인하도록 경고
 
 ### Policy Definition (정책 정의)
 
@@ -55,7 +55,7 @@ when {
 
 ***
 
-**STAKE-003: Aave 스테이킹 인출 쿨다운을 시작할 시 경고**\
+STAKE-003: Aave 언스테이킹 쿨다운 시 인출 기간을 확인하도록 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

@@ -30,7 +30,7 @@ Swap을 처음 할 때 발생할 수 있는 주요한 사고들을 서명 전에
 
 ***
 
-**\[DEX] Safe Swap**\
+\[DEX] Swap 기본 보호\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

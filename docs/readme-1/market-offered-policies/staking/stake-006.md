@@ -1,4 +1,4 @@
-# Aave 스테이킹 보상 수령자가 본인이 아닐 시 차단
+# STAKE-006: Aave 스테이킹 보상 수령자가 본인이 아닐 시 차단
 
 ### Policy Definition (정책 정의)
 
@@ -70,7 +70,7 @@ when
 
 ***
 
-**STAKE-007: Aave 스테이킹 보상을 본인이 아닌 주소로 클레임할 시 차단**\
+STAKE-006: Aave 스테이킹 보상 수령자가 본인이 아닐 시 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

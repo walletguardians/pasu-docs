@@ -85,8 +85,7 @@ when
       "cedar_decimal": "100000.0000",
       "default": "100000.0000 (USD)",
       "meaning": "warn when a single bridge moves more than this USD value (oracle.usd_value of srcToken × inputAmount). Default $100k flags only ~0.3% of Across / ~0.9% of Li.Fi deposits (Dune q7686050 / q7686070) — the clean whale/outlier tail. Dynamic: requires login + synced prices, otherwise dormant (fail-open)."
-    },
-    "_note_selectors": "params `$.action.*` resolve against the LOWERED Cedar context (camelCase): srcToken.key.address + inputAmount, NOT the snake_case ActionBody."
+    }
   }
 }
 ```

@@ -34,7 +34,7 @@ description: 건전한 무기한 선물 투자를 위한 레버리지 관리 패
 
 ***
 
-**\[Perp] Leverage Guard**\
+\[Perp] 고배율 레버리지 관리\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

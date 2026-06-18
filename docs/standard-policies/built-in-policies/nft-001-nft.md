@@ -65,7 +65,7 @@ when {
 
 ***
 
-**NFT-001: 선별되지 않은 마켓플레이스 컨트랙트의 NFT 컬렉션 위임 요청 시 경고**\
+NFT-001: 선별되지 않은 마켓플레이스 컨트랙트의 NFT 컬렉션 위임 요청 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/09\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

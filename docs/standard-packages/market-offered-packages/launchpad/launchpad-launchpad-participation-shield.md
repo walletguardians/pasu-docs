@@ -27,13 +27,13 @@ description: 안전한 런치패드 사용을 위한 보호 패키지
 [launch-003.md](../../../standard-policies/market-offered-policies/launchpad/launch-003.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/launchpad/launch-005.md" %}
-[launch-005.md](../../../standard-policies/market-offered-policies/launchpad/launch-005.md)
+{% content-ref url="../../../readme-1/market-offered-policies/launchpad/launch-004.md" %}
+[launch-004.md](../../../readme-1/market-offered-policies/launchpad/launch-004.md)
 {% endcontent-ref %}
 
 ***
 
-**\[Launchpad] Launchpad Participation Shield**\
+\[Launchpad] 세일 참여 자금 및 배정 가드\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

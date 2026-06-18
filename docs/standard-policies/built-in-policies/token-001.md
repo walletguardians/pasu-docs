@@ -65,7 +65,7 @@ when {
 
 ***
 
-**BASIC-001:** 승인되지 않은 컨트랙트의 토무제한 승인 요청 시 경고\
+TOKEN-001: 승인되지 않은 컨트랙트의 토큰 무제한 승인 요청 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/09\
 \
 &#xNAN;_&#x53;upported Chain: Ethereum_

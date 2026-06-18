@@ -2,7 +2,7 @@
 description: Aave에서 스테이킹 관리를 위한 정책 패키지
 ---
 
-# \[Aave] Staking Guard
+# \[Aave] Staking Safety
 
 Safety Module에 맡기면 프로토콜에 부족분이 생겼을 때 그 자금이 슬래싱으로 빠질 수 있어 원금이 위험에 노출됩니다. 슬래싱 위험을 알리고, 스테이크, 언스테이크, 보상이 내 주소로 돌아오는지 정책적으로 관리할 수 있도록 구성한 패키지입니다.
 
@@ -27,8 +27,8 @@ Safety Module에 맡기면 프로토콜에 부족분이 생겼을 때 그 자금
 [stake-004.md](../../../standard-policies/market-offered-policies/staking/stake-004.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/staking/stake-007.md" %}
-[stake-007.md](../../../standard-policies/market-offered-policies/staking/stake-007.md)
+{% content-ref url="../../../readme-1/market-offered-policies/staking/stake-006.md" %}
+[stake-006.md](../../../readme-1/market-offered-policies/staking/stake-006.md)
 {% endcontent-ref %}
 
 ***
