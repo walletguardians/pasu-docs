@@ -16,10 +16,21 @@ description: 건전한 무기한 선물 투자를 위한 레버리지 관리 패
 
 ### 정책 목록
 
-* 레버리지 설정을 10배 초과로 상향할 시 경고 (PERP-001)
-* 10배가 넘는 상태에서 신규 진입 및 포지션을 증액할 시 경고 (PERP-002)
-* 최대 레버리지로 진입할 시 경고 (PERP-003)
-* 비주류 종목을 고배율 레버리지로 진입할 시 경고(PERP-004)
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-001.md" %}
+[perp-001.md](../../../standard-policies/market-offered-policies/perp/perp-001.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-002.md" %}
+[perp-002.md](../../../standard-policies/market-offered-policies/perp/perp-002.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-003.md" %}
+[perp-003.md](../../../standard-policies/market-offered-policies/perp/perp-003.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-004.md" %}
+[perp-004.md](../../../standard-policies/market-offered-policies/perp/perp-004.md)
+{% endcontent-ref %}
 
 ***
 

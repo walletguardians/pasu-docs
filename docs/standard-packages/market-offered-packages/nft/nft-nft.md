@@ -10,9 +10,17 @@
 
 ### 정책 목록
 
-* 사용자 허용 목록에 없는 주에게 NFT 컬렉션 전체 권한을 위임할 시 경고 (NFT-001)
-* 알려진 마켓 conduit가 아닌 곳에 NFT 컬렉션 전체 권한을 위임할 시 경고 (NFT-002)
-* 낯선 conduit로 NFT 컬렉션을 옮기는 서명을 할 시 경고 (NFT-007)
+{% content-ref url="../../../standard-policies/built-in-policies/nft-001-nft.md" %}
+[nft-001-nft.md](../../../standard-policies/built-in-policies/nft-001-nft.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/nft/nft-002.md" %}
+[nft-002.md](../../../standard-policies/market-offered-policies/nft/nft-002.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/nft/nft-007.md" %}
+[nft-007.md](../../../standard-policies/market-offered-policies/nft/nft-007.md)
+{% endcontent-ref %}
 
 ***
 

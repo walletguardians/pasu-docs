@@ -15,10 +15,21 @@ LP는 유동성을 넣고(add), 빼고(remove), 수수료를 수취하는(collec
 
 ### 정책 목록
 
-* 유동성 공급으로 받을 LP 토큰과 포지션이 제3자에게 갈 시 경고 (AMM-002)
-* 유동성 회수 자산이 제3자에게 갈 시 경고 (AMM-003)
-* 수취하는 수수료가 제3자에게 갈 시 경고 (AMM-004)
-* 유동성이 거의 없는 풀에 유동성 공급할 시 경고 (AMM-006)
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-002-lp-lp-token-nft-3.md" %}
+[amm-002-lp-lp-token-nft-3.md](../../../standard-policies/market-offered-policies/dex-amm/amm-002-lp-lp-token-nft-3.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-003-lp-3.md" %}
+[amm-003-lp-3.md](../../../standard-policies/market-offered-policies/dex-amm/amm-003-lp-3.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-004-lp-3.md" %}
+[amm-004-lp-3.md](../../../standard-policies/market-offered-policies/dex-amm/amm-004-lp-3.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-006.md" %}
+[amm-006.md](../../../standard-policies/market-offered-policies/dex-amm/amm-006.md)
+{% endcontent-ref %}
 
 ***
 

@@ -16,11 +16,25 @@ description: DeFi 선물 시장을 이용하는 투자자의 안전한 투자를
 
 ### 정책 목록
 
-* 청산가 10% 이내인 포지션에 리스크를 추가할 시 경고 (PERP-014)
-* 마진 사용률이 50%를 넘은 상태에서 주문을 추가할 시 경고 (PERP-013)
-* 격리 마진 포지션에서 증거금을 회수할 시 경고 (PERP-006)
-* 교차 마진 포지션으로 진입할 시 경고 (PERP-005)
-* 손실중인 포지션에 물타기 할 시 경고 (PERP-012)
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-005.md" %}
+[perp-005.md](../../../standard-policies/market-offered-policies/perp/perp-005.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-006.md" %}
+[perp-006.md](../../../standard-policies/market-offered-policies/perp/perp-006.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-012.md" %}
+[perp-012.md](../../../standard-policies/market-offered-policies/perp/perp-012.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-013.md" %}
+[perp-013.md](../../../standard-policies/market-offered-policies/perp/perp-013.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-014.md" %}
+[perp-014.md](../../../standard-policies/market-offered-policies/perp/perp-014.md)
+{% endcontent-ref %}
 
 ***
 

@@ -28,7 +28,7 @@ DEX를 사용하는 모든 사용자
 {% code title="policy.cedar" %}
 ```solidity
 @id("ammlp-remove-recipient-not-self-warn")
-@severity("deny")
+@severity("warn")
 @reason("회수한 유동성이 다른 지갑으로 전송됩니다. 수취인이 바르게 설정되었는지 거래를 검토하세요.")
 forbid(principal, action == Amm::Action::"RemoveLiquidity", resource)
 when {

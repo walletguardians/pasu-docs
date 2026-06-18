@@ -16,11 +16,25 @@ description: 큰 금액을 스왑하는 일이 잦은 트레이더를 위한
 
 ### 정책 목록
 
-* 지불 상한이 무제한인 Swap 요청 시 경고 (AMM-005)
-* 일정 금액을 초과하는 Swap 요청 시 경고 (AMM-007)
-* 보유량의 절반을 초과하는 자산을 한 번에 Swap할 시 경고 (AMM-008)
-* Price Impact가 기준(5%)을 초과하는 Swap 요청 시 경고 (AMM-009)
-* 악성으로 알려진 라우터나 풀을 통한 Swap 요청 시 차단 (AMM-013)
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-007.md" %}
+[amm-007.md](../../../standard-policies/market-offered-policies/dex-amm/amm-007.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-008.md" %}
+[amm-008.md](../../../standard-policies/market-offered-policies/dex-amm/amm-008.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-009.md" %}
+[amm-009.md](../../../standard-policies/market-offered-policies/dex-amm/amm-009.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-011.md" %}
+[amm-011.md](../../../standard-policies/market-offered-policies/dex-amm/amm-011.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-013.md" %}
+[amm-013.md](../../../standard-policies/market-offered-policies/dex-amm/amm-013.md)
+{% endcontent-ref %}
 
 ***
 

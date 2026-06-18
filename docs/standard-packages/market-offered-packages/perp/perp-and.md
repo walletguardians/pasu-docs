@@ -13,10 +13,21 @@
 
 ### 정책 목록
 
-* 단일 주문의 명목 가치가 일정 금액(USD)을 초과할 시 경고 (PERP-007)
-* 허용 목록에 없는 마켓에서 거래할 시 경고 (PERP-008)
-* 최대 레버리지가 낮게 책정된 마켓에 진입할 시 경고 (PERP-009)
-* 차단 목록에 오른 종목을 거래할 시 차단(PERP-021)
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-007.md" %}
+[perp-007.md](../../../standard-policies/market-offered-policies/perp/perp-007.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-008.md" %}
+[perp-008.md](../../../standard-policies/market-offered-policies/perp/perp-008.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-009.md" %}
+[perp-009.md](../../../standard-policies/market-offered-policies/perp/perp-009.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-021.md" %}
+[perp-021.md](../../../standard-policies/market-offered-policies/perp/perp-021.md)
+{% endcontent-ref %}
 
 ***
 

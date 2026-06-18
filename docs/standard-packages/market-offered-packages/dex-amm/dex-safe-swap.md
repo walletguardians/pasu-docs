@@ -16,9 +16,17 @@ Swap을 처음 할 때 발생할 수 있는 주요한 사고들을 서명 전에
 
 ### 정책 목록
 
-* Swap으로 받을 자산이 제3자에게 갈 시 경고 (AMM-001)
-* 슬리피지 허용치가 1%를 초과하는 Swap을 실행할 시 경고 (AMM-010)
-* 스왑으로 받을 토큰이 스캠으로 분류될 시 경고 (AMM-012)
+{% content-ref url="../../../standard-policies/built-in-policies/token-001.md" %}
+[token-001.md](../../../standard-policies/built-in-policies/token-001.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-010.md" %}
+[amm-010.md](../../../standard-policies/market-offered-policies/dex-amm/amm-010.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-012.md" %}
+[amm-012.md](../../../standard-policies/market-offered-policies/dex-amm/amm-012.md)
+{% endcontent-ref %}
 
 ***
 

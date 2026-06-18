@@ -18,11 +18,25 @@ description: 대출 자산을 건전하게 유지하고 싶은 분들을 위한 
 
 ### 정책 목록
 
-* 대출 후 Health Factor가 기준 미만으로 떨어질 시 경고(LEND-011)
-* 담보 출금 후 Health Factor가 기준 미만으로 떨어질 시 경고 (LEND-012)
-* 부채가 있는 상태에서 담보 사용 해제 요청 시 경고 (LEND-013)
-* 부채가 있는 상태에서 이모드(e-mode) 변경 요청 시 경고(LEND-014)
-* 동결되거나 정지된 자산 풀에서 대출 요청 시 경고(LEND-010)
+{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-010.md" %}
+[lend-010.md](../../../standard-policies/market-offered-policies/lending/lend-010.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-011.md" %}
+[lend-011.md](../../../standard-policies/market-offered-policies/lending/lend-011.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-012.md" %}
+[lend-012.md](../../../standard-policies/market-offered-policies/lending/lend-012.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-013.md" %}
+[lend-013.md](../../../standard-policies/market-offered-policies/lending/lend-013.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-014.md" %}
+[lend-014.md](../../../standard-policies/market-offered-policies/lending/lend-014.md)
+{% endcontent-ref %}
 
 ***
 

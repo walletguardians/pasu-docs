@@ -12,11 +12,25 @@ NFT 리스팅 사기는 정상처럼 보이는 주문에 대금을 받는 주소
 
 ### 정책 목록
 
-* 판매 대금이 본인에게 오지 않는 주문 서명 시 경고 (NFT-009)
-* 최저가보다 크게 낮은 값에 NFT를 파는 주문 서명 시 경고 (NFT-008)
-* 컬렉션을 통째로 넘기는(아무 NFT나 가져가도 되는) 주문 서명 시 차단 (NFT-010)
-* 사람이 서명할 일이 없는 비정상 주문 유형의 서명 시 차단 (NFT-011)
-* 유효기간이 비정상적으로 긴(180일 초과) 주문 서명 시 경고 (NFT-012)
+{% content-ref url="../../../standard-policies/market-offered-policies/nft/nft-008.md" %}
+[nft-008.md](../../../standard-policies/market-offered-policies/nft/nft-008.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/nft/nft-009.md" %}
+[nft-009.md](../../../standard-policies/market-offered-policies/nft/nft-009.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/nft/nft-010.md" %}
+[nft-010.md](../../../standard-policies/market-offered-policies/nft/nft-010.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/nft/nft-011.md" %}
+[nft-011.md](../../../standard-policies/market-offered-policies/nft/nft-011.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../../standard-policies/market-offered-policies/nft/nft-012.md" %}
+[nft-012.md](../../../standard-policies/market-offered-policies/nft/nft-012.md)
+{% endcontent-ref %}
 
 ***
 
