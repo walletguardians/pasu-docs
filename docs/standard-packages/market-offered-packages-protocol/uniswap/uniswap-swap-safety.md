@@ -2,7 +2,7 @@
 description: Uniswap에서 안전한 swap을 위한 정책 패키지
 ---
 
-# \[Uniswap] Safe Swap
+# \[Uniswap] Swap Safety
 
 받을 주소가 잘못 되었거나, 슬리피지가 무방비이거나, 사려는 토큰이 스캠이거나 너무 얕은 풀이라 제값에 못 사는 흔한 사고를 정책적으로 관리할 수 있도록 구성한 패키지입니다.
 
@@ -24,8 +24,8 @@ description: Uniswap에서 안전한 swap을 위한 정책 패키지
 [amm-001-swap-3.md](../../../standard-policies/built-in-policies/amm-001-swap-3.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-005-swap-exact-input.md" %}
-[amm-005-swap-exact-input.md](../../../standard-policies/market-offered-policies/dex-amm/amm-005-swap-exact-input.md)
+{% content-ref url="../../../readme-1/market-offered-policies/dex-amm/amm-005.md" %}
+[amm-005.md](../../../readme-1/market-offered-policies/dex-amm/amm-005.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-010.md" %}
@@ -40,8 +40,8 @@ description: Uniswap에서 안전한 swap을 위한 정책 패키지
 [amm-012.md](../../../standard-policies/market-offered-policies/dex-amm/amm-012.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../readme-1/market-offered-policies/dex-amm/amm-015-fdv.md" %}
-[amm-015-fdv.md](../../../readme-1/market-offered-policies/dex-amm/amm-015-fdv.md)
+{% content-ref url="../../../readme-1/market-offered-policies/dex-amm/amm-015.md" %}
+[amm-015.md](../../../readme-1/market-offered-policies/dex-amm/amm-015.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../readme-1/market-offered-policies/dex-amm/amm-016.md" %}

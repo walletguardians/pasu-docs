@@ -2,7 +2,7 @@
 description: Aave에서 HF 관리를 위한 정책 패키지
 ---
 
-# \[Aave] Liquidation Guard
+# \[Aave] Liquidation Safety
 
 담보를 넣고 빌리면 청산 여유(HF)가 곧 생명선인데, 무리한 차입·담보 출금·담보 해제·이모드 변경처럼 그 선을 스스로 깎는 동작을 정책적으로 관리할 수 있도록 구성한 패키지입니다.
 
@@ -17,20 +17,20 @@ description: Aave에서 HF 관리를 위한 정책 패키지
 
 ## 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-011.md" %}
-[lend-011.md](../../../standard-policies/market-offered-policies/lending/lend-011.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-010.md" %}
+[lend-010.md](../../../readme-1/market-offered-policies/lending/lend-010.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-012.md" %}
-[lend-012.md](../../../standard-policies/market-offered-policies/lending/lend-012.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-011.md" %}
+[lend-011.md](../../../readme-1/market-offered-policies/lending/lend-011.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-013.md" %}
-[lend-013.md](../../../standard-policies/market-offered-policies/lending/lend-013.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-012.md" %}
+[lend-012.md](../../../readme-1/market-offered-policies/lending/lend-012.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-014.md" %}
-[lend-014.md](../../../standard-policies/market-offered-policies/lending/lend-014.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-013.md" %}
+[lend-013.md](../../../readme-1/market-offered-policies/lending/lend-013.md)
 {% endcontent-ref %}
 
 ***

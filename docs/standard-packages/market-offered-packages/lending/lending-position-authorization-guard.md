@@ -16,24 +16,24 @@ description: 대출 프로토콜에서 안전하게 권한을 위임하고 싶�
 
 ### 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-001.md" %}
-[lend-001.md](../../../standard-policies/market-offered-policies/lending/lend-001.md)
+{% content-ref url="/broken/spaces/LL49R6twBNfNATc5NQeA/pages/73GPe7E7Uz6rmJlgzMQv" %}
+[Broken link](/broken/spaces/LL49R6twBNfNATc5NQeA/pages/73GPe7E7Uz6rmJlgzMQv)
 {% endcontent-ref %}
 
 {% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-002.md" %}
 [lend-002.md](../../../standard-policies/market-offered-policies/lending/lend-002.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-003.md" %}
-[lend-003.md](../../../standard-policies/market-offered-policies/lending/lend-003.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-002-1.md" %}
+[lend-002-1.md](../../../readme-1/market-offered-policies/lending/lend-002-1.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-004.md" %}
-[lend-004.md](../../../standard-policies/market-offered-policies/lending/lend-004.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-003.md" %}
+[lend-003.md](../../../readme-1/market-offered-policies/lending/lend-003.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-005.md" %}
-[lend-005.md](../../../standard-policies/market-offered-policies/lending/lend-005.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-004.md" %}
+[lend-004.md](../../../readme-1/market-offered-policies/lending/lend-004.md)
 {% endcontent-ref %}
 
 ***

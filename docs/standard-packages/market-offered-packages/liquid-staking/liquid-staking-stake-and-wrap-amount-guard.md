@@ -17,24 +17,24 @@
 
 ### 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-007.md" %}
-[lido-007.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-007.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-003.md" %}
+[liquidstaking-003.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-003.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-008.md" %}
-[lido-008.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-008.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-004.md" %}
+[liquidstaking-004.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-004.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-010.md" %}
-[lido-010.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-010.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-006.md" %}
+[liquidstaking-006.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-006.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-011.md" %}
-[lido-011.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-011.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-007.md" %}
+[liquidstaking-007.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-007.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-009.md" %}
-[lido-009.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-009.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-005.md" %}
+[liquidstaking-005.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-005.md)
 {% endcontent-ref %}
 
 ***

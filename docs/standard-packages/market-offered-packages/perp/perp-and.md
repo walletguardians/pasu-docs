@@ -17,16 +17,16 @@
 [perp-007.md](../../../standard-policies/market-offered-policies/perp/perp-007.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-008.md" %}
-[perp-008.md](../../../standard-policies/market-offered-policies/perp/perp-008.md)
+{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-007-1.md" %}
+[perp-007-1.md](../../../readme-1/market-offered-policies/perp/perp-007-1.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-009.md" %}
 [perp-009.md](../../../standard-policies/market-offered-policies/perp/perp-009.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-021.md" %}
-[perp-021.md](../../../standard-policies/market-offered-policies/perp/perp-021.md)
+{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-018.md" %}
+[perp-018.md](../../../readme-1/market-offered-policies/perp/perp-018.md)
 {% endcontent-ref %}
 
 ***

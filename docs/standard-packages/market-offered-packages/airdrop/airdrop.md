@@ -28,12 +28,12 @@ description: 안전한 에어드롭 클레임을 위한 패키지
 [token-006.md](../../../standard-policies/market-offered-policies/token-erc-20/token-006.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/airdrop/airdrop-003.md" %}
-[airdrop-003.md](../../../standard-policies/market-offered-policies/airdrop/airdrop-003.md)
+{% content-ref url="../../../readme-1/market-offered-policies/airdrop/airdrop-001.md" %}
+[airdrop-001.md](../../../readme-1/market-offered-policies/airdrop/airdrop-001.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/airdrop/airdrop-008.md" %}
-[airdrop-008.md](../../../standard-policies/market-offered-policies/airdrop/airdrop-008.md)
+{% content-ref url="../../../readme-1/market-offered-policies/airdrop/airdrop-002.md" %}
+[airdrop-002.md](../../../readme-1/market-offered-policies/airdrop/airdrop-002.md)
 {% endcontent-ref %}
 
 

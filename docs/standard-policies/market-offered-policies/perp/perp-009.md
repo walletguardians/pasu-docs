@@ -2,7 +2,7 @@
 description: Order on a Low-Leverage-Tier (Illiquid) HyperLiquid Market (WARN)
 ---
 
-# PERP-009: 레버리지 등급이 낮은 마켓에 주문할 시 경고
+# PERP-008: 레버리지 등급이 낮은 마켓에 주문할 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -64,7 +64,7 @@ when
 
 ***
 
-**PERP-009: 레버리지 등급이 낮은 마켓에 주문할 시 경고**\
+PERP-008: 레버리지 등급이 낮은 마켓에 주문할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: HyperLiquid_
+&#xNAN;_&#x53;upported Chain: HyperLiquid_

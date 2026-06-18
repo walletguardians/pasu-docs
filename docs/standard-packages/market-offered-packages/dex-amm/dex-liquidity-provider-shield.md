@@ -15,16 +15,16 @@ LP는 유동성을 넣고(add), 빼고(remove), 수수료를 수취하는(collec
 
 ### 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-002-lp-lp-token-nft-3.md" %}
-[amm-002-lp-lp-token-nft-3.md](../../../standard-policies/market-offered-policies/dex-amm/amm-002-lp-lp-token-nft-3.md)
+{% content-ref url="../../../readme-1/market-offered-policies/dex-amm/amm-002.md" %}
+[amm-002.md](../../../readme-1/market-offered-policies/dex-amm/amm-002.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-003-lp-3.md" %}
-[amm-003-lp-3.md](../../../standard-policies/market-offered-policies/dex-amm/amm-003-lp-3.md)
+{% content-ref url="../../../readme-1/market-offered-policies/dex-amm/amm-003.md" %}
+[amm-003.md](../../../readme-1/market-offered-policies/dex-amm/amm-003.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-004-lp-3.md" %}
-[amm-004-lp-3.md](../../../standard-policies/market-offered-policies/dex-amm/amm-004-lp-3.md)
+{% content-ref url="../../../readme-1/market-offered-policies/dex-amm/amm-004.md" %}
+[amm-004.md](../../../readme-1/market-offered-policies/dex-amm/amm-004.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../standard-policies/market-offered-policies/dex-amm/amm-006.md" %}

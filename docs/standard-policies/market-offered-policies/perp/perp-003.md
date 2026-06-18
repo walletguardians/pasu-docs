@@ -2,7 +2,7 @@
 description: Perp Order at the Market's Maximum Leverage (WARN)
 ---
 
-# PERP-003: 레버리지가 마켓 최대 등급에 도달한 주문일 시 경고
+# PERP-002: 레버리지가 마켓 최대 등급에 도달한 주문일 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -57,7 +57,7 @@ when
 
 ***
 
-**PERP-003: 레버리지가 마켓 최대 등급에 도달한 주문일 시 경고**\
+PERP-002: 레버리지가 마켓 최대 등급에 도달한 주문일 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
 &#xNAN;_&#x53;upported Chain: HyperLiquid_

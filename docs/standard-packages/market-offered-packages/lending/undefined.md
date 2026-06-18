@@ -18,24 +18,24 @@ description: 대출 자산을 건전하게 유지하고 싶은 분들을 위한 
 
 ### 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-010.md" %}
-[lend-010.md](../../../standard-policies/market-offered-policies/lending/lend-010.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-009.md" %}
+[lend-009.md](../../../readme-1/market-offered-policies/lending/lend-009.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-011.md" %}
-[lend-011.md](../../../standard-policies/market-offered-policies/lending/lend-011.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-010.md" %}
+[lend-010.md](../../../readme-1/market-offered-policies/lending/lend-010.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-012.md" %}
-[lend-012.md](../../../standard-policies/market-offered-policies/lending/lend-012.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-011.md" %}
+[lend-011.md](../../../readme-1/market-offered-policies/lending/lend-011.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-013.md" %}
-[lend-013.md](../../../standard-policies/market-offered-policies/lending/lend-013.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-012.md" %}
+[lend-012.md](../../../readme-1/market-offered-policies/lending/lend-012.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-014.md" %}
-[lend-014.md](../../../standard-policies/market-offered-policies/lending/lend-014.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-013.md" %}
+[lend-013.md](../../../readme-1/market-offered-policies/lending/lend-013.md)
 {% endcontent-ref %}
 
 ***

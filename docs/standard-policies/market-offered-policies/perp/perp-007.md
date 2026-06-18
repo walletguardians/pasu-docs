@@ -2,7 +2,7 @@
 description: HyperLiquid Order Notional Above USD Cap (WARN)
 ---
 
-# PERP-007: 주문 명목가가 $10,000을 초과할 시 경고
+# PERP-006: 주문 명목가가 $10,000을 초과할 시 경고
 
 ### Policy Definition (정책 정의)
 
@@ -64,7 +64,7 @@ when
 
 ***
 
-**PERP-007: 주문 명목가가 $10,000을 초과할 시 경고**\
+PERP-006: 주문 명목가가 $10,000을 초과할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: HyperLiquid_
+&#xNAN;_&#x53;upported Chain: HyperLiquid_

@@ -13,16 +13,16 @@ stETH 지분 전송도 일반 토큰 전송과 유사하게 수령처를 잘못 
 
 ### 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-006.md" %}
-[lido-006.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-006.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-002.md" %}
+[liquidstaking-002.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-002.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-012.md" %}
-[lido-012.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-012.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-008.md" %}
+[liquidstaking-008.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-008.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/liquid-staking/lido-014.md" %}
-[lido-014.md](../../../standard-policies/market-offered-policies/liquid-staking/lido-014.md)
+{% content-ref url="../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-009.md" %}
+[liquidstaking-009.md](../../../readme-1/market-offered-policies/liquid-staking/liquidstaking-009.md)
 {% endcontent-ref %}
 
 ***

@@ -16,24 +16,24 @@ description: DeFi 선물 시장을 이용하는 투자자의 안전한 투자를
 
 ### 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-005.md" %}
-[perp-005.md](../../../standard-policies/market-offered-policies/perp/perp-005.md)
+{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-004.md" %}
+[perp-004.md](../../../readme-1/market-offered-policies/perp/perp-004.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-006.md" %}
-[perp-006.md](../../../standard-policies/market-offered-policies/perp/perp-006.md)
+{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-005.md" %}
+[perp-005.md](../../../readme-1/market-offered-policies/perp/perp-005.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-012.md" %}
-[perp-012.md](../../../standard-policies/market-offered-policies/perp/perp-012.md)
+{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-010.md" %}
+[perp-010.md](../../../readme-1/market-offered-policies/perp/perp-010.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-013.md" %}
-[perp-013.md](../../../standard-policies/market-offered-policies/perp/perp-013.md)
+{% content-ref url="/broken/spaces/LL49R6twBNfNATc5NQeA/pages/Nw4BuYNll2luEjW6gOaZ" %}
+[Broken link](/broken/spaces/LL49R6twBNfNATc5NQeA/pages/Nw4BuYNll2luEjW6gOaZ)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-014.md" %}
-[perp-014.md](../../../standard-policies/market-offered-policies/perp/perp-014.md)
+{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-011.md" %}
+[perp-011.md](../../../readme-1/market-offered-policies/perp/perp-011.md)
 {% endcontent-ref %}
 
 ***

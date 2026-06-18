@@ -18,20 +18,20 @@
 
 ### 정책 목록
 
-{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-003.md" %}
-[restake-003.md](../../../standard-policies/market-offered-policies/restaking/restake-003.md)
+{% content-ref url="../../../readme-1/market-offered-policies/restaking/restake-002.md" %}
+[restake-002.md](../../../readme-1/market-offered-policies/restaking/restake-002.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-007.md" %}
-[restake-007.md](../../../standard-policies/market-offered-policies/restaking/restake-007.md)
+{% content-ref url="../../../readme-1/market-offered-policies/restaking/restake-004.md" %}
+[restake-004.md](../../../readme-1/market-offered-policies/restaking/restake-004.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-009.md" %}
-[restake-009.md](../../../standard-policies/market-offered-policies/restaking/restake-009.md)
+{% content-ref url="../../../readme-1/market-offered-policies/restaking/restake-005.md" %}
+[restake-005.md](../../../readme-1/market-offered-policies/restaking/restake-005.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/restaking/restake-015.md" %}
-[restake-015.md](../../../standard-policies/market-offered-policies/restaking/restake-015.md)
+{% content-ref url="../../../readme-1/market-offered-policies/restaking/restake-007.md" %}
+[restake-007.md](../../../readme-1/market-offered-policies/restaking/restake-007.md)
 {% endcontent-ref %}
 
 ***

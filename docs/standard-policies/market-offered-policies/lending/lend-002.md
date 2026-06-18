@@ -1,4 +1,4 @@
-# LEND-002: Morpho에서 악성으로 분류된 주소에 포지션 관리 권한을 위임할 시 차단
+# LEND-001: Morpho에서 악성으로 분류된 주소에 포지션 관리 권한을 위임할 시 차단
 
 ### Policy Definition (정책 정의)
 
@@ -56,7 +56,7 @@ when {
 
 ***
 
-**LEND-002: Morpho에서 악성으로 분류된 주소에 포지션 관리 권한을 위임할 시 차단**\
+**LEND-001: Morpho에서 악성으로 분류된 주소에 포지션 관리 권한을 위임할 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+&#xNAN;_&#x53;upported Chain: Ethereum_

@@ -23,12 +23,12 @@ description: Aave에서 안전한 자금 관리를 위한 정책 패키지
 [token-003.md](../../../standard-policies/market-offered-policies/token-erc-20/token-003.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-003.md" %}
-[lend-003.md](../../../standard-policies/market-offered-policies/lending/lend-003.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-002-1.md" %}
+[lend-002-1.md](../../../readme-1/market-offered-policies/lending/lend-002-1.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/lending/lend-008.md" %}
-[lend-008.md](../../../standard-policies/market-offered-policies/lending/lend-008.md)
+{% content-ref url="../../../readme-1/market-offered-policies/lending/lend-007.md" %}
+[lend-007.md](../../../readme-1/market-offered-policies/lending/lend-007.md)
 {% endcontent-ref %}
 
 ***
