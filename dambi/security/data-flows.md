@@ -61,7 +61,7 @@ flowchart TD
 
 1. **상태 기반 정책** — USD 가치 같은 외부 사실이 필요할 때 (`policy_rpc` → `/evaluate`)
 2. **예측 델타·자산 화면** — 지갑 상태 동기화
-3. **인증·마켓** — 로그인, 정책 게시/리뷰/설치
+3. **인증·정책 허브** — 로그인, 정책 게시/리뷰/설치
 
 > remote fact가 필요할 때도 **해석된 파라미터만** 갑니다. 예: USD 가치 조회 시 `{ chain, token, amount }`만 전송하고, raw calldata는 다시 보내지 않습니다. → [ActionBody & Cedar](../reference/actionbody-cedar.md)
 

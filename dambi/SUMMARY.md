@@ -10,7 +10,7 @@
 ## 👤 사용자 가이드
 
 * [대시보드 둘러보기](user-guide/dashboard.md)
-* [마켓플레이스에서 정책 찾기·설치하기](user-guide/marketplace.md)
+* [정책 허브에서 정책 찾기·설치하기](user-guide/marketplace.md)
 * [정책 켜기·끄기와 지갑별 설정](user-guide/managing-policies.md)
 * [시뮬레이션으로 테스트하기](user-guide/simulation.md)
 * [히스토리 & 감사 로그](user-guide/history.md)
@@ -21,7 +21,7 @@
 * [에디터로 정책 만들기](authoring/editor.md)
 * [액션 종류 (도메인별 행동)](authoring/action-types.md)
 * [유스케이스별 정책 예제](authoring/examples.md)
-* [마켓플레이스에 배포하기](authoring/publishing.md)
+* [정책 허브에 배포하기](authoring/publishing.md)
 
 ## 🛠️ 기술 레퍼런스
 

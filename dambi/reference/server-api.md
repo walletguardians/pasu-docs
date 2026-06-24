@@ -4,7 +4,7 @@ description: policy-server의 HTTP API 레퍼런스
 
 # 서버 API
 
-`policy-server`는 Rust/Axum 백엔드로, 인증·지갑 상태·예측 평가·마켓플레이스를 담당합니다. **정책 평가의 최종 판정은 확장프로그램(WASM)이 소유**하고, 서버는 상태 컨텍스트와 외부 사실을 제공합니다.
+`policy-server`는 Rust/Axum 백엔드로, 인증·지갑 상태·예측 평가·정책 허브를 담당합니다. **정책 평가의 최종 판정은 확장프로그램(WASM)이 소유**하고, 서버는 상태 컨텍스트와 외부 사실을 제공합니다.
 
 > 실행 중인 서버는 `/docs`(Swagger UI)와 `/openapi.yaml`(OpenAPI 3.0 스펙)을 제공합니다 — 이 문서는 요약이고, 정확한 스키마는 그쪽이 최신입니다.
 
@@ -57,7 +57,7 @@ description: policy-server의 HTTP API 레퍼런스
 | `GET /tokens` | ✅ | 전역 토큰 카탈로그 (메타데이터) |
 | `GET /dashboard/summary` | ✅ | 전 지갑 집계 요약 (자산·부채·헬스) |
 
-## 마켓 (Market)
+## 정책 허브 (Market)
 
 | 메서드·경로 | 인증 | 설명 |
 |-------------|------|------|
@@ -91,7 +91,7 @@ description: policy-server의 HTTP API 레퍼런스
 ## 참고 사항
 
 * **체인 ID는 CAIP-2** 형식 (`eip155:1`, `eip155:42161`, `eip155:8453`)
-* **정책·판정은 서버에 저장되지 않음** — 서버는 지갑 상태·토큰 메타·마켓 데이터만 보관
+* **정책·판정은 서버에 저장되지 않음** — 서버는 지갑 상태·토큰 메타·정책 허브 데이터만 보관
 * 외부 사실(enrichment)은 best-effort, optional은 실패해도 평가를 막지 않음
 
 ## 다음 단계
