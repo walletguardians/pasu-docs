@@ -2,53 +2,46 @@
 description: DAMBI 대시보드의 주요 화면과 메뉴
 ---
 
-# 대시보드 둘러보기
+# 대시보드 구조
 
-대시보드는 정책을 만들고·관리하고·테스트하며, 지갑 상태와 판정 기록을 한눈에 보는 관리 화면입니다. 팝업 → **대시보드 열기** 로 진입하거나, `chrome://extensions` → DAMBI → *확장 프로그램 옵션* 으로 열 수 있습니다.
+대시보드는 정책을 만들고·관리하고·테스트하며, 지갑 상태와 판정 기록을 한눈에 보는 관리 화면입니다. 팝업 → **대시보드 열기** 로 진입할 수 있습니다.
 
 ## 좌측 메뉴 (NavRail)
 
-| 메뉴 | 하는 일 | 자세히 |
-|------|---------|--------|
-| **홈 (Home)** | 지갑별 정책·패키지 적용 현황을 한눈에 보는 거버넌스 다이얼 | — |
-| **정책 관리 (Editor)** | 정책 목록·생성·편집 (문장형/Cedar 에디터) | [에디터로 정책 만들기](../authoring/editor.md) |
-| **정책 허브 (Market)** | 정책·패키지 탐색 및 설치 | [정책 허브에서 정책 찾기](marketplace.md) |
-| **시뮬레이션 (Simulation)** | 정책을 실제 calldata로 미리 테스트 | [시뮬레이션](simulation.md) |
-| **자산 (Assets)** | 지갑 포트폴리오 모니터링 (보유 토큰·승인·포지션) | — |
-| **히스토리 (History)** | 가로챈 트랜잭션/서명의 판정 기록 | [히스토리](history.md) |
-| **프로필 (Profile)** | 계정·설정·게시한 정책 관리 | [아래 참고](#프로필-설정) |
+<table><thead><tr><th width="179.50390625">메뉴</th><th width="383.73828125">하는 일</th><th>자세히</th></tr></thead><tbody><tr><td><strong>홈 (Home)</strong></td><td>지갑별 정책·패키지 적용 현황을 한눈에 보는 다이얼</td><td>—</td></tr><tr><td><strong>정책 관리 (Editor)</strong></td><td>정책 목록·생성·편집 (문장형/Cedar 에디터)</td><td><a href="../authoring/editor.md">에디터로 정책 만들기</a></td></tr><tr><td><strong>정책 허브 (Market)</strong></td><td>정책·패키지 탐색 및 설치</td><td><a href="marketplace.md">정책 허브에서 정책 찾기</a></td></tr><tr><td><strong>시뮬레이션 (Simulation)</strong></td><td>정책을 실제 calldata로 미리 테스트</td><td><a href="simulation.md">시뮬레이션</a></td></tr><tr><td><strong>자산 (Assets)</strong></td><td>지갑 포트폴리오 모니터링 (보유 토큰·승인·포지션)</td><td>—</td></tr><tr><td><strong>히스토리 (History)</strong></td><td>가로챈 트랜잭션/서명의 판정 기록</td><td><a href="history.md">히스토리</a></td></tr><tr><td><strong>프로필 (Profile)</strong></td><td>계정·설정·게시한 정책 관리</td><td><a href="dashboard.md#프로필-설정">아래 참고</a></td></tr></tbody></table>
 
 ## 홈 (Home)
 
-지갑마다 어떤 패키지/정책이 적용돼 있는지 거버넌스 다이얼 형태로 보여줍니다. 보호 상태를 빠르게 점검하는 출발점이에요.
+지갑마다 어떤 패키지/정책이 적용돼 있는지 다이얼 형태로 보여줍니다. 보호 상태(정책 적용 상태)를 빠르게 점검하는 기본 페이지
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## 자산 (Assets)
 
-연결한 지갑의 포트폴리오를 모니터링합니다.
+연결한 지갑의 포트폴리오 모니터링 페이지
 
-* 보유 토큰(holdings), 승인(approvals), DeFi 포지션, 대기 트랜잭션(pending), 지불한 가스
-* 토큰 분포·승인 위험을 도넛 차트로 시각화
-* 리스트/그리드 보기 전환, 지갑 선택
+* 자산 상태, 보유 토큰, 승인, DeFi 포지션(hyperliquid), 대기 트랜잭션(pending)및 각종 지갑 상태 추적
 
-> 이 데이터는 지갑을 등록하고 상태를 동기화(sync)했을 때 서버가 채워줍니다. → [데이터 흐름](../security/data-flows.md)
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 프로필 / 설정
 
-프로필 페이지에 계정 정보와 설정이 모여 있습니다.
-
 **계정**
-* 이메일 / user_id 표시, 로그아웃
+
+* 이메일 / user\_id 표시, 로그아웃
 
 **게시한 정책 (Published)**
-* 내가 정책 허브에 올린 정책/세트 목록 (이름·slug·설치수·버전·상태)
+
+* 내가 정책 허브에 올린 정책/세트 목록
 
 **설정 (Settings)**
-* **서버 주소 프리셋** — 로컬(`127.0.0.1:8788`) / 운영 서버 버튼 + 직접 입력
+
 * **언어** — 한국어 / 영어
-* **OpenAI API 키** — LLM 정책 초안 기능용 (브라우저에만 저장, 서버로 전송 안 함)
+* **OpenAI API 키** — LLM 정책 작성용
 
 **초기화 스위치** (확인 후 실행)
-* 지갑 초기화 / 정책 초기화 (기본 내장 정책 제외)
+
+* 지갑 초기화 / 정책 초기화 (기본 내장 정책은 삭제 불가)
 
 ## 다음 단계
 
