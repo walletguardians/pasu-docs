@@ -13,7 +13,7 @@
 * [정책 허브에서 정책 찾기·설치하기](user-guide/marketplace.md)
 * [정책 켜기·끄기와 지갑별 설정](user-guide/managing-policies.md)
 * [시뮬레이션으로 테스트하기](user-guide/simulation.md)
-* [히스토리 & 감사 로그](user-guide/history.md)
+* [기록 확인하기](user-guide/history.md)
 
 ## ✍️ 정책 만들기
 
