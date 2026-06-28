@@ -37,7 +37,7 @@ description: 정책 허브에서 정책·패키지를 찾아 설치하는 방법
 
 <figure><img src="../.gitbook/assets/image (17).png" alt="" width="364"><figcaption></figcaption></figure>
 
-## 설치하기 <지갑 전용으로 받기>
+## 지갑 전용으로 받기
 
 1. 상세 페이지에서 **받기(Install)** 클릭
 2. 지갑 전용 설정으로 받기 선택
@@ -47,7 +47,7 @@ description: 정책 허브에서 정책·패키지를 찾아 설치하는 방법
 
 <div><figure><img src="../.gitbook/assets/image (5).png" alt="" width="170"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (6).png" alt="" width="170"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (8).png" alt="" width="170"><figcaption></figcaption></figure></div>
 
-## 설치하기 <라이브러리로 받기>
+## 라이브러리로 받기
 
 1. 상세 페이지에서 **받기(Install)** 클릭
 2. 라이브러리로 받기 선택
