@@ -20,7 +20,6 @@
 * [정책이란? (Cedar 개념)](authoring/what-is-a-policy.md)
 * [에디터로 정책 만들기](authoring/editor.md)
 * [액션 종류 (도메인별 행동)](authoring/action-types.md)
-* [유스케이스별 정책 예제](authoring/examples.md)
 * [정책 허브에 배포하기](authoring/publishing.md)
 
 ## 🛠️ 기술 레퍼런스
