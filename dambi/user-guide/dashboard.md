@@ -22,7 +22,7 @@ description: DAMBI 대시보드의 주요 화면과 메뉴
 
 * 자산 상태, 보유 토큰, 승인, DeFi 포지션(hyperliquid), 대기 트랜잭션(pending)및 각종 지갑 상태 추적
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 프로필 / 설정
 
