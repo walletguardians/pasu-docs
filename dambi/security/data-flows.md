@@ -11,6 +11,7 @@ flowchart TD
     subgraph 기기[기기(확장프로그램)]
       P[정책 ps2:*]
       V[판정 히스토리]
+      S[설정·OpenAI 키]
       W[WASM 평가]
     end
     subgraph 서버[policy-server]
@@ -22,24 +23,24 @@ flowchart TD
     기기 -.->|"로그인·동기화 시"| 서버
 ```
 
-## 기기에만 남는 데이터 (서버 전송 없음)
+## 기기에만 남는 데이터
 
-| 데이터 | 저장소 |
-|--------|--------|
-| 설치한 정책·정의 | `chrome.storage.local` (`ps2:*`) |
+| 데이터                | 저장소                                     |
+| ------------------ | --------------------------------------- |
+| 설치한 정책·정의          | `chrome.storage.local` (`ps2:*`)        |
 | 판정 히스토리 (최대 1000건) | `chrome.storage.local` (`verdicts:log`) |
-| 설정·인증 토큰 | `chrome.storage.local` (`dambi_jwt` 등) |
-| OpenAI API 키 | 브라우저 `localStorage` |
+| 설정·인증 토큰           | `chrome.storage.local` (`dambi_jwt` 등)  |
+| OpenAI API 키       | 브라우저 `localStorage`                     |
 
 ## 서버로 가는 데이터 (`/evaluate` 등)
 
-| 데이터 | 내용 |
-|--------|------|
-| 지갑 식별자 | 주소 + 추적 체인 |
-| **디코드된 행동** | `ActionBody` (raw calldata가 아니라 해석된 구조) |
-| 지갑 상태 | 동기화로 얻은 잔고·승인·포지션 |
-| enrichment 파라미터 | 디코드된 행동에서 추출한 토큰·체인·금액 등 |
-| 계정 이메일 | 인증용 |
+| 데이터             | 내용                                      |
+| --------------- | --------------------------------------- |
+| 지갑 식별자          | 주소 + 추적 체인                              |
+| **디코드된 행동**     | `ActionBody` (raw calldata가 아니라 해석된 구조) |
+| 지갑 상태           | 동기화로 얻은 잔고·승인·포지션                       |
+| enrichment 파라미터 | 디코드된 행동에서 추출한 토큰·체인·금액 등                |
+| 계정 이메일          | 인증용                                     |
 
 **절대 전송하지 않음**: 🔒 raw calldata 16진수, 개인키·시드 문구, OpenAI 키, 판정·정책 로그(기기 로컬).
 
