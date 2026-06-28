@@ -28,7 +28,7 @@ description: 정책 허브에서 정책·패키지를 찾아 설치하는 방법
 
 * **검색** | 이름·slug·한 줄 설명 매칭, 최근/인기 검색어 제공
 * **카테고리 다중 선택** (합집합 필터)
-* **정렬** — 인기순(popular) / 최신순(new) / 평점순(rating)
+* **정렬** | 인기순(popular) / 최신순(new) / 평점순(rating)
 
 <사진 필요 >
 
@@ -36,11 +36,11 @@ description: 정책 허브에서 정책·패키지를 찾아 설치하는 방법
 
 정책 상세에서 확인할 수 있는 것:
 
-* **게시자 등급(tier)** — Official(공식, ✓) / Verified / Community
-* **설치 버튼** — `받기` 또는 이미 설치했다면 `설치됨`
-* **문서** — 정의 / 범위 / 대상 / 데이터 (정책이 무엇을·어디까지·누구를 위해·어떤 데이터로 동작하는지)
-* **정책 카드** — 강도, 카테고리 태그, 한 줄 설명
-* **리뷰** — 평점과 후기
+* **게시자 등급(tier)** | Official(공식, ✓) / Verified / Community
+* **설치 버튼** | `받기` 또는 이미 설치했다면 `설치됨`
+* **문서** | 정의 / 범위 / 대상 / 데이터 (정책이 무엇을·어디까지·누구를 위해·어떤 데이터로 동작하는지)
+* **정책 카드** | 강도, 카테고리 태그, 한 줄 설명
+* **리뷰** | 평점과 후기
 
 <figure><img src="../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -49,7 +49,7 @@ description: 정책 허브에서 정책·패키지를 찾아 설치하는 방법
 1. 상세 페이지에서 **받기(Install)** 클릭
 2. 지갑 전용 설정으로 받기 선택
 3. 정책이 설치될 지갑 및 패키지 선택
-4. **파라미터 입력** — 정책에 빈칸(hole)이 있으면 값 입력 가능
+4. **파라미터 입력** | 정책에 빈칸(hole)이 있으면 값 입력 가능
 5. 정책이 에디터 및 해당 지갑의 패키지에 저장되고 사용 가능
 
 <div><figure><img src="../.gitbook/assets/image (5).png" alt="" width="170"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (7).png" alt="" width="170"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (8).png" alt="" width="170"><figcaption></figcaption></figure></div>
@@ -59,7 +59,7 @@ description: 정책 허브에서 정책·패키지를 찾아 설치하는 방법
 1. 상세 페이지에서 **받기(Install)** 클릭
 2. 라이브러리로 받기 선택
 3. 정책 템플릿이 설치될 폴더 선택
-4. **파라미터 입력** — 정책에 빈칸(hole)이 있으면 값 입력 가능
+4. **파라미터 입력** | 정책에 빈칸(hole)이 있으면 값 입력 가능
 5. 정책 템플릿이 에디터의 라이브러리에 저장되고 해당 템플릿을 자유롭게 수정해서 패키지에 적용 가능
 
 ## 평가·신고
