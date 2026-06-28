@@ -6,15 +6,15 @@ description: DAMBI 정책의 개념 — Cedar, 강도, 트리거, 컨텍스트
 
 **정책(Policy)** 은 "어떤 지갑 행동이 위험한지"를 정의하는 규칙입니다. DAMBI는 [Cedar](https://www.cedarpolicy.com/) 언어로 정책을 표현하고, 디코드된 행동([ActionBody](../reference/actionbody-cedar.md))에 비춰 평가합니다.
 
-## 핵심 모델: 항상 "금지", 강도로 표현
+## 정책의 효과
 
-DAMBI에서 정책의 효과(effect)는 **항상 `forbid`(금지)** 입니다. 대신 **강도(severity)** 로 얼마나 강하게 막을지를 정합니다.
+DAMBI에서 정책의 효과는 **`forbid`(차단)** 입니다. **강도(severity)**&#xB85C; 얼마나 강하게 차단할 것인지를 정합니다.([판정 이해하기](../getting-started/verdicts.md))
 
-| 강도 | 결과 판정 | 의미 |
-|------|-----------|------|
-| `deny` | 🔴 Fail | 즉시 차단 (사용자 우회 불가) |
+| 강도     | 결과 판정   | 의미                 |
+| ------ | ------- | ------------------ |
+| `deny` | 🔴 Fail | 즉시 차단 (사용자 우회 불가)  |
 | `warn` | 🟡 Warn | 경고 후 사용자가 진행/취소 선택 |
-| `info` | ℹ️ 정보 | 차단·경고 없이 알림만 |
+| `info` | ℹ️ 정보   | 차단·경고 없이 알림만       |
 
 > 즉 정책 작성은 "이런 조건이면 **금지**한다, 그 강도는 X다"를 쓰는 일입니다.
 
@@ -56,12 +56,12 @@ flowchart LR
 
 DAMBI의 정책 하나는 **매니페스트(manifest.json)** 와 **Cedar 텍스트(policy.cedar)** 의 짝입니다.
 
-| 파일 | 역할 |
-|------|------|
-| `manifest.json` | 언제 적용할지(trigger)와 어떤 외부 사실을 채울지(policy_rpc) — 필터·오케스트레이션 |
-| `policy.cedar` | 실제 금지 규칙·조건·강도·이유 — 평가 로직 |
+| 파일              | 역할                     |
+| --------------- | ---------------------- |
+| `manifest.json` | 언제 적용할지와 어떤 외부 사실을 채울지 |
+| `policy.cedar`  | 실제 금지 규칙·조건·강도·이유      |
 
-여러 정책을 묶은 것이 **세트(set)** 입니다 (예: "DEX 안전 팩"). 자세한 구조는 [ActionBody & Cedar](../reference/actionbody-cedar.md)를 보세요.
+자세한 구조는 [ActionBody & Cedar](../reference/actionbody-cedar.md)를 보세요.
 
 ## 다음 단계
 
