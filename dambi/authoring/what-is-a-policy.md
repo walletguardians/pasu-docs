@@ -14,15 +14,6 @@ DAMBI에서 정책의 효과는 **`forbid`(차단)** 입니다. **강도(severit
 
 ## 정책이 행동에 매칭되는 과정
 
-```mermaid
-flowchart LR
-    A[디코드된 행동<br/>ActionBody] --> B{트리거 매칭?}
-    B -->|No| S[건너뜀]
-    B -->|Yes| C[필요 시 remote facts 조회<br/>policy_rpc]
-    C --> D[Cedar 평가<br/>조건 검사]
-    D --> E[판정 + 이유]
-```
-
 1. **트리거(trigger) 먼저** | 매니페스트의 선언적 선택자로 "이 정책이 이 행동에 적용되는지" 먼저 거릅니다. 안 맞으면 건너뜁니다.
 2. **enrichment(선택)** | 트리거가 맞고 외부 사실이 필요하면 `policy_rpc` 호출을 실행해 `context.custom.*`에 채웁니다 (예: USD 가치).
 3. **Cedar 평가** | 행동의 컨텍스트(정적 필드 + 외부 사실)로 조건을 검사합니다.

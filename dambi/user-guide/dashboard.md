@@ -14,7 +14,7 @@ description: DAMBI 대시보드의 주요 화면과 메뉴
 
 지갑마다 어떤 패키지/정책이 적용돼 있는지 다이얼 형태로 보여줍니다. 보호 상태(정책 적용 상태)를 빠르게 점검하는 기본 페이지
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## 자산 (Assets)
 
@@ -22,7 +22,7 @@ description: DAMBI 대시보드의 주요 화면과 메뉴
 
 * 자산 상태, 보유 토큰, 승인, DeFi 포지션(hyperliquid), 대기 트랜잭션(pending)및 각종 지갑 상태 추적
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure></div>
 
 ## 프로필 / 설정
 

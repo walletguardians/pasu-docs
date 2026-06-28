@@ -30,7 +30,6 @@ pub enum ActionBody {
     Governance(GovernanceAction),
     HyperliquidCore(HyperliquidCoreAction),
     Marketplace(MarketplaceAction),
-    Multicall { actions: Vec<ActionBody> },  // 재귀
     Unknown { /* target, chain, calldata, value */ },  // fail-closed
 }
 ```
@@ -67,23 +66,13 @@ pub enum ActionBody {
 }
 ```
 
-| 필드 | 의미 |
-|------|------|
-| `trigger.where` | 얕은 필드 선택자 (`action.domain/tag/venue`, `tx.chain_id/from/to`) + 제약(`eq/ne/in/nin`) |
-| `policy_rpc[]` | enrichment 호출 명세 (method, params 선택자, outputs 투영) |
-| `custom_context.fields` | Cedar 스키마에 추가될 커스텀 필드 타입 선언 |
+| 필드                      | 의미                                                                                |
+| ----------------------- | --------------------------------------------------------------------------------- |
+| `trigger.where`         | 얕은 필드 선택자 (`action.domain/tag/venue`, `tx.chain_id/from/to`) + 제약(`eq/ne/in/nin`) |
+| `policy_rpc[]`          | enrichment 호출 명세 (method, params 선택자, outputs 투영)                                 |
+| `custom_context.fields` | Cedar 스키마에 추가될 커스텀 필드 타입 선언                                                       |
 
 ## 평가 파이프라인
-
-```mermaid
-flowchart LR
-    A[ActionBody] --> B[트리거 평가<br/>호스트]
-    B -->|매칭| C[policy_rpc plan<br/>선택자 해석]
-    C --> D[policy-server 실행<br/>facts 반환]
-    D --> E[materialize<br/>context.custom 주입]
-    E --> F[Cedar 평가]
-    F --> G[Verdict: Pass/Warn/Fail]
-```
 
 1. **트리거 평가** (호스트) | 매칭 안 되면 정책 건너뜀. RPC 호출 전에 거름.
 2. **plan** | 매칭 시 `policy_rpc` 선택자(`$.action.direction.amountIn` 등)를 구체값으로 해석.
@@ -91,24 +80,12 @@ flowchart LR
 4. **materialize** | 결과를 `context.custom.*`에 주입.
 5. **Cedar 평가** | 정적 필드 + 커스텀 필드로 `forbid` 규칙 검사.
 
-관련 구현:
-* `crates/policy-engine/src/policy_rpc/manifest_v2.rs` | `ManifestV2` 구조·검증
-* `crates/policy-engine/src/policy_rpc/planning_v2.rs` | RPC 플래닝
-* `crates/policy-engine/src/policy_rpc/materialize_v2.rs` | 결과 주입
-
-## policy_rpc 선택자 & enrichment
+## policy\_rpc 선택자 & enrichment
 
 * **선택자 루트** | `$.root`(tx 필드), `$.action`(lowered 컨텍스트), `$.context`/`$.result`/`$.params`(이전 호출 결과)
 * **선택자 해석은 확장 내부에서** 이뤄집니다. raw calldata가 아니라 해석된 파라미터만 서버로 갑니다. → [데이터 흐름](../security/data-flows.md)
 * **대표 method** | `oracle.usd_value`(USD 가치), `token.normalize_to_nano`(단위 정규화), `address.sanctions`(제재 검사), `venue.reputation` 등
 * **optional/required** | optional 호출 실패는 흡수(fail-open), required 실패는 평가 중단 → fail-closed
-
-## 판정 출처
-
-| `verdictSource` | 의미 |
-|-----------------|------|
-| `declarative-v2` | 실제 정책 평가로 나온 판정 |
-| `fail_closed` | 디코드 실패·`Unknown`·매칭 0건·엔진 오류·타임아웃(8s) 등 → 안전하게 닫음 (tx/서명은 WARN, venue 주문은 DENY) |
 
 ## 다음 단계
 
