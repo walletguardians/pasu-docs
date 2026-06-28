@@ -90,4 +90,3 @@ pub enum ActionBody {
 ## 다음 단계
 
 * 정책 작성 → [에디터로 정책 만들기](../authoring/editor.md)
-* 서버가 facts를 공급하는 방식 → [서버 API](server-api.md)

@@ -27,7 +27,6 @@
 
 * [아키텍처 개요](reference/architecture.md)
 * [ActionBody & Cedar](reference/actionbody-cedar.md)
-* [서버 API](reference/server-api.md)
 * [빌드 & 기여](reference/building.md)
 
 ## 🔐 보안 & 개인정보

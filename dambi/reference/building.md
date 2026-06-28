@@ -70,14 +70,7 @@ curl http://127.0.0.1:8788/readyz
 
 ## CI
 
-`.github/workflows/ci.yml` (PR·main push마다):
-
-* **rust** | registry 인덱스 빌드 → `fmt --check`, `clippy -D warnings`, `cargo test`(doctest 포함), `cargo doc -D warnings`
-* **wasm** | `wasm-pack build` + 헤드리스 Chrome 테스트
-* **extension** | `yarn typecheck`, vitest, Chrome MV3 빌드+zip, 대시보드 빌드
-* **secrets-scan** | gitleaks
-
-`dependency-policy.yml`(`cargo audit` + `cargo deny`)는 의존성 변경 시·주간 실행.
+PR과 main push마다 CI가 fmt·clippy·test·wasm·확장 빌드·보안 스캔을 자동 검증합니다. 자세한 파이프라인 정의는 레포의 `.github/workflows/`(`ci.yml`, `dependency-policy.yml`)를 참고하세요.
 
 ## 오픈소스 기여
 

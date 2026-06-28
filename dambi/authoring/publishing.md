@@ -45,5 +45,4 @@ description: 직접 만든 정책을 정책 허브에 게시하고 운영하기
 
 ## 다음 단계
 
-* 서버 API 관점 → [서버 API](../reference/server-api.md)
 * 정책 개념 복습 → [정책이란?](what-is-a-policy.md)
