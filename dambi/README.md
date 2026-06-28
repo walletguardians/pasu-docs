@@ -21,17 +21,7 @@ dApp이 보내는 `eth_sendTransaction`, EIP-712 서명, `personal_sign` 같은 
 
 DAMBI는 이런 행동을 **서명 전에** 사람이 읽을 수 있는 말로 풀어주고, 위험하면 막아줍니다.
 
-## 동작 방식 <수정해야함>
-
-```mermaid
-flowchart LR
-    A[dApp 요청<br/>window.ethereum] -->|가로채기| B[확장프로그램<br/>서비스 워커]
-    B -->|디코드| C[행동으로 해석<br/>ActionBody]
-    C -->|정책 평가<br/>WASM Cedar| D{판정}
-    D -->|Pass| E[그대로 진행]
-    D -->|Warn| F[경고 후 사용자 선택]
-    D -->|Fail| G[차단]
-```
+## 동작 방식&#x20;
 
 1. **가로채기** | dApp이 지갑에 보내는 트랜잭션/서명 요청을 확장프로그램이 가로챕니다.
 2. **해석(디코드)** | 레지스트리에 등록된 어댑터로 raw calldata를 `ActionBody`(토큰 전송, 스왑, 대출, NFT 거래 등 행동 단위)로 변환합니다.
