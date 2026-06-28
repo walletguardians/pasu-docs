@@ -28,8 +28,8 @@ cargo clippy --workspace --all-targets -- -D warnings
 cargo fmt --all
 ```
 
-* `scripts/test-all.sh` — 전체 스윕 (cargo test + clippy + fmt → 확장 타입체크/vitest/chrome 빌드)
-* `scripts/lint.sh` — fix-everything (`cargo fmt` + `clippy --fix` + `yarn lint`)
+* `scripts/test-all.sh` | 전체 스윕 (cargo test + clippy + fmt → 확장 타입체크/vitest/chrome 빌드)
+* `scripts/lint.sh` | fix-everything (`cargo fmt` + `clippy --fix` + `yarn lint`)
 
 > 디코드 하니스는 `registryV2/index/`(빌드 산출물, 미추적)를 읽습니다. 먼저 생성:
 > ```bash
@@ -56,7 +56,7 @@ yarn build:ext         # chrome(webpack) + 대시보드(vite) → dist/chrome/
 yarn dev:chrome        # webpack --watch (대시보드는 cd dashboard && yarn dev 병행)
 ```
 
-빌드 타임 설정은 env 변수 — `DAMBI_SERVER_URL`(기본 `http://127.0.0.1:8788`), `REGISTRY_BASE_URL`. 자세한 설치/로드는 [확장프로그램 설치하기](../getting-started/install.md) 및 `browser-extension/README.md`.
+빌드 타임 설정은 env 변수: `DAMBI_SERVER_URL`(기본 `http://127.0.0.1:8788`), `REGISTRY_BASE_URL`. 자세한 설치/로드는 [확장프로그램 설치하기](../getting-started/install.md) 및 `browser-extension/README.md`.
 
 ## policy-server (로컬)
 
@@ -72,18 +72,18 @@ curl http://127.0.0.1:8788/readyz
 
 `.github/workflows/ci.yml` (PR·main push마다):
 
-* **rust** — registry 인덱스 빌드 → `fmt --check`, `clippy -D warnings`, `cargo test`(doctest 포함), `cargo doc -D warnings`
-* **wasm** — `wasm-pack build` + 헤드리스 Chrome 테스트
-* **extension** — `yarn typecheck`, vitest, Chrome MV3 빌드+zip, 대시보드 빌드
-* **secrets-scan** — gitleaks
+* **rust** | registry 인덱스 빌드 → `fmt --check`, `clippy -D warnings`, `cargo test`(doctest 포함), `cargo doc -D warnings`
+* **wasm** | `wasm-pack build` + 헤드리스 Chrome 테스트
+* **extension** | `yarn typecheck`, vitest, Chrome MV3 빌드+zip, 대시보드 빌드
+* **secrets-scan** | gitleaks
 
 `dependency-policy.yml`(`cargo audit` + `cargo deny`)는 의존성 변경 시·주간 실행.
 
 ## 기여 방향
 
-* **새 액션 도메인 추가** — `asset-model/action`에 도메인 + `schema/policy-schema/actions/<domain>/` 스키마 + 디코더 매니페스트
-* **어댑터 매니페스트 추가** — `registryV2/manifests/<domain>/` (서명된 번들 → [보안 모델](../security/security-model.md))
-* 코딩 표준 — `cargo fmt` / `clippy` 통과, 테스트 추가
+* **새 액션 도메인 추가** | `asset-model/action`에 도메인 + `schema/policy-schema/actions/<domain>/` 스키마 + 디코더 매니페스트
+* **어댑터 매니페스트 추가** | `registryV2/manifests/<domain>/` (서명된 번들 → [보안 모델](../security/security-model.md))
+* 코딩 표준 | `cargo fmt` / `clippy` 통과, 테스트 추가
 
 ## 다음 단계
 

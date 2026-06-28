@@ -6,7 +6,7 @@ description: policy-server의 HTTP API 레퍼런스
 
 `policy-server`는 Rust/Axum 백엔드로, 인증·지갑 상태·예측 평가·정책 허브를 담당합니다. **정책 평가의 최종 판정은 확장프로그램(WASM)이 소유**하고, 서버는 상태 컨텍스트와 외부 사실을 제공합니다.
 
-> 실행 중인 서버는 `/docs`(Swagger UI)와 `/openapi.yaml`(OpenAPI 3.0 스펙)을 제공합니다 — 이 문서는 요약이고, 정확한 스키마는 그쪽이 최신입니다.
+> 실행 중인 서버는 `/docs`(Swagger UI)와 `/openapi.yaml`(OpenAPI 3.0 스펙)을 제공합니다. 이 문서는 요약이고, 정확한 스키마는 그쪽이 최신입니다.
 
 ## 인증
 
@@ -17,9 +17,9 @@ description: policy-server의 HTTP API 레퍼런스
 
 | 메서드·경로 | 인증 | 설명 |
 |-------------|------|------|
-| `GET /auth/google` | — | Google 동의 화면으로 리다이렉트 (OAuth 시작) |
-| `GET /auth/google/callback` | — | 콜백 — code를 JWT로 교환, access는 URL fragment로 전달 |
-| `POST /auth/refresh` | — | refresh 토큰 회전 (재사용 거부) |
+| `GET /auth/google` | - | Google 동의 화면으로 리다이렉트 (OAuth 시작) |
+| `GET /auth/google/callback` | - | 콜백: code를 JWT로 교환, access는 URL fragment로 전달 |
+| `POST /auth/refresh` | - | refresh 토큰 회전 (재사용 거부) |
 | `GET /auth/me` | ✅ | 내 프로필(user_id, email) |
 
 ## 평가 (Evaluate)
@@ -28,8 +28,8 @@ description: policy-server의 HTTP API 레퍼런스
 |-------------|------|------|
 | `POST /evaluate` | ✅ | 행동 envelope를 지갑 상태에 시뮬레이션 → 예측 StateDelta 반환 |
 
-* **요청** — `wallet_id`(주소+체인), `envelopes`(Action[]), `eval_context`(체인·시각·kind), `call_specs`(enrichment 호출)
-* **응답** — `policyRequest`(`actions`, `state_before`, `deltas`, `state_after`, `results`) + `diagnostics`
+* **요청** | `wallet_id`(주소+체인), `envelopes`(Action[]), `eval_context`(체인·시각·kind), `call_specs`(enrichment 호출)
+* **응답** | `policyRequest`(`actions`, `state_before`, `deltas`, `state_after`, `results`) + `diagnostics`
 * `call_specs`는 `oracle.usd_value` 같은 외부 사실 호출. 결과는 `call_id`로 키잉되어 확장이 materialize.
 * 예측 상태는 **메모리상 계산이며 영속화되지 않음** (영속화는 `/wallets/:addr/sync`만).
 
@@ -84,14 +84,14 @@ description: policy-server의 HTTP API 레퍼런스
 | 메서드·경로 | 인증 | 설명 |
 |-------------|------|------|
 | `GET /events/stream` | ✅ | SSE 실시간 피드 (wallet_sync, tx_confirmed 등) |
-| `GET /health` | — | 라이브니스 (텍스트 `ok`) |
-| `GET /readyz` | — | 레디니스 (DB/JWT/OAuth/Redis/sync 점검) |
-| `GET /docs` · `GET /openapi.yaml` | — | Swagger UI · OpenAPI 스펙 |
+| `GET /health` | - | 라이브니스 (텍스트 `ok`) |
+| `GET /readyz` | - | 레디니스 (DB/JWT/OAuth/Redis/sync 점검) |
+| `GET /docs` · `GET /openapi.yaml` | - | Swagger UI · OpenAPI 스펙 |
 
 ## 참고 사항
 
 * **체인 ID는 CAIP-2** 형식 (`eip155:1`, `eip155:42161`, `eip155:8453`)
-* **정책·판정은 서버에 저장되지 않음** — 서버는 지갑 상태·토큰 메타·정책 허브 데이터만 보관
+* **정책·판정은 서버에 저장되지 않음** | 서버는 지갑 상태·토큰 메타·정책 허브 데이터만 보관
 * 외부 사실(enrichment)은 best-effort, optional은 실패해도 평가를 막지 않음
 
 ## 다음 단계

@@ -1,5 +1,5 @@
 ---
-description: DAMBI 정책의 개념 — Cedar, 강도, 트리거, 컨텍스트
+description: DAMBI 정책의 개념 | Cedar, 강도, 트리거, 컨텍스트
 ---
 
 # 정책이란? (Cedar 개념)
@@ -29,28 +29,28 @@ flowchart LR
     D --> E[판정 + 이유]
 ```
 
-1. **트리거(trigger) 먼저** — 매니페스트의 선언적 선택자로 "이 정책이 이 행동에 적용되는지" 먼저 거릅니다. 안 맞으면 건너뜁니다.
-2. **enrichment(선택)** — 트리거가 맞고 외부 사실이 필요하면 `policy_rpc` 호출을 실행해 `context.custom.*`에 채웁니다 (예: USD 가치).
-3. **Cedar 평가** — 행동의 컨텍스트(정적 필드 + 외부 사실)로 조건을 검사합니다.
+1. **트리거(trigger) 먼저** | 매니페스트의 선언적 선택자로 "이 정책이 이 행동에 적용되는지" 먼저 거릅니다. 안 맞으면 건너뜁니다.
+2. **enrichment(선택)** | 트리거가 맞고 외부 사실이 필요하면 `policy_rpc` 호출을 실행해 `context.custom.*`에 채웁니다 (예: USD 가치).
+3. **Cedar 평가** | 행동의 컨텍스트(정적 필드 + 외부 사실)로 조건을 검사합니다.
 
 ### 트리거가 보는 필드
 
 얕고 안정적인 필드로 매칭합니다:
 
-* `action.domain` — `token`, `amm`, `perp` …
-* `action.tag` — `swap`, `erc20_approve`, `place_order` …
-* `action.venue` — `uniswap_v3`, `aave_v3`, `hyperliquid` …
-* `tx.chain_id` — `eip155:1` 등
+* `action.domain` | `token`, `amm`, `perp` …
+* `action.tag` | `swap`, `erc20_approve`, `place_order` …
+* `action.venue` | `uniswap_v3`, `aave_v3`, `hyperliquid` …
+* `tx.chain_id` | `eip155:1` 등
 * `tx.from`, `tx.to`
 
 제약: `eq`(같음) / `ne`(다름) / `in`(집합 포함) / `nin`(미포함). `where`의 조건은 모두 AND로 결합되며, 비어 있으면 항상 매칭됩니다.
 
 ### Cedar가 평가하는 컨텍스트
 
-* **정적 필드** — calldata/서명에서 디코드된 값: `context.amount`, `context.recipient`, `context.spender`, `context.leverage` 등
-* **외부 사실(remote facts)** — `policy_rpc`로 채운 값: 오라클 가격, 토큰/거래소 평판, 제재 여부 등 (`context.custom.*`)
-* **시간 필드** — 제출 시각, 마감(deadline), 유효 기간
-* **Cedar 기본형** — `String`, `Long`, `Decimal`, `Bool`, `Set<String>`
+* **정적 필드** | calldata/서명에서 디코드된 값: `context.amount`, `context.recipient`, `context.spender`, `context.leverage` 등
+* **외부 사실(remote facts)** | `policy_rpc`로 채운 값: 오라클 가격, 토큰/거래소 평판, 제재 여부 등 (`context.custom.*`)
+* **시간 필드** | 제출 시각, 마감(deadline), 유효 기간
+* **Cedar 기본형** | `String`, `Long`, `Decimal`, `Bool`, `Set<String>`
 
 ## 정책 번들 = 매니페스트 + Cedar
 

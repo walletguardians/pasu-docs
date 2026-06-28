@@ -20,11 +20,11 @@ flowchart TD
     H -.->|"USD 가치 등<br/>remote facts"| F
 ```
 
-1. **가로채기** — 확장프로그램이 dApp의 지갑 트랜잭션·EIP-712/personal 서명 요청을 가로챕니다.
-2. **해석(디코드)** — `registryV2` 매니페스트 기반 디코더가 raw calldata/typed-data를 타입이 있는 **`ActionBody`** 트리로 변환합니다.
-3. **lowering & 평가** — Rust 엔진이 `ActionBody`를 Cedar 요청으로 낮춰(lower) 설치된 정책으로 평가합니다. **모두 서비스 워커 안 WASM에서** 처리되어, 판정에는 네트워크 왕복이 필요 없습니다.
-4. **판정** — `Pass / Warn / Fail`을 사용자에게 보여줍니다. ([판정 이해하기](../getting-started/verdicts.md))
-5. **백엔드(선택)** — `policy-server`는 Google OAuth, 지갑/계정 상태, 예측 `StateDelta`를 제공합니다. **최종 판정은 확장프로그램이 소유**하고, 서버는 상태 컨텍스트만 보탭니다.
+1. **가로채기** | 확장프로그램이 dApp의 지갑 트랜잭션·EIP-712/personal 서명 요청을 가로챕니다.
+2. **해석(디코드)** | `registryV2` 매니페스트 기반 디코더가 raw calldata/typed-data를 타입이 있는 **`ActionBody`** 트리로 변환합니다.
+3. **lowering & 평가** | Rust 엔진이 `ActionBody`를 Cedar 요청으로 낮춰(lower) 설치된 정책으로 평가합니다. **모두 서비스 워커 안 WASM에서** 처리되어, 판정에는 네트워크 왕복이 필요 없습니다.
+4. **판정** | `Pass / Warn / Fail`을 사용자에게 보여줍니다. ([판정 이해하기](../getting-started/verdicts.md))
+5. **백엔드(선택)** | `policy-server`는 Google OAuth, 지갑/계정 상태, 예측 `StateDelta`를 제공합니다. **최종 판정은 확장프로그램이 소유**하고, 서버는 상태 컨텍스트만 보탭니다.
 
 ## 구성 요소
 
@@ -56,8 +56,8 @@ pub enum ActionBody {
     Governance(GovernanceAction),
     HyperliquidCore(HyperliquidCoreAction),
     Marketplace(MarketplaceAction),       // NFT(Seaport) 주문 서명·체결·취소
-    Multicall { actions: Vec<ActionBody> }, // 묶음 호출 (예: Universal Router) — 재귀
-    Unknown { /* target, chain, calldata, value */ }, // 미식별 — fail-closed
+    Multicall { actions: Vec<ActionBody> }, // 묶음 호출 (예: Universal Router) - 재귀
+    Unknown { /* target, chain, calldata, value */ }, // 미식별 - fail-closed
 }
 ```
 
