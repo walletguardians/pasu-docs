@@ -30,5 +30,4 @@ DAMBI는 raw 트랜잭션/서명을 도메인별 **행동(ActionBody)** 으로 �
 
 ## 다음 단계
 
-* 도메인별 실제 예제 → [유스케이스별 정책 예제](/broken/pages/78lyMTlCPvJYyshW6SEq)
 * 필드·스키마 상세 → [ActionBody & Cedar](../reference/actionbody-cedar.md)

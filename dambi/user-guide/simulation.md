@@ -39,4 +39,3 @@ description: 정책을 실제 calldata로 안전하게 미리 테스트하기
 ## 다음 단계
 
 * 정책 직접 만들기 → [에디터로 정책 만들기](../authoring/editor.md)
-* 예제 정책 참고 → [유스케이스별 정책 예제](/broken/pages/78lyMTlCPvJYyshW6SEq)
