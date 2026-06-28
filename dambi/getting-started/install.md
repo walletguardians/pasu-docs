@@ -8,9 +8,7 @@ DAMBI는 Chrome 확장프로그램입니다.
 
 ## 웹스토어에서 설치
 
-> 🔧 **TODO** | 정식 등록 후 스토어 링크를 채워주세요.
-
-1. [Chrome 웹스토어 | DAMBI](https://chrome.google.com/webstore) 페이지를 엽니다. _(등록 예정)_
+1. [Chrome 웹스토어 | DAMBI](http://chromewebstore.google.com/detail/dambi/licmpapbfngdlpbkbmbelldnkgefgbpi) 페이지를 엽니다. _(등록 예정)_
 2. **Chrome에 추가**를 누릅니다.
 3. 설치가 끝나면 브라우저 우측 상단 확장프로그램 아이콘 목록에 DAMBI가 나타납니다. 📌 핀으로 고정해 두면 편합니다.
 

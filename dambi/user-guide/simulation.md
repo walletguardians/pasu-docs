@@ -13,10 +13,14 @@ description: 정책을 실제 calldata로 안전하게 미리 테스트하기
 * 등록된 지갑 목록에서 테스트할 지갑 체크 (전체 선택/해제)
 * 각 지갑의 보유·승인·포지션이 로드 됨
 
+<figure><img src="../.gitbook/assets/image (19).png" alt="" width="563"><figcaption></figcaption></figure>
+
 ### 2단계 · 정책 선택
 
 * 지갑별로 적용된 정책 패키지 표시
 * 정책 on/off 토글 (지갑별 범위)로 어떤 규칙을 테스트할지 조정
+
+<figure><img src="../.gitbook/assets/image (20).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 3단계 · 트랜잭션 큐
 
@@ -28,7 +32,9 @@ description: 정책을 실제 calldata로 안전하게 미리 테스트하기
 * 지갑별 상태 요약 (토큰·승인·포지션·대기·가스)
 * 초기 상태부터 N단계(S0 \~ Sn)까지 상태 변화를 단계별로 추적
 * 각 단계의 **판정과 매칭된 규칙**
-* 차단(fail)된 경우 정책 구조 다이어그램과 **"어디서 막혔는지"** 진단
+* 차단(fail)/경고(warn)된 경우 정책 구조 다이어그램과 **"어디서 막혔는지"** 진단
+
+<figure><img src="../.gitbook/assets/image (21).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 어떻게 읽나
 

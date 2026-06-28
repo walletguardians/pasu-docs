@@ -14,7 +14,7 @@ description: DAMBI 대시보드의 주요 화면과 메뉴
 
 지갑마다 어떤 패키지/정책이 적용돼 있는지 다이얼 형태로 보여줍니다. 보호 상태(정책 적용 상태)를 빠르게 점검하는 기본 페이지
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 자산 (Assets)
 

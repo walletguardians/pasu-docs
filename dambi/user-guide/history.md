@@ -8,6 +8,8 @@ description: 가로챈 트랜잭션/서명의 판정 기록
 
 > 이 기록은 **기기 로컬**(확장 저장소, 최대 1000건)에 보관됩니다.
 
+<figure><img src="../.gitbook/assets/image (24).png" alt="" width="563"><figcaption></figcaption></figure>
+
 ## 한눈에 보기
 
 상단에 **Pass / Warn / Fail 건수 요약**이 표시됩니다.

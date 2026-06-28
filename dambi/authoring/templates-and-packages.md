@@ -6,6 +6,8 @@ description: 템플릿·정책·패키지가 어떻게 연결되는지
 
 DAMBI에서 정책을 다루다 보면 **템플릿 / 정책 / 패키지**라는 말이 나옵니다. 이 페이지는 이 개념들이 서로 어떻게 연결되는지 정리합니다.
 
+<figure><img src="../.gitbook/assets/image (29).png" alt="" width="563"><figcaption></figcaption></figure>
+
 ## 정책 (Policy)
 
 가장 작은 단위입니다. **규칙 하나**(매니페스트 + Cedar)를 담은 정의이며, 내부적으로 `def::…` 형태의 id를 가집니다.
@@ -35,7 +37,7 @@ DAMBI에서 정책을 다루다 보면 **템플릿 / 정책 / 패키지**라는 
 * 같은 정책을 **지갑마다 다른 파라미터**로 바인딩할 수 있습니다. (예: 지갑 A는 100 USD, 지갑 B는 1000 USD 기준)
 * 정책 켜고 끄기는 사실상 이 바인딩을 토글하는 것입니다. ([정책 켜기·끄기와 지갑별 설정](../user-guide/managing-policies.md))
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 전체 구조
 
