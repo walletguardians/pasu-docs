@@ -77,7 +77,7 @@ when
   "_template": {
     "lidoTokens": { "cedar_set": "[\"0xae7ab96520de3a18e5e111b5eaab095312d7fe84\", \"0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0\"]", "default": "stETH, wstETH (mainnet)", "meaning": "token addresses this shield applies to (protocol constants)" },
     "approvalAllowlist": { "cedar_set": "[\"0x000000000022d473030f116ddee9f6b43ac78ba3\", \"0x889edc2edab5f40e902b864ad4d7ade8e412f9b1\", \"0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0\"]", "default": "Permit2, WithdrawalQueue, wstETH", "meaning": "spenders for whom an stETH/wstETH approval is expected" },
-    "zeroAmount": { "cedar_literal": "\"0x0\"", "default": "uint256 zero", "meaning": "zero-value approvals clear/reset allowance and should not warn" },
+    "zeroAmount": { "cedar_literal": "\"0x0\"", "default": "uint256 zero", "meaning": "zero-value approvals clear/reset allowance and should not warn" }
   }
 }
 ```
