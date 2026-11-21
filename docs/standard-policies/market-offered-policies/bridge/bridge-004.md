@@ -80,4 +80,4 @@ when
 **BRIDGE-004: 허용되지 않은 도착 체인으로 브리지할 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

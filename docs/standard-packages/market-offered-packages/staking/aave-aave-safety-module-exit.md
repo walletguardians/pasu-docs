@@ -31,4 +31,4 @@ Aave 안전모듈을 사용할 때 놓칠 수 있는 사항들을 미리 경고�
 \[Staking] Aave Safety Module 스테이킹 가이드\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

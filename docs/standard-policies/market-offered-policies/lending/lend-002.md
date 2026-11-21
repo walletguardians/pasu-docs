@@ -59,4 +59,4 @@ when {
 **LEND-001: Morpho에서 악성으로 분류된 주소에 포지션 관리 권한을 위임할 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

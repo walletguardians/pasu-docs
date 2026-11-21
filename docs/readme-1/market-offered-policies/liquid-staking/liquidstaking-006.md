@@ -62,4 +62,4 @@ when
 LIQUID\_STAKING-006: Lido에서 출금 청구 시 ETH를 받는 주소가 본인이 아닌 경우 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

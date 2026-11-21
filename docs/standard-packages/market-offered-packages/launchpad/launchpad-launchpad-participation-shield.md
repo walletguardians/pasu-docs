@@ -36,4 +36,4 @@ description: 안전한 런치패드 사용을 위한 보호 패키지
 \[Launchpad] 세일 참여 자금 및 배정 가드\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

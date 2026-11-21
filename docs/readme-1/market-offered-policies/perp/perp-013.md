@@ -90,4 +90,4 @@ when
 PERP-013: 연속 손실이 3번 이어진 뒤 주문을 넣을 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

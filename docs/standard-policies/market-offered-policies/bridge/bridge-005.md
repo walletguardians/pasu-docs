@@ -58,4 +58,4 @@ when { context.hasMessage == true };
 **BRIDGE-005: 실행 메시지가 첨부된 브리지일 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

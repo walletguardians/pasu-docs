@@ -60,4 +60,4 @@ when
 PERP-002: 레버리지가 마켓 최대 등급에 도달한 주문일 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

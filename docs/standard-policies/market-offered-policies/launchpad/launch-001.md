@@ -2,7 +2,7 @@
 description: Launchpad Allocation Sent to a Third Party (WARN)
 ---
 
-# LAUNCH-001: 세일 배정 권리를 받을 주소가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고
+# LAUNCH-001: 세일 배정 권리를 받을 주소가 허용 목록에 없을 경우 경고
 
 ### Policy Definition (정책 정의)
 
@@ -55,4 +55,4 @@ when {
 **LAUNCH-001:** 세일 배정 권리를 받을 주소가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

@@ -67,4 +67,4 @@ when
 PERP-006: 주문 명목가가 $10,000을 초과할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

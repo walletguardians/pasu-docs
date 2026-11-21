@@ -85,4 +85,4 @@ when
 PERP-017: 오늘 실현 손실이 $500에 이른 뒤 새 주문을 낼 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

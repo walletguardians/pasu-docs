@@ -41,4 +41,4 @@ description: DeFi 선물 시장을 이용하는 투자자의 안전한 투자를
 \[Perp] 청산 및 마진 관리\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

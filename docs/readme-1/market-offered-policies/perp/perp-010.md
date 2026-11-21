@@ -70,4 +70,4 @@ when
 PERP-010: 손실 중인 HyperLiquid 포지션에 물타기할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

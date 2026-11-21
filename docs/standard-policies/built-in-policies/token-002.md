@@ -59,4 +59,4 @@ when {
 TOKEN-002: 토큰이 소각 주소로 전송되는 경우 차단\
 Wallet Guardians | v.1.0.0 | 26/06/09\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

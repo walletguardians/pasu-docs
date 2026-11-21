@@ -37,4 +37,4 @@ NFT 리스팅 사기는 정상처럼 보이는 주문에 대금을 받는 주소
 \[NFT] NFT 판매 관리\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

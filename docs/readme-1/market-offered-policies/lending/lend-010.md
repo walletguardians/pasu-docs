@@ -68,4 +68,4 @@ when {
 **LEND-010: 대출 후 건강도(health factor)가 1.5 미만으로 떨어질 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

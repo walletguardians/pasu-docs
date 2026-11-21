@@ -19,4 +19,4 @@ Lido에 ETH를 스테이킹하려는 순간 stETH가 ETH보다 싸게 거래되�
 \[Liquid Staking] Lido 스테이킹 가드\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

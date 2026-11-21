@@ -34,4 +34,4 @@
 \[Perp] 슬리피지 & 밈코인 방어 패키지\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

@@ -63,4 +63,4 @@ when {
 **TOKEN-005:** 하루 누적 활동이 한도를 넘은 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

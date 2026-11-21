@@ -73,4 +73,4 @@ when
 STAKE-006: Aave 스테이킹 보상 수령자가 본인이 아닐 시 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

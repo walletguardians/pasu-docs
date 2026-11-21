@@ -4,7 +4,7 @@ description: PASU를 처음 사용하는 분들을 위한 필수 정책 패키�
 
 # PASU Beginner Pack V1
 
-Web3에 갓 입문한 사용자가 토큰 사용 승인, 송금, Swap, NFT 거래를 할 때 발생할 수 있는 흔하고 치명적인 5가지 사례를 모아 구성한 패키지입니다.
+Web3에 갓 입문한 사용자가 토큰 사용 승인, 송금, Swap, NFT 거래를 할 때 발생할 수 있는 흔한 사고 패턴 5가지를 모아 구성한 패키지입니다.
 
 ### 이 패키지로 막을 수 있는 것
 
@@ -44,5 +44,5 @@ Web3 입문자가 토큰 사용 승인(approve), 송금(transfer), Swap, NFT 거
 **PASU Beginner Pack V1**\
 Wallet Guardians | v.1.0.0 | 26/06/10\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_
 

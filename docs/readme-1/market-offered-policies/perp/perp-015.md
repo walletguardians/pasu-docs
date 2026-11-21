@@ -90,4 +90,4 @@ when
 PERP-015: 오늘 손실 거래가 5건에 도달한 뒤 새 주문을 낼 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

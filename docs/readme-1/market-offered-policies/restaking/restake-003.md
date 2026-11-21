@@ -68,4 +68,4 @@ when
 RESTAKE-003: 리스테이크 예치 금액이 $50,000을 초과할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

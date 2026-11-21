@@ -52,4 +52,4 @@ when {
 **TOKEN-011:** 토큰의 컨트랙트 주소로 해당 토큰을 전송할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

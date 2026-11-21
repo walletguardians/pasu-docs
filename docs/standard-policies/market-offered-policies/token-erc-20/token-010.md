@@ -66,4 +66,4 @@ when {
 **TOKEN-010:** 보유량의 절반을 초과하는 토큰을 한 번에 전송할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

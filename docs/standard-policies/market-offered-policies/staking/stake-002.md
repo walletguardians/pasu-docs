@@ -65,4 +65,4 @@ when
 STAKE-002: Aave Safety Module에 스테이킹 시 원금 슬래싱 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

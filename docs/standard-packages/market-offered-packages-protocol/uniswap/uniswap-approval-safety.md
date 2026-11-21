@@ -2,7 +2,7 @@
 description: Uniswap에서 안전한 Approval을 위한 정책 패키지
 ---
 
-# \[Uniswap] Safe Approval
+# \[Uniswap] Approval Safety
 
 Uniswap은 Universal Router와 Permit2에 토큰 권한을 미리 위임받아 동작하는데, 이 권한이 무제한이거나 만료가 너무 길거나 엉뚱한 대상에게 가면 나중에 지갑을 통째로 털리는 사고를 정책적으로 관리할 수 있도록 구성한 패키지입니다.
 
@@ -36,4 +36,4 @@ Uniswap은 Universal Router와 Permit2에 토큰 권한을 미리 위임받아 �
 \[Uniswap] Safe Approval\
 Wallet Guardians | v.1.0.0 | 26/06/16\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

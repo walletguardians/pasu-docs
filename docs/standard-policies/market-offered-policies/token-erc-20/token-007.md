@@ -61,4 +61,4 @@ when {
 **TOKEN-007:** 만료가 특정기간 이상 남은 Permit2 승인 요청 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

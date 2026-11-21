@@ -39,4 +39,4 @@
 \[Restaking] 스트래티지 예치/오퍼레이터 위임 가드\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

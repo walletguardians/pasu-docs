@@ -70,4 +70,4 @@ when
 **AIRDROP-002:** 클레임 시 결제 금액이 한도를 넘을 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

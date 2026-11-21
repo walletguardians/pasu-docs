@@ -2,7 +2,7 @@
 description: Seaport에서 토큰 판매를 관리하기 위한 패키지
 ---
 
-# \[Seaport] Listing Guard
+# \[Seaport] Listing Safety
 
 OpenSea 등 Seaport 마켓에서 NFT를 팔거나 오퍼 및 입찰에 서명할 때, 그 서명 한 번에 컬렉션 전체가 넘어가거나 지나치게 낮은 가격에 등록 및 낯선 운영자(conduit)에게 권한을 옮기는 것을 정책적으로 관리할 수 있도록 구성한 패키지입니다.
 
@@ -46,4 +46,4 @@ OpenSea 등 Seaport 마켓에서 NFT를 팔거나 오퍼 및 입찰에 서명할
 \[Seaport] Listing Guard\
 Wallet Guardians | v.1.0.0 | 26/06/17\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

@@ -85,4 +85,4 @@ when
 PERP-014: 오늘 Hyperliquid 거래가 15건을 초과할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

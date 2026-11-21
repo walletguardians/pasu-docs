@@ -36,4 +36,4 @@ USDe를 sUSDe 볼트(ERC4626)에 맡기고(stake) 되찾는(unstake) 과정에�
 \[Ethena] sUSDe Safety\
 Wallet Guardians | v.1.0.0 | 26/06/17\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

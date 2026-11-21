@@ -41,4 +41,4 @@ description: ERC-20 토큰을 안전하게 송금하고 싶은 사용자를 위�
 \[Token] 안전 ERC-20 송금\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

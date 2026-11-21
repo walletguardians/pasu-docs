@@ -88,4 +88,4 @@ when
 LIQUID\_STAKING-008: stETH/wstETH 승인을 요청하는 주소가 Lido에서 자주 사용하는 주소가 아닐 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

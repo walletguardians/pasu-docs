@@ -96,4 +96,4 @@ when
 **BRIDGE-006: 브리지 금액이 USD 한도를 초과할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

@@ -74,4 +74,4 @@ when
 **BRIDGE-002: 브리지 수령처가 블랙리스트 주소일 시 차단**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

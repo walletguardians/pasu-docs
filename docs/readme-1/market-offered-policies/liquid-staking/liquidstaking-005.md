@@ -67,4 +67,4 @@ when
 LIQUID\_STAKING-005: Lido에서 permit 요청이 무제한 출금 요청일 때 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

@@ -31,4 +31,4 @@ UniswapX는 내가 직접 Swap을 보내는 대신 "이런 조건이면 체결�
 \[Uniswap] Intent Guard\
 Wallet Guardians | v.1.0.0 | 26/06/16\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

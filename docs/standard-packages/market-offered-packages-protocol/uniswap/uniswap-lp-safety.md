@@ -41,4 +41,4 @@ description: Uniswap에서 안전한 LP를 위한 정책 패키지
 \[Uniswap] Safe LP\
 Wallet Guardians | v.1.0.0 | 26/06/16\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

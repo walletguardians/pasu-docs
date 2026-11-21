@@ -65,4 +65,4 @@ when
 STAKE-007: Ethena USDe 지분(sUSDe) 수령자가 본인이 아닌 경우 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

@@ -42,4 +42,4 @@ Web3 생태계에 입문한지 얼마 되지 않은 분들을 노리는 비정�
 \[Token] 기본 정책 모음\
 Wallet Guardians | v.1.0.0 | 26/06/10\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

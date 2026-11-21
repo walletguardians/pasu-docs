@@ -52,4 +52,4 @@ when {
 **LEND-005: 동결·일시정지된 자산 풀에 예치할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

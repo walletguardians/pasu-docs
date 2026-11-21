@@ -61,4 +61,4 @@ when {
 **TOKEN-008:** 제재 목록에 오른 주소로 토큰을 전송할 시 차단\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

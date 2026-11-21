@@ -16,20 +16,22 @@ description: 건전한 무기한 선물 투자를 위한 레버리지 관리 패
 
 ### 정책 목록
 
+
+
 {% content-ref url="/broken/spaces/LL49R6twBNfNATc5NQeA/pages/lGT8j6ZdyB2LGfU0lZiu" %}
 [Broken link](/broken/spaces/LL49R6twBNfNATc5NQeA/pages/lGT8j6ZdyB2LGfU0lZiu)
 {% endcontent-ref %}
 
-{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-001.md" %}
-[perp-001.md](../../../readme-1/market-offered-policies/perp/perp-001.md)
+{% content-ref url="../../../../readme-1/market-offered-policies/perp/perp-001.md" %}
+[perp-001.md](../../../../readme-1/market-offered-policies/perp/perp-001.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../standard-policies/market-offered-policies/perp/perp-003.md" %}
-[perp-003.md](../../../standard-policies/market-offered-policies/perp/perp-003.md)
+{% content-ref url="../../../../standard-policies/market-offered-policies/perp/perp-003.md" %}
+[perp-003.md](../../../../standard-policies/market-offered-policies/perp/perp-003.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../readme-1/market-offered-policies/perp/perp-003-1.md" %}
-[perp-003-1.md](../../../readme-1/market-offered-policies/perp/perp-003-1.md)
+{% content-ref url="../../../../readme-1/market-offered-policies/perp/perp-003-1.md" %}
+[perp-003-1.md](../../../../readme-1/market-offered-policies/perp/perp-003-1.md)
 {% endcontent-ref %}
 
 ***
@@ -37,4 +39,4 @@ description: 건전한 무기한 선물 투자를 위한 레버리지 관리 패
 \[Perp] 고배율 레버리지 관리\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

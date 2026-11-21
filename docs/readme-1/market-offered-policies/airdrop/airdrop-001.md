@@ -71,4 +71,4 @@ when
 **AIRDROP-001:** 클레임 시 수령 주소가 서명한 주소와 다르거나 승인 목록에 없을 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

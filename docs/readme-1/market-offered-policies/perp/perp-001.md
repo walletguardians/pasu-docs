@@ -66,4 +66,4 @@ when
 PERP-001: 레버리지가 10배를 초과하는 주문을 넣을 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

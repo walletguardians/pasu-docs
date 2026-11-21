@@ -58,4 +58,4 @@ when {
 **LEND-007: 대출 자산을 본인이 아닌 주소로 인출할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

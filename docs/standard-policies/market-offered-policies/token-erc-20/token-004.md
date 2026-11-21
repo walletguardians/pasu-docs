@@ -65,4 +65,4 @@ when {
 **TOKEN-004:** 승인 금액이 한도를 초과할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

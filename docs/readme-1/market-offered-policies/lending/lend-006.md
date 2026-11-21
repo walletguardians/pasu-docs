@@ -66,4 +66,4 @@ when {
 LEND-006: 예치 금액이 기준을 초과할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

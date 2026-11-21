@@ -36,4 +36,4 @@ Safety Module에 맡기면 프로토콜에 부족분이 생겼을 때 그 자금
 \[Aave] Staking Guard\
 Wallet Guardians | v.1.0.0 | 26/06/17\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

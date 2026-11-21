@@ -53,4 +53,4 @@ when {
 **LEND-004: 내가 아닌 다른 주소의 빚을 상환할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

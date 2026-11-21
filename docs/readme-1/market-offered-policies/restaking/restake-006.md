@@ -55,4 +55,4 @@ when { context has receiveAsTokens && context.receiveAsTokens == false };
 RESTAKE-006: 출금을 토큰이 아닌 지분으로 받을 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

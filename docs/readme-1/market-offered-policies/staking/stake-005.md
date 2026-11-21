@@ -60,4 +60,4 @@ when {
 STAKE-005: Aave 스테이킹 자산을 전액 인출할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

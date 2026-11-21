@@ -78,4 +78,4 @@ when
 LIQUID\_STAKING-001: stETH가 ETH보다 쌀 때 Lido에 스테이킹할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

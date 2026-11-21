@@ -69,4 +69,4 @@ when {
 **LEND-012: 담보를 해제하면 청산에 가까워질 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

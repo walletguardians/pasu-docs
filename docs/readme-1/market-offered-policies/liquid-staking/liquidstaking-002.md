@@ -68,4 +68,4 @@ when
 LIQUID\_STAKING-002: stETH 지분을 소각 주소로 전송할 시 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

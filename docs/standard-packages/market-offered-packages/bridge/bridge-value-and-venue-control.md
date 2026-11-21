@@ -31,4 +31,4 @@ description: 브릿지 과정 중 자산 손실을 방지하는 패키지
 \[Bridge] 금액 및 경로 관리\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

@@ -37,4 +37,4 @@
 \[Staking] 스테이킹 보상 수령 주소 관리\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

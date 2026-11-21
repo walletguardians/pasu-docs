@@ -36,4 +36,4 @@ description: Aave에서 안전한 자금 관리를 위한 정책 패키지
 \[Aave] Fund Safety\
 Wallet Guardians | v.1.0.0 | 26/06/17\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

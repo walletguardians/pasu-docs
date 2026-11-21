@@ -60,4 +60,4 @@ when
 PERP-004: 크로스 마진(cross) 마켓에 주문을 넣을 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

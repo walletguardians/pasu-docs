@@ -68,4 +68,4 @@ when
 **BRIDGE-008: 허용되지 않은 브리지 경로를 사용할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

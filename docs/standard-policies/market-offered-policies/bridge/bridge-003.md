@@ -58,4 +58,4 @@ when { context.dstRecipient.kind != "evm" };
 **BRIDGE-003: EVM이 아닌 raw 주소로 브리지할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

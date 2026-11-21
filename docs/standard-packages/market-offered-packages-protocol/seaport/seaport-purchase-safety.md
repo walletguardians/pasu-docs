@@ -26,4 +26,4 @@ OpenSea 등 Seaport 마켓에서 NFT를 살 때(온체인 체결), 값만 치르
 \[Seaport] Listing Guard\
 Wallet Guardians | v.1.0.0 | 26/06/17\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

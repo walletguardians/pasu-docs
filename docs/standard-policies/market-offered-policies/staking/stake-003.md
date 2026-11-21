@@ -58,4 +58,4 @@ when {
 STAKE-003: Aave 언스테이킹 쿨다운 시 인출 기간을 확인하도록 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

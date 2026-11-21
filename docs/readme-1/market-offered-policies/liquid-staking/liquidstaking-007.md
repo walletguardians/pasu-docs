@@ -73,4 +73,4 @@ when
 LIQUID\_STAKING-007: Lido에서 출금 청구 시 ETH를 받는 주소가 소각 주소인 경우 차단\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

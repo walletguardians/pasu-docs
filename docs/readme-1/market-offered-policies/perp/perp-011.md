@@ -67,4 +67,4 @@ when
 PERP-011: 청산가까지 10% 이내로 가까운 포지션에 리스크를 더할 시 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: HyperLiquid_
+_&#x53;upported Chain: HyperLiquid_

@@ -61,4 +61,4 @@ when {
 **LAUNCH-003:** 배정 토큰 클레임 수령처가 본인 지갑이 아니고 승인 목록에도 없을 경우 경고\
 Wallet Guardians | v.1.0.0 | 26/06/13\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

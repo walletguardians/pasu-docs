@@ -31,4 +31,4 @@ NFT 구매를 할 때에는 대금을 치렀더니 NFT 토큰이 남에게 가�
 \[NFT] NFT 구매 및 전송 관리\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

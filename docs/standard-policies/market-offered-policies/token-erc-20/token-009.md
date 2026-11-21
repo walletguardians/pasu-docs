@@ -61,4 +61,4 @@ when {
 **TOKEN-009: 거래 이력이 있는 주소와 닮은 위장 주소로 전송할 시 경고**\
 Wallet Guardians | v.1.0.0 | 26/06/12\
 \
-\&#xNAN;_Supported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

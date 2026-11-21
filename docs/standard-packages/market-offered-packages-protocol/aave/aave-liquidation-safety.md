@@ -38,4 +38,4 @@ description: Aave에서 HF 관리를 위한 정책 패키지
 \[Aave] Liquidation Guard\
 Wallet Guardians | v.1.0.0 | 26/06/17\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

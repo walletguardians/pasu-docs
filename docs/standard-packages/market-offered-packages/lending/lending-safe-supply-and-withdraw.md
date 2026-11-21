@@ -46,4 +46,4 @@ description: 대출 프로토콜에 자산을 안전하게 예치하고 출금�
 \[대출] 예치 & 출금 기본 보호\
 Wallet Guardians | v.1.0.0 | 26/06/11\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_

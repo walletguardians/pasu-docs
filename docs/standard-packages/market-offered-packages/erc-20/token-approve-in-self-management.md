@@ -41,4 +41,4 @@ description: 다양한 dApp을 사용하는 사용자를 위한 자산 보호 �
 \[Token] ERC-20 권한 관리\
 Wallet Guardians | v.1.0.0 | 26/06/14\
 \
-&#xNAN;_&#x53;upported Chain: Ethereum_
+_&#x53;upported Chain: Ethereum_
